@@ -1,0 +1,40 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="DDZGameRoomUI" Type="Plist" ID="e0dc6584-b9ab-4888-aac2-fa5b4454467d" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="DDZGameRoomUI/3with1_img.png" />
+      <FilePathData Path="DDZGameRoomUI/3with2_img.png" />
+      <FilePathData Path="DDZGameRoomUI/add_mul_img.png" />
+      <FilePathData Path="DDZGameRoomUI/dealer_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/dealer_img.png" />
+      <FilePathData Path="DDZGameRoomUI/discard_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/help_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/op_bet_1_img.png" />
+      <FilePathData Path="DDZGameRoomUI/op_bet_2_img.png" />
+      <FilePathData Path="DDZGameRoomUI/op_bet_3_img.png" />
+      <FilePathData Path="DDZGameRoomUI/op_mul_1_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/op_mul_2_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/op_mul_3_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/op_no_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/op_pass_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/op_pass_discard_img.png" />
+      <FilePathData Path="DDZGameRoomUI/op_pass_jiao_img.png" />
+      <FilePathData Path="DDZGameRoomUI/op_pass_qiang_img.png" />
+      <FilePathData Path="DDZGameRoomUI/pass_dealer_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/pass_jiao_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/player_dealer_img.png" />
+      <FilePathData Path="DDZGameRoomUI/qiang_dealer_img.png" />
+      <FilePathData Path="DDZGameRoomUI/4with2_img.png" />
+      <FilePathData Path="DDZGameRoomUI/head_img.png" />
+      <FilePathData Path="DDZGameRoomUI/grab_dealer_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/coin.png" />
+      <FilePathData Path="DDZGameRoomUI/mul_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/mul_img.png" />
+      <FilePathData Path="DDZGameRoomUI/no_mul_btn.png" />
+      <FilePathData Path="DDZGameRoomUI/no_mul_img.png" />
+      <FilePathData Path="DDZGameRoomUI/spring_img.png" />
+      <FilePathData Path="DDZGameRoomUI/head_mul_img.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

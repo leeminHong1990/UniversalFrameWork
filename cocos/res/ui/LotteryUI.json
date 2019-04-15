@@ -1,0 +1,2063 @@
+{
+  "ID": "0b8dbf82-21e4-46d2-86dc-c26f8e5c68b8",
+  "Version": "3.10.0.0",
+  "Name": "LotteryUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 43,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 344.16
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.478
+            },
+            "PreSize": {
+              "X": 0.9375,
+              "Y": 0.8333
+            },
+            "LeftMargin": 40.0,
+            "RightMargin": 40.0,
+            "TopMargin": 75.84,
+            "BottomMargin": 44.16,
+            "Tag": 54,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 581,
+                "Scale9Height": 459,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 792.36,
+                  "Y": 301.98
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6603,
+                  "Y": 0.5033
+                },
+                "PreSize": {
+                  "X": 0.5092,
+                  "Y": 0.815
+                },
+                "LeftMargin": 486.86,
+                "RightMargin": 102.1399,
+                "TopMargin": 53.52,
+                "BottomMargin": 57.48,
+                "Tag": 78,
+                "ActionTag": -435460775,
+                "Size": {
+                  "X": 611.0,
+                  "Y": 489.0
+                },
+                "Name": "right_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/printed3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 544,
+                "Scale9Height": 543,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.0,
+                  "Y": 310.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.305,
+                  "Y": 0.518
+                },
+                "PreSize": {
+                  "X": 0.4783,
+                  "Y": 0.955
+                },
+                "LeftMargin": 79.0,
+                "RightMargin": 547.0,
+                "TopMargin": 2.7,
+                "BottomMargin": 24.3,
+                "Tag": 126,
+                "ActionTag": -928054802,
+                "Size": {
+                  "X": 574.0,
+                  "Y": 573.0
+                },
+                "Name": "left_printed",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/circle_list.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 499,
+                "Scale9Height": 498,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.0,
+                  "Y": 310.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.305,
+                  "Y": 0.518
+                },
+                "PreSize": {
+                  "X": 0.4408,
+                  "Y": 0.88
+                },
+                "LeftMargin": 101.5,
+                "RightMargin": 569.5,
+                "TopMargin": 25.2,
+                "BottomMargin": 46.8,
+                "Tag": 55,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "CirclePopUI/air_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 100,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 264.5,
+                      "Y": 264.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2457,
+                      "Y": 0.0947
+                    },
+                    "LeftMargin": 199.5,
+                    "RightMargin": 199.5,
+                    "TopMargin": 239.0,
+                    "BottomMargin": 239.0,
+                    "Tag": 64,
+                    "ActionTag": -215228506,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 50.0
+                    },
+                    "Name": "circle_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LotteryUI/printed1.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 512,
+                    "Scale9Height": 510,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 264.5,
+                      "Y": 264.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0246,
+                      "Y": 1.0227
+                    },
+                    "LeftMargin": -6.5,
+                    "RightMargin": -6.5,
+                    "TopMargin": -6.0,
+                    "BottomMargin": -6.0,
+                    "Tag": 37,
+                    "ActionTag": 1560731766,
+                    "Size": {
+                      "X": 542.0,
+                      "Y": 540.0
+                    },
+                    "Name": "printed_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LotteryUI/printed4.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 474,
+                    "Scale9Height": 471,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 264.5,
+                      "Y": 264.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9527,
+                      "Y": 0.9489
+                    },
+                    "LeftMargin": 12.5,
+                    "RightMargin": 12.5,
+                    "TopMargin": 13.5,
+                    "BottomMargin": 13.5,
+                    "Tag": 38,
+                    "ActionTag": -1339256760,
+                    "Size": {
+                      "X": 504.0,
+                      "Y": 501.0
+                    },
+                    "Name": "printed_2",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 733207430,
+                "Size": {
+                  "X": 529.0,
+                  "Y": 528.0
+                },
+                "Name": "left_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/circle.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 544,
+                "Scale9Height": 543,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.0,
+                  "Y": 310.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.305,
+                  "Y": 0.518
+                },
+                "PreSize": {
+                  "X": 0.4783,
+                  "Y": 0.955
+                },
+                "LeftMargin": 79.0,
+                "RightMargin": 547.0,
+                "TopMargin": 2.7,
+                "BottomMargin": 24.3,
+                "Tag": 61,
+                "ActionTag": 1254867528,
+                "Size": {
+                  "X": 574.0,
+                  "Y": 573.0
+                },
+                "Name": "circle_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/bg_img_0.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 564,
+                "Scale9Height": 561,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.0,
+                  "Y": 310.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.305,
+                  "Y": 0.518
+                },
+                "PreSize": {
+                  "X": 0.495,
+                  "Y": 0.985
+                },
+                "LeftMargin": 69.0,
+                "RightMargin": 537.0,
+                "TopMargin": -6.3,
+                "BottomMargin": 15.3,
+                "Tag": 127,
+                "ActionTag": 1549200028,
+                "Size": {
+                  "X": 594.0,
+                  "Y": 591.0
+                },
+                "Name": "left_light1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/bg_img_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 545,
+                "Scale9Height": 546,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.0,
+                  "Y": 310.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.305,
+                  "Y": 0.518
+                },
+                "PreSize": {
+                  "X": 0.4792,
+                  "Y": 0.96
+                },
+                "LeftMargin": 78.5,
+                "RightMargin": 546.5,
+                "TopMargin": 1.2,
+                "BottomMargin": 22.8,
+                "Tag": 128,
+                "ActionTag": 2088912142,
+                "Size": {
+                  "X": 575.0,
+                  "Y": 576.0
+                },
+                "VisibleForFrame": false,
+                "Name": "left_light2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/printed2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 196,
+                "Scale9Height": 196,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.0,
+                  "Y": 310.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.305,
+                  "Y": 0.518
+                },
+                "PreSize": {
+                  "X": 0.1883,
+                  "Y": 0.3767
+                },
+                "LeftMargin": 253.0,
+                "RightMargin": 721.0,
+                "TopMargin": 176.2,
+                "BottomMargin": 197.8,
+                "Tag": 76,
+                "ActionTag": -1290415343,
+                "Size": {
+                  "X": 226.0,
+                  "Y": 226.0
+                },
+                "VisibleForFrame": false,
+                "Name": "printed2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 413,
+                "Scale9Height": 99,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 830.4,
+                  "Y": 540.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.692,
+                  "Y": 0.9
+                },
+                "PreSize": {
+                  "X": 0.3692,
+                  "Y": 0.215
+                },
+                "LeftMargin": 608.9,
+                "RightMargin": 148.1001,
+                "TopMargin": -4.5,
+                "BottomMargin": 475.5,
+                "Tag": 77,
+                "ActionTag": -2110345404,
+                "Size": {
+                  "X": 443.0,
+                  "Y": 129.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/ruler_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 6,
+                "Scale9Width": 70,
+                "Scale9Height": 7,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1024.2,
+                  "Y": 84.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8535,
+                  "Y": 0.14
+                },
+                "PreSize": {
+                  "X": 0.0833,
+                  "Y": 0.0317
+                },
+                "LeftMargin": 974.2,
+                "RightMargin": 125.8,
+                "TopMargin": 506.5,
+                "BottomMargin": 74.5,
+                "Tag": 57,
+                "ActionTag": 872460808,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 19.0
+                },
+                "Name": "ruler_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/lottery_btn.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/lottery_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 149,
+                "Scale9Height": 189,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 366.0,
+                  "Y": 318.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.305,
+                  "Y": 0.53
+                },
+                "PreSize": {
+                  "X": 0.1492,
+                  "Y": 0.3517
+                },
+                "LeftMargin": 276.5,
+                "RightMargin": 744.5,
+                "TopMargin": 176.5,
+                "BottomMargin": 212.5,
+                "Tag": 59,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 18,
+                    "LabelText": "剩余1次",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 89.5,
+                      "Y": 53.9949
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 247,
+                      "B": 156
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2559
+                    },
+                    "PreSize": {
+                      "X": 0.5006,
+                      "Y": 0.1185
+                    },
+                    "LeftMargin": 44.7,
+                    "RightMargin": 44.7,
+                    "TopMargin": 144.5051,
+                    "BottomMargin": 41.4949,
+                    "Tag": 364,
+                    "ActionTag": -1485141709,
+                    "Size": {
+                      "X": 89.6,
+                      "Y": 25.0
+                    },
+                    "Name": "count_label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1642058055,
+                "Size": {
+                  "X": 179.0,
+                  "Y": 211.0
+                },
+                "Name": "lottery_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "InnerNodeSize": {
+                  "Width": 400,
+                  "Height": 622
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -347,
+                "Scale9OriginY": -156,
+                "Scale9Width": 694,
+                "Scale9Height": 312,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 894.0,
+                  "Y": 282.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.745,
+                  "Y": 0.47
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 0.625
+                },
+                "LeftMargin": 694.0,
+                "RightMargin": 106.0,
+                "TopMargin": 130.5,
+                "BottomMargin": 94.5,
+                "Tag": 115,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 587.79
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.945
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.0547
+                    },
+                    "TopMargin": 0.21,
+                    "BottomMargin": 587.79,
+                    "Tag": 116,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 20,
+                        "LabelText": "我居然        抽中",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 17.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.42,
+                          "Y": 0.6765
+                        },
+                        "RightMargin": 232.0,
+                        "TopMargin": 5.5,
+                        "BottomMargin": 5.5,
+                        "Tag": 121,
+                        "ActionTag": 524062504,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 23.0
+                        },
+                        "Name": "left_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 20,
+                        "LabelText": "抽中",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 168.0,
+                          "Y": 17.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.42,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.2,
+                          "Y": 0.7941
+                        },
+                        "LeftMargin": 168.0,
+                        "RightMargin": 152.0,
+                        "TopMargin": 3.5,
+                        "BottomMargin": 3.5,
+                        "Tag": 124,
+                        "ActionTag": -1232908466,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 27.0
+                        },
+                        "Name": "mid_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 20,
+                        "LabelText": "2000张房卡\n",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 248.0,
+                          "Y": 17.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.62,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.7353
+                        },
+                        "LeftMargin": 248.0,
+                        "RightMargin": -8.0,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 125,
+                        "ActionTag": -522472464,
+                        "Size": {
+                          "X": 160.0,
+                          "Y": 25.0
+                        },
+                        "Name": "right_label",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1385286012,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 34.0
+                    },
+                    "Name": "item_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 183055109,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 375.0
+                },
+                "Name": "info_panel",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/return_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 41,
+                "Scale9Height": 50,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1095.6,
+                  "Y": 504.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.913,
+                  "Y": 0.84
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.12
+                },
+                "LeftMargin": 1060.1,
+                "RightMargin": 68.9,
+                "TopMargin": 60.0,
+                "BottomMargin": 468.0,
+                "Tag": 275,
+                "ActionTag": 1875373032,
+                "Size": {
+                  "X": 71.0,
+                  "Y": 72.0
+                },
+                "Name": "return_btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 582385664,
+            "Size": {
+              "X": 1200.0,
+              "Y": 600.0
+            },
+            "Name": "lottery_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 104,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 178,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 149,
+                "ActionTag": 58767763,
+                "Size": {
+                  "X": 1280.0,
+                  "Y": 720.0
+                },
+                "Name": "bg_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "NoviceGiftUI/effect.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 48,
+                "Scale9OriginY": 54,
+                "Scale9Width": 101,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 374.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.52
+                },
+                "PreSize": {
+                  "X": 0.1539,
+                  "Y": 0.2458
+                },
+                "LeftMargin": 541.5,
+                "RightMargin": 541.5,
+                "TopMargin": 257.1,
+                "BottomMargin": 285.9,
+                "Tag": 105,
+                "ActionTag": 1683151944,
+                "Size": {
+                  "X": 197.0,
+                  "Y": 177.0
+                },
+                "Name": "effect",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "NoviceGiftUI/gift_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 48,
+                "Scale9OriginY": 54,
+                "Scale9Width": 66,
+                "Scale9Height": 71,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 374.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.52
+                },
+                "PreSize": {
+                  "X": 0.1266,
+                  "Y": 0.2486
+                },
+                "LeftMargin": 559.0,
+                "RightMargin": 559.0,
+                "TopMargin": 256.1,
+                "BottomMargin": 284.9,
+                "Tag": 106,
+                "ActionTag": -1693840864,
+                "Size": {
+                  "X": 162.0,
+                  "Y": 179.0
+                },
+                "Name": "gift_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "NoviceGiftUI/num_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 48,
+                "Scale9OriginY": 15,
+                "Scale9Width": 59,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 262.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.365
+                },
+                "PreSize": {
+                  "X": 0.1211,
+                  "Y": 0.0639
+                },
+                "LeftMargin": 562.5,
+                "RightMargin": 562.5,
+                "TopMargin": 434.2,
+                "BottomMargin": 239.8,
+                "Tag": 107,
+                "Children": [
+                  {
+                    "LabelText": "X20",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "LotteryUI/lb.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.5,
+                      "Y": 19.78
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.43
+                    },
+                    "PreSize": {
+                      "X": 0.3484,
+                      "Y": 0.6957
+                    },
+                    "LeftMargin": 50.5,
+                    "RightMargin": 50.5,
+                    "TopMargin": 10.22,
+                    "BottomMargin": 3.78,
+                    "Tag": 317,
+                    "ActionTag": -197909681,
+                    "Size": {
+                      "X": 54.0,
+                      "Y": 32.0
+                    },
+                    "Name": "label",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1048969216,
+                "Size": {
+                  "X": 155.0,
+                  "Y": 46.0
+                },
+                "Name": "num_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "NoviceGiftUI/change_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 202,
+                "Scale9Height": 64,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 823.04,
+                  "Y": 145.44
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.643,
+                  "Y": 0.202
+                },
+                "PreSize": {
+                  "X": 0.1813,
+                  "Y": 0.1194
+                },
+                "LeftMargin": 707.04,
+                "RightMargin": 340.96,
+                "TopMargin": 531.56,
+                "BottomMargin": 102.44,
+                "Tag": 340,
+                "ActionTag": 1986027816,
+                "Size": {
+                  "X": 232.0,
+                  "Y": 86.0
+                },
+                "Name": "change_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/sure_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 201,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 450.56,
+                  "Y": 145.44
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.352,
+                  "Y": 0.202
+                },
+                "PreSize": {
+                  "X": 0.1805,
+                  "Y": 0.1167
+                },
+                "LeftMargin": 335.06,
+                "RightMargin": 713.94,
+                "TopMargin": 532.56,
+                "BottomMargin": 103.44,
+                "Tag": 341,
+                "ActionTag": -2092406727,
+                "Size": {
+                  "X": 231.0,
+                  "Y": 84.0
+                },
+                "Name": "gift_btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1801605147,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "gift_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 170,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 178,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 171,
+                "ActionTag": -813310946,
+                "Size": {
+                  "X": 1280.0,
+                  "Y": 720.0
+                },
+                "Name": "touch_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LotteryUI/ruler_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 48,
+                "Scale9OriginY": 15,
+                "Scale9Width": 632,
+                "Scale9Height": 169,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.5688,
+                  "Y": 0.2764
+                },
+                "LeftMargin": 276.0,
+                "RightMargin": 276.0,
+                "TopMargin": 260.5,
+                "BottomMargin": 260.5,
+                "Tag": 174,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "1. 每日可免费抽奖一次",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 21.84,
+                      "Y": 172.135
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.03,
+                      "Y": 0.865
+                    },
+                    "PreSize": {
+                      "X": 0.6868,
+                      "Y": 0.1357
+                    },
+                    "LeftMargin": 21.84,
+                    "RightMargin": 206.16,
+                    "TopMargin": 13.365,
+                    "BottomMargin": 158.635,
+                    "Tag": 241,
+                    "ActionTag": 1335612474,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 27.0
+                    },
+                    "Name": "label1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "2. 每日抽奖次数不可累积",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 21.84,
+                      "Y": 137.31
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.03,
+                      "Y": 0.69
+                    },
+                    "PreSize": {
+                      "X": 0.6868,
+                      "Y": 0.1357
+                    },
+                    "LeftMargin": 21.84,
+                    "RightMargin": 206.16,
+                    "TopMargin": 48.19,
+                    "BottomMargin": 123.81,
+                    "Tag": 242,
+                    "ActionTag": -475528712,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 27.0
+                    },
+                    "Name": "label2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "3. 抽奖名单每次点击更新一次",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 21.84,
+                      "Y": 100.495
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.03,
+                      "Y": 0.505
+                    },
+                    "PreSize": {
+                      "X": 0.6868,
+                      "Y": 0.1357
+                    },
+                    "LeftMargin": 21.84,
+                    "RightMargin": 206.16,
+                    "TopMargin": 85.005,
+                    "BottomMargin": 86.995,
+                    "Tag": 243,
+                    "ActionTag": -1510802465,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 27.0
+                    },
+                    "Name": "label3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "4. 抽中话费的玩家需要绑定手机，已经绑定手机的玩家请耐心等待1~3个工作日",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 21.84,
+                      "Y": 63.68
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.03,
+                      "Y": 0.32
+                    },
+                    "PreSize": {
+                      "X": 0.9615,
+                      "Y": 0.1357
+                    },
+                    "LeftMargin": 21.84,
+                    "RightMargin": 6.16,
+                    "TopMargin": 121.82,
+                    "BottomMargin": 50.18,
+                    "Tag": 244,
+                    "ActionTag": -1768988212,
+                    "Size": {
+                      "X": 700.0,
+                      "Y": 27.0
+                    },
+                    "Name": "label4",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "如果有问题可以联系微信客服查询",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 21.84,
+                      "Y": 26.865
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.03,
+                      "Y": 0.135
+                    },
+                    "PreSize": {
+                      "X": 0.6868,
+                      "Y": 0.1357
+                    },
+                    "LeftMargin": 21.84,
+                    "RightMargin": 206.16,
+                    "TopMargin": 158.635,
+                    "BottomMargin": 13.365,
+                    "Tag": 245,
+                    "ActionTag": -1553401410,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 27.0
+                    },
+                    "Name": "label6",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -313481255,
+                "Size": {
+                  "X": 728.0,
+                  "Y": 199.0
+                },
+                "Name": "num_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1106537249,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ruler_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "CirclePopUI/air_img.png",
+        "font/zhunyuan.ttf",
+        "LotteryUI/bg.png",
+        "LotteryUI/bg_img_0.png",
+        "LotteryUI/bg_img_1.png",
+        "LotteryUI/circle.png",
+        "LotteryUI/circle_list.png",
+        "LotteryUI/lb.fnt",
+        "LotteryUI/lb_0.png",
+        "LotteryUI/lottery_btn.png",
+        "LotteryUI/printed1.png",
+        "LotteryUI/printed2.png",
+        "LotteryUI/printed3.png",
+        "LotteryUI/printed4.png",
+        "LotteryUI/return_btn.png",
+        "LotteryUI/ruler_btn.png",
+        "LotteryUI/ruler_img.png",
+        "LotteryUI/sure_btn.png",
+        "LotteryUI/title.png",
+        "NoviceGiftUI/change_btn.png",
+        "NoviceGiftUI/effect.png",
+        "NoviceGiftUI/gift_img.png",
+        "NoviceGiftUI/num_img.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

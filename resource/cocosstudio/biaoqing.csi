@@ -1,0 +1,54 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="biaoqing" Type="Plist" ID="77ed92c7-d281-4c97-9a21-55eb95783260" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="biaoqing/emotion_12_0.png" />
+      <FilePathData Path="biaoqing/emotion_12_1.png" />
+      <FilePathData Path="biaoqing/emotion_12_2.png" />
+      <FilePathData Path="biaoqing/emotion_1_0.png" />
+      <FilePathData Path="biaoqing/emotion_1_1.png" />
+      <FilePathData Path="biaoqing/emotion_10_0.png" />
+      <FilePathData Path="biaoqing/emotion_10_1.png" />
+      <FilePathData Path="biaoqing/emotion_11_0.png" />
+      <FilePathData Path="biaoqing/emotion_11_1.png" />
+      <FilePathData Path="biaoqing/emotion_11_2.png" />
+      <FilePathData Path="biaoqing/emotion_11_3.png" />
+      <FilePathData Path="biaoqing/emotion_11_4.png" />
+      <FilePathData Path="biaoqing/emotion_11_5.png" />
+      <FilePathData Path="biaoqing/emotion_2_0.png" />
+      <FilePathData Path="biaoqing/emotion_2_1.png" />
+      <FilePathData Path="biaoqing/emotion_2_2.png" />
+      <FilePathData Path="biaoqing/emotion_2_3.png" />
+      <FilePathData Path="biaoqing/emotion_3_0.png" />
+      <FilePathData Path="biaoqing/emotion_3_1.png" />
+      <FilePathData Path="biaoqing/emotion_3_2.png" />
+      <FilePathData Path="biaoqing/emotion_3_3.png" />
+      <FilePathData Path="biaoqing/emotion_3_4.png" />
+      <FilePathData Path="biaoqing/emotion_3_5.png" />
+      <FilePathData Path="biaoqing/emotion_3_6.png" />
+      <FilePathData Path="biaoqing/emotion_4_0.png" />
+      <FilePathData Path="biaoqing/emotion_4_1.png" />
+      <FilePathData Path="biaoqing/emotion_4_2.png" />
+      <FilePathData Path="biaoqing/emotion_4_3.png" />
+      <FilePathData Path="biaoqing/emotion_4_4.png" />
+      <FilePathData Path="biaoqing/emotion_5_0.png" />
+      <FilePathData Path="biaoqing/emotion_5_1.png" />
+      <FilePathData Path="biaoqing/emotion_6_0.png" />
+      <FilePathData Path="biaoqing/emotion_6_1.png" />
+      <FilePathData Path="biaoqing/emotion_6_2.png" />
+      <FilePathData Path="biaoqing/emotion_6_3.png" />
+      <FilePathData Path="biaoqing/emotion_7_0.png" />
+      <FilePathData Path="biaoqing/emotion_7_1.png" />
+      <FilePathData Path="biaoqing/emotion_8_0.png" />
+      <FilePathData Path="biaoqing/emotion_8_1.png" />
+      <FilePathData Path="biaoqing/emotion_9_0.png" />
+      <FilePathData Path="biaoqing/emotion_9_1.png" />
+      <FilePathData Path="biaoqing/emotion_9_2.png" />
+      <FilePathData Path="biaoqing/emotion_9_3.png" />
+      <FilePathData Path="biaoqing/emotion_9_4.png" />
+      <FilePathData Path="biaoqing/emotion_9_5.png" />
+      <FilePathData Path="biaoqing/emotion_9_6.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

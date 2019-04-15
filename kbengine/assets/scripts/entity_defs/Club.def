@@ -1,0 +1,100 @@
+<root>
+	<Interfaces>
+		<Interface>	iDAU		        </Interface>
+		<Interface>	iClubStatistics		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<clubId>
+			<Type>			UINT32		    </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</clubId>
+		<name>
+			<Type>			UNICODE		    </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</name>
+		<notice>
+			<Type>			UNICODE		    </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</notice>
+		<tableNum>
+			<Type>			UINT8		    </Type>
+			<Flags>			BASE			</Flags>
+			<Default>		6				</Default>
+			<Persistent>	true			</Persistent>
+		</tableNum>
+		<owner>
+			<Type>		CLUB_OWNER_INFO 	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</owner>
+		<roomParams>
+			<Type>			PY_DICT			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</roomParams>
+		<gameType>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</gameType>
+		<roomSwitch>
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		0				</Default>
+		</roomSwitch>
+		<cardSwitch>
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		1				</Default>
+		</cardSwitch>
+		<dismissRoomList>
+			<Type>			UINT32_ARRAY	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+		</dismissRoomList>
+		<lockSwitch>
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		0				</Default>
+		</lockSwitch>
+		<payModeSwitch>
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		0				</Default>
+		</payModeSwitch>
+        <members>
+			<Type>		CLUB_MEMBER_INFO_DICT	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</members>
+		<applicants>
+			<Type>		CLUB_APPLICANT_INFO_DICT	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</applicants>
+		<records>
+			<Type>		CLUB_ROOM_RESULT_ARRAY	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</records>
+		<tableRoomParams>
+			<Type> CLUB_TABLE_ROOM_PARAMS_DICT </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tableRoomParams>
+		<blacks>
+		    <Type>			CLUB_BLACK_DICT	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</blacks>
+	</Properties>
+</root>

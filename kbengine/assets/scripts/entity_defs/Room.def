@@ -1,0 +1,78 @@
+<root>
+	<Volatile>
+		<position> 0 </position>
+		<yaw> 0 </yaw>
+		<pitch> 0 </pitch>
+		<roll> 0 </roll>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<roomID>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+		</roomID>
+		<gameType>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+		</gameType>
+
+		<roomParams>
+			<Type>			PY_DICT			</Type>
+			<Flags>			BASE			</Flags>
+		</roomParams>
+
+
+		<!-- cell need -->
+		<roomIDC>
+			<Type>			UINT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</roomIDC>
+		<gameTypeC>
+			<Type>			UINT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</gameTypeC>
+		<roomParamsC>
+			<Type>			PY_DICT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</roomParamsC>
+		<!-- cell need -->
+	</Properties>
+
+
+	<BaseMethods>
+		<onSeatInfoChange>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</onSeatInfoChange>
+		<onRoomRoundChange>
+			<Arg>		UINT32		        </Arg>
+		</onRoomRoundChange>
+		<startGame>
+		</startGame>
+		<charge>
+			<Arg>		UNICODE_ARRAY 		</Arg>
+		</charge>
+		<saveClubResult>
+			<Arg>		CLUB_ROOM_RESULT 	</Arg>
+		</saveClubResult>
+		<updateClubDAU>
+			<Arg>		PY_LIST 	</Arg>
+		</updateClubDAU>
+	</BaseMethods>
+
+	<CellMethods>
+		<destroyByServer>
+			<Arg>		UNICODE				</Arg>
+		</destroyByServer>
+
+		<begin_record_callback>
+			<Arg>		UINT32				</Arg>
+		</begin_record_callback>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+

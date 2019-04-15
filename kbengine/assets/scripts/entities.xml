@@ -1,0 +1,30 @@
+<root>
+	<!--
+		实体注册文件(<你的资产库>/scripts/entities.xml)
+		详细说明请参考：http://kbengine.org/cn/docs/configuration/entities.html
+					http://www.kbengine.org/cn/docs/programming/entitydef.html
+	-->
+
+	<!-- <Avatar/> -->
+	<Account hasClient="true"></Account><!-- <Account hasCell="true" hasBase="true" hasClient="true"></Account> -->
+	<Avatar  hasCell="true" hasBase="true" hasClient="true"></Avatar>
+	<AsyncRequest hasBase="true"></AsyncRequest>
+	<ClubStub hasBase="true"></ClubStub>
+	<Club hasBase="true"></Club>
+	<Room_GXMJ hasCell="true" hasBase="true"></Room_GXMJ>
+	<Room_DDZ hasCell="true" hasBase="true"></Room_DDZ>
+	<Room_GSJMJ hasCell="true" hasBase="true"></Room_GSJMJ>
+	<Room_TDHMJ hasCell="true" hasBase="true"></Room_TDHMJ>
+	<Room_TYKDDMJ hasCell="true" hasBase="true"></Room_TYKDDMJ>
+	<Room_TYLSMJ hasCell="true" hasBase="true"></Room_TYLSMJ>
+	<Room_JZMJ hasCell="true" hasBase="true"></Room_JZMJ>
+	<Room_JZGSJMJ hasCell="true" hasBase="true"></Room_JZGSJMJ>
+	<Room_DTLGFMJ hasCell="true" hasBase="true"></Room_DTLGFMJ>
+	<Room_LLKDDMJ hasCell="true" hasBase="true"></Room_LLKDDMJ>
+	<Room_LL7 hasCell="true" hasBase="true"></Room_LL7>
+	<Room_LSBMZMJ hasCell="true" hasBase="true"></Room_LSBMZMJ>
+	<Room_LSBLMJ hasCell="true" hasBase="true"></Room_LSBLMJ>
+	<Room_FYQYMMJ hasCell="true" hasBase="true"></Room_FYQYMMJ>
+	<GameWorld/>
+	<Lottery/>
+</root>

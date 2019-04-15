@@ -1,0 +1,2870 @@
+{
+  "ID": "9cc888c4-7d7c-419f-bb09-9173bc95147d",
+  "Version": "3.10.0.0",
+  "Name": "ShopUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 116,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 117,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ShopUI/bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 422,
+                "Scale9OriginY": 237,
+                "Scale9Width": 141,
+                "Scale9Height": 182,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7695,
+                  "Y": 0.9111
+                },
+                "LeftMargin": 147.5,
+                "RightMargin": 147.5,
+                "TopMargin": 32.0,
+                "BottomMargin": 32.0,
+                "Tag": 118,
+                "ActionTag": -577424266,
+                "Size": {
+                  "X": 985.0,
+                  "Y": 656.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ShopUI/user_title_img.png",
+                  "Plist": "ShopUI.plist"
+                },
+                "Scale9OriginX": 31,
+                "Scale9OriginY": 14,
+                "Scale9Width": 33,
+                "Scale9Height": 15,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 633.6,
+                  "Y": 651.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.495,
+                  "Y": 0.905
+                },
+                "PreSize": {
+                  "X": 0.0742,
+                  "Y": 0.0597
+                },
+                "LeftMargin": 586.1,
+                "RightMargin": 598.9,
+                "TopMargin": 46.9,
+                "BottomMargin": 630.1,
+                "Tag": 1064,
+                "ActionTag": -1738010251,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 43.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn_bright.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn_bright.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 140,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 1064.96,
+                  "Y": 655.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.832,
+                  "Y": 0.91
+                },
+                "PreSize": {
+                  "X": 0.0672,
+                  "Y": 0.225
+                },
+                "LeftMargin": 1021.96,
+                "RightMargin": 172.04,
+                "TopMargin": 64.8,
+                "BottomMargin": 493.2,
+                "Tag": 120,
+                "ActionTag": 1130585386,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 162.0
+                },
+                "Name": "return_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.6328,
+                  "Y": 0.7514
+                },
+                "LeftMargin": 235.0,
+                "RightMargin": 235.0,
+                "TopMargin": 89.5,
+                "BottomMargin": 89.5,
+                "Tag": 400,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 541.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.3704,
+                      "Y": 0.5545
+                    },
+                    "RightMargin": 510.0,
+                    "BottomMargin": 241.0,
+                    "Tag": 2153,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_bg.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 77,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 38,
+                        "Scale9Height": 183,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.64,
+                          "Y": 0.71
+                        },
+                        "LeftMargin": 54.0,
+                        "RightMargin": 54.0,
+                        "TopMargin": 43.5,
+                        "BottomMargin": 43.5,
+                        "Tag": 2154,
+                        "ActionTag": 766655168,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 213.0
+                        },
+                        "Name": "shop_card_bg_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_0.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 25,
+                        "Scale9Height": 50,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 162.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.54
+                        },
+                        "PreSize": {
+                          "X": 0.2367,
+                          "Y": 0.2667
+                        },
+                        "LeftMargin": 114.5,
+                        "RightMargin": 114.5,
+                        "TopMargin": 98.0,
+                        "BottomMargin": 122.0,
+                        "Tag": 2155,
+                        "ActionTag": -706848758,
+                        "Size": {
+                          "X": 71.0,
+                          "Y": 80.0
+                        },
+                        "Name": "shop_card_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_buy_btn_6.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 103,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.29
+                        },
+                        "PreSize": {
+                          "X": 0.4433,
+                          "Y": 0.1933
+                        },
+                        "LeftMargin": 83.5,
+                        "RightMargin": 83.5,
+                        "TopMargin": 184.0,
+                        "BottomMargin": 58.0,
+                        "Tag": 2156,
+                        "ActionTag": -972888011,
+                        "Size": {
+                          "X": 133.0,
+                          "Y": 58.0
+                        },
+                        "Name": "shop_buy_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "6房卡",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 229.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 141,
+                          "G": 55,
+                          "B": 12
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.765
+                        },
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.09
+                        },
+                        "LeftMargin": 90.0,
+                        "RightMargin": 90.0,
+                        "TopMargin": 57.0,
+                        "BottomMargin": 216.0,
+                        "Tag": 2157,
+                        "ActionTag": -1233001788,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 27.0
+                        },
+                        "Name": "card_num_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/handsel_img.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 36,
+                        "Scale9Height": 58,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.0,
+                          "Y": 215.01
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.68,
+                          "Y": 0.7167
+                        },
+                        "PreSize": {
+                          "X": 0.2733,
+                          "Y": 0.2933
+                        },
+                        "LeftMargin": 163.0,
+                        "RightMargin": 55.0,
+                        "TopMargin": 40.99,
+                        "BottomMargin": 171.01,
+                        "Tag": 115,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 18,
+                            "LabelText": "送1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 52.7506,
+                              "Y": 57.3496
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 47.0,
+                            "RotationSkewY": 47.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.6433,
+                              "Y": 0.6517
+                            },
+                            "PreSize": {
+                              "X": 1.1585,
+                              "Y": 0.3068
+                            },
+                            "LeftMargin": 5.2506,
+                            "RightMargin": -18.2506,
+                            "TopMargin": 17.1504,
+                            "BottomMargin": 43.8496,
+                            "Tag": 1053,
+                            "ActionTag": -140270462,
+                            "Size": {
+                              "X": 95.0,
+                              "Y": 27.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -93165132,
+                        "Size": {
+                          "X": 82.0,
+                          "Y": 88.0
+                        },
+                        "Name": "handsel_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1961768382,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 300.0
+                    },
+                    "Name": "item_panel_0",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 405.0,
+                      "Y": 541.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.3704,
+                      "Y": 0.5545
+                    },
+                    "LeftMargin": 255.0,
+                    "RightMargin": 255.0,
+                    "BottomMargin": 241.0,
+                    "Tag": 2158,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_bg.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 77,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 38,
+                        "Scale9Height": 183,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.64,
+                          "Y": 0.71
+                        },
+                        "LeftMargin": 54.0,
+                        "RightMargin": 54.0,
+                        "TopMargin": 43.5,
+                        "BottomMargin": 43.5,
+                        "Tag": 2159,
+                        "ActionTag": 1066304575,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 213.0
+                        },
+                        "Name": "shop_card_bg_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_1.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 25,
+                        "Scale9Height": 50,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 162.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.54
+                        },
+                        "PreSize": {
+                          "X": 0.2367,
+                          "Y": 0.2667
+                        },
+                        "LeftMargin": 114.5,
+                        "RightMargin": 114.5,
+                        "TopMargin": 98.0,
+                        "BottomMargin": 122.0,
+                        "Tag": 2160,
+                        "ActionTag": -2052904065,
+                        "Size": {
+                          "X": 71.0,
+                          "Y": 80.0
+                        },
+                        "Name": "shop_card_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_buy_btn_18.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 103,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.29
+                        },
+                        "PreSize": {
+                          "X": 0.4433,
+                          "Y": 0.1933
+                        },
+                        "LeftMargin": 83.5,
+                        "RightMargin": 83.5,
+                        "TopMargin": 184.0,
+                        "BottomMargin": 58.0,
+                        "Tag": 2161,
+                        "ActionTag": -1234529931,
+                        "Size": {
+                          "X": 133.0,
+                          "Y": 58.0
+                        },
+                        "Name": "shop_buy_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "18房卡",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 229.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 141,
+                          "G": 55,
+                          "B": 12
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.765
+                        },
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.09
+                        },
+                        "LeftMargin": 90.0,
+                        "RightMargin": 90.0,
+                        "TopMargin": 57.0,
+                        "BottomMargin": 216.0,
+                        "Tag": 2162,
+                        "ActionTag": -628911598,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 27.0
+                        },
+                        "Name": "card_num_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/handsel_img.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 36,
+                        "Scale9Height": 58,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.0,
+                          "Y": 215.01
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.68,
+                          "Y": 0.7167
+                        },
+                        "PreSize": {
+                          "X": 0.2733,
+                          "Y": 0.2933
+                        },
+                        "LeftMargin": 163.0,
+                        "RightMargin": 55.0,
+                        "TopMargin": 40.99,
+                        "BottomMargin": 171.01,
+                        "Tag": 1062,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 18,
+                            "LabelText": "送1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 52.7506,
+                              "Y": 57.3496
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 47.0,
+                            "RotationSkewY": 47.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.6433,
+                              "Y": 0.6517
+                            },
+                            "PreSize": {
+                              "X": 1.1585,
+                              "Y": 0.3068
+                            },
+                            "LeftMargin": 5.2506,
+                            "RightMargin": -18.2506,
+                            "TopMargin": 17.1504,
+                            "BottomMargin": 43.8496,
+                            "Tag": 1063,
+                            "ActionTag": 947898500,
+                            "Size": {
+                              "X": 95.0,
+                              "Y": 27.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 1168898665,
+                        "Size": {
+                          "X": 82.0,
+                          "Y": 88.0
+                        },
+                        "Name": "handsel_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -789223063,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 300.0
+                    },
+                    "Name": "item_panel_1",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 810.0,
+                      "Y": 541.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.3704,
+                      "Y": 0.5545
+                    },
+                    "LeftMargin": 510.0,
+                    "BottomMargin": 241.0,
+                    "Tag": 2163,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_bg.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 77,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 38,
+                        "Scale9Height": 183,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.64,
+                          "Y": 0.71
+                        },
+                        "LeftMargin": 54.0,
+                        "RightMargin": 54.0,
+                        "TopMargin": 43.5,
+                        "BottomMargin": 43.5,
+                        "Tag": 2164,
+                        "ActionTag": 642914165,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 213.0
+                        },
+                        "Name": "shop_card_bg_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_2.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 39,
+                        "Scale9Height": 66,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 162.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.54
+                        },
+                        "PreSize": {
+                          "X": 0.2833,
+                          "Y": 0.32
+                        },
+                        "LeftMargin": 107.5,
+                        "RightMargin": 107.5,
+                        "TopMargin": 90.0,
+                        "BottomMargin": 114.0,
+                        "Tag": 2165,
+                        "ActionTag": -301361743,
+                        "Size": {
+                          "X": 85.0,
+                          "Y": 96.0
+                        },
+                        "Name": "shop_card_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_buy_btn_30.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 103,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.29
+                        },
+                        "PreSize": {
+                          "X": 0.4433,
+                          "Y": 0.1933
+                        },
+                        "LeftMargin": 83.5,
+                        "RightMargin": 83.5,
+                        "TopMargin": 184.0,
+                        "BottomMargin": 58.0,
+                        "Tag": 2166,
+                        "ActionTag": -2056231738,
+                        "Size": {
+                          "X": 133.0,
+                          "Y": 58.0
+                        },
+                        "Name": "shop_buy_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "30房卡",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 229.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 141,
+                          "G": 55,
+                          "B": 12
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.765
+                        },
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.09
+                        },
+                        "LeftMargin": 90.0,
+                        "RightMargin": 90.0,
+                        "TopMargin": 57.0,
+                        "BottomMargin": 216.0,
+                        "Tag": 2167,
+                        "ActionTag": 1034611266,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 27.0
+                        },
+                        "Name": "card_num_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/handsel_img.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 36,
+                        "Scale9Height": 58,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.0,
+                          "Y": 215.01
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.68,
+                          "Y": 0.7167
+                        },
+                        "PreSize": {
+                          "X": 0.2733,
+                          "Y": 0.2933
+                        },
+                        "LeftMargin": 163.0,
+                        "RightMargin": 55.0,
+                        "TopMargin": 40.99,
+                        "BottomMargin": 171.01,
+                        "Tag": 1060,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 18,
+                            "LabelText": "送1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 52.7506,
+                              "Y": 57.3496
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 47.0,
+                            "RotationSkewY": 47.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.6433,
+                              "Y": 0.6517
+                            },
+                            "PreSize": {
+                              "X": 1.1585,
+                              "Y": 0.3068
+                            },
+                            "LeftMargin": 5.2506,
+                            "RightMargin": -18.2506,
+                            "TopMargin": 17.1504,
+                            "BottomMargin": 43.8496,
+                            "Tag": 1061,
+                            "ActionTag": 145366239,
+                            "Size": {
+                              "X": 95.0,
+                              "Y": 27.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1833113189,
+                        "Size": {
+                          "X": 82.0,
+                          "Y": 88.0
+                        },
+                        "Name": "handsel_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -72169774,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 300.0
+                    },
+                    "Name": "item_panel_2",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5545
+                    },
+                    "PreSize": {
+                      "X": 0.3704,
+                      "Y": 0.5545
+                    },
+                    "RightMargin": 510.0,
+                    "TopMargin": 241.0,
+                    "Tag": 2168,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_bg.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 77,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 38,
+                        "Scale9Height": 183,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.64,
+                          "Y": 0.71
+                        },
+                        "LeftMargin": 54.0,
+                        "RightMargin": 54.0,
+                        "TopMargin": 43.5,
+                        "BottomMargin": 43.5,
+                        "Tag": 2169,
+                        "ActionTag": 290283271,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 213.0
+                        },
+                        "Name": "shop_card_bg_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_3.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 39,
+                        "Scale9Height": 66,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 162.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.54
+                        },
+                        "PreSize": {
+                          "X": 0.2833,
+                          "Y": 0.32
+                        },
+                        "LeftMargin": 107.5,
+                        "RightMargin": 107.5,
+                        "TopMargin": 90.0,
+                        "BottomMargin": 114.0,
+                        "Tag": 2170,
+                        "ActionTag": 996547444,
+                        "Size": {
+                          "X": 85.0,
+                          "Y": 96.0
+                        },
+                        "Name": "shop_card_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_buy_btn_68.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 103,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.29
+                        },
+                        "PreSize": {
+                          "X": 0.4433,
+                          "Y": 0.1933
+                        },
+                        "LeftMargin": 83.5,
+                        "RightMargin": 83.5,
+                        "TopMargin": 184.0,
+                        "BottomMargin": 58.0,
+                        "Tag": 2171,
+                        "ActionTag": 1423694215,
+                        "Size": {
+                          "X": 133.0,
+                          "Y": 58.0
+                        },
+                        "Name": "shop_buy_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "68房卡",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 229.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 141,
+                          "G": 55,
+                          "B": 12
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.765
+                        },
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.09
+                        },
+                        "LeftMargin": 90.0,
+                        "RightMargin": 90.0,
+                        "TopMargin": 57.0,
+                        "BottomMargin": 216.0,
+                        "Tag": 2172,
+                        "ActionTag": 981289329,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 27.0
+                        },
+                        "Name": "card_num_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/handsel_img.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 36,
+                        "Scale9Height": 58,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.0,
+                          "Y": 215.01
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.68,
+                          "Y": 0.7167
+                        },
+                        "PreSize": {
+                          "X": 0.2733,
+                          "Y": 0.2933
+                        },
+                        "LeftMargin": 163.0,
+                        "RightMargin": 55.0,
+                        "TopMargin": 40.99,
+                        "BottomMargin": 171.01,
+                        "Tag": 1058,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 18,
+                            "LabelText": "送1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 52.7506,
+                              "Y": 57.3496
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 47.0,
+                            "RotationSkewY": 47.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.6433,
+                              "Y": 0.6517
+                            },
+                            "PreSize": {
+                              "X": 1.1585,
+                              "Y": 0.3068
+                            },
+                            "LeftMargin": 5.2506,
+                            "RightMargin": -18.2506,
+                            "TopMargin": 17.1504,
+                            "BottomMargin": 43.8496,
+                            "Tag": 1059,
+                            "ActionTag": 1803077076,
+                            "Size": {
+                              "X": 95.0,
+                              "Y": 27.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -645460890,
+                        "Size": {
+                          "X": 82.0,
+                          "Y": 88.0
+                        },
+                        "Name": "handsel_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 549044933,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 300.0
+                    },
+                    "Name": "item_panel_3",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 405.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5545
+                    },
+                    "PreSize": {
+                      "X": 0.3704,
+                      "Y": 0.5545
+                    },
+                    "LeftMargin": 255.0,
+                    "RightMargin": 255.0,
+                    "TopMargin": 241.0,
+                    "Tag": 2173,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_bg.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 77,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 38,
+                        "Scale9Height": 183,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.64,
+                          "Y": 0.71
+                        },
+                        "LeftMargin": 54.0,
+                        "RightMargin": 54.0,
+                        "TopMargin": 43.5,
+                        "BottomMargin": 43.5,
+                        "Tag": 2174,
+                        "ActionTag": 1780232223,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 213.0
+                        },
+                        "Name": "shop_card_bg_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_4.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 57,
+                        "Scale9Height": 73,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 162.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.54
+                        },
+                        "PreSize": {
+                          "X": 0.3433,
+                          "Y": 0.3433
+                        },
+                        "LeftMargin": 98.5,
+                        "RightMargin": 98.5,
+                        "TopMargin": 86.5,
+                        "BottomMargin": 110.5,
+                        "Tag": 2175,
+                        "ActionTag": -2021875343,
+                        "Size": {
+                          "X": 103.0,
+                          "Y": 103.0
+                        },
+                        "Name": "shop_card_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_buy_btn_128.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 103,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.29
+                        },
+                        "PreSize": {
+                          "X": 0.4433,
+                          "Y": 0.1933
+                        },
+                        "LeftMargin": 83.5,
+                        "RightMargin": 83.5,
+                        "TopMargin": 184.0,
+                        "BottomMargin": 58.0,
+                        "Tag": 2176,
+                        "ActionTag": 175364531,
+                        "Size": {
+                          "X": 133.0,
+                          "Y": 58.0
+                        },
+                        "Name": "shop_buy_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "128房卡",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 229.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 141,
+                          "G": 55,
+                          "B": 12
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.765
+                        },
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.09
+                        },
+                        "LeftMargin": 90.0,
+                        "RightMargin": 90.0,
+                        "TopMargin": 57.0,
+                        "BottomMargin": 216.0,
+                        "Tag": 2177,
+                        "ActionTag": -52610623,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 27.0
+                        },
+                        "Name": "card_num_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/handsel_img.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 36,
+                        "Scale9Height": 58,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.0,
+                          "Y": 215.01
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.68,
+                          "Y": 0.7167
+                        },
+                        "PreSize": {
+                          "X": 0.2733,
+                          "Y": 0.2933
+                        },
+                        "LeftMargin": 163.0,
+                        "RightMargin": 55.0,
+                        "TopMargin": 40.99,
+                        "BottomMargin": 171.01,
+                        "Tag": 1056,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 18,
+                            "LabelText": "送1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 52.7506,
+                              "Y": 57.3496
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 47.0,
+                            "RotationSkewY": 47.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.6433,
+                              "Y": 0.6517
+                            },
+                            "PreSize": {
+                              "X": 1.1585,
+                              "Y": 0.3068
+                            },
+                            "LeftMargin": 5.2506,
+                            "RightMargin": -18.2506,
+                            "TopMargin": 17.1504,
+                            "BottomMargin": 43.8496,
+                            "Tag": 1057,
+                            "ActionTag": -1543390846,
+                            "Size": {
+                              "X": 95.0,
+                              "Y": 27.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1999055659,
+                        "Size": {
+                          "X": 82.0,
+                          "Y": 88.0
+                        },
+                        "Name": "handsel_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1734335338,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 300.0
+                    },
+                    "Name": "item_panel_4",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 810.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 1.0,
+                      "Y": 0.5545
+                    },
+                    "PreSize": {
+                      "X": 0.3704,
+                      "Y": 0.5545
+                    },
+                    "LeftMargin": 510.0,
+                    "TopMargin": 241.0,
+                    "Tag": 2178,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_bg.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 77,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 38,
+                        "Scale9Height": 183,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.64,
+                          "Y": 0.71
+                        },
+                        "LeftMargin": 54.0,
+                        "RightMargin": 54.0,
+                        "TopMargin": 43.5,
+                        "BottomMargin": 43.5,
+                        "Tag": 2179,
+                        "ActionTag": 2090499329,
+                        "Size": {
+                          "X": 192.0,
+                          "Y": 213.0
+                        },
+                        "Name": "shop_card_bg_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_card_5.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 57,
+                        "Scale9Height": 73,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 162.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.54
+                        },
+                        "PreSize": {
+                          "X": 0.3433,
+                          "Y": 0.3433
+                        },
+                        "LeftMargin": 98.5,
+                        "RightMargin": 98.5,
+                        "TopMargin": 86.5,
+                        "BottomMargin": 110.5,
+                        "Tag": 2180,
+                        "ActionTag": 2132135509,
+                        "Size": {
+                          "X": 103.0,
+                          "Y": 103.0
+                        },
+                        "Name": "shop_card_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/shop_buy_btn_328.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 103,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.29
+                        },
+                        "PreSize": {
+                          "X": 0.4433,
+                          "Y": 0.1933
+                        },
+                        "LeftMargin": 83.5,
+                        "RightMargin": 83.5,
+                        "TopMargin": 184.0,
+                        "BottomMargin": 58.0,
+                        "Tag": 2181,
+                        "ActionTag": 1194473955,
+                        "Size": {
+                          "X": 133.0,
+                          "Y": 58.0
+                        },
+                        "Name": "shop_buy_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "328房卡",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 229.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 141,
+                          "G": 55,
+                          "B": 12
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.765
+                        },
+                        "PreSize": {
+                          "X": 0.4,
+                          "Y": 0.09
+                        },
+                        "LeftMargin": 90.0,
+                        "RightMargin": 90.0,
+                        "TopMargin": 57.0,
+                        "BottomMargin": 216.0,
+                        "Tag": 2182,
+                        "ActionTag": -934662912,
+                        "Size": {
+                          "X": 120.0,
+                          "Y": 27.0
+                        },
+                        "Name": "card_num_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ShopUI/handsel_img.png",
+                          "Plist": "ShopUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 23,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 36,
+                        "Scale9Height": 58,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.0,
+                          "Y": 215.01
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.68,
+                          "Y": 0.7167
+                        },
+                        "PreSize": {
+                          "X": 0.2733,
+                          "Y": 0.2933
+                        },
+                        "LeftMargin": 163.0,
+                        "RightMargin": 55.0,
+                        "TopMargin": 40.99,
+                        "BottomMargin": 171.01,
+                        "Tag": 1054,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 18,
+                            "LabelText": "送1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 52.7506,
+                              "Y": 57.3496
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 47.0,
+                            "RotationSkewY": 47.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.6433,
+                              "Y": 0.6517
+                            },
+                            "PreSize": {
+                              "X": 1.1585,
+                              "Y": 0.3068
+                            },
+                            "LeftMargin": 5.2506,
+                            "RightMargin": -18.2506,
+                            "TopMargin": 17.1504,
+                            "BottomMargin": 43.8496,
+                            "Tag": 1055,
+                            "ActionTag": 208550180,
+                            "Size": {
+                              "X": 95.0,
+                              "Y": 27.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1093750280,
+                        "Size": {
+                          "X": 82.0,
+                          "Y": 88.0
+                        },
+                        "Name": "handsel_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -844630174,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 300.0
+                    },
+                    "Name": "item_panel_5",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -615224974,
+                "Size": {
+                  "X": 810.0,
+                  "Y": 541.0
+                },
+                "Name": "card_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1389
+                },
+                "PreSize": {
+                  "X": 0.6367,
+                  "Y": 0.0944
+                },
+                "LeftMargin": 232.5,
+                "RightMargin": 232.5,
+                "TopMargin": 586.0,
+                "BottomMargin": 66.0,
+                "Tag": 402,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 23,
+                    "LabelText": "绑定邀请码充值半价",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 158.925,
+                      "Y": 34.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 57,
+                      "B": 65
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.195,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2859,
+                      "Y": 0.3824
+                    },
+                    "LeftMargin": 42.425,
+                    "RightMargin": 539.575,
+                    "TopMargin": 21.0,
+                    "BottomMargin": 21.0,
+                    "Tag": 404,
+                    "ActionTag": 1629504431,
+                    "Size": {
+                      "X": 233.0,
+                      "Y": 26.0
+                    },
+                    "Name": "bottom_tips_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 23,
+                    "LabelText": "充值问题请联系微信客服：FXQP01A或FXQP02A",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.345,
+                      "Y": 34.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 169,
+                      "G": 111,
+                      "B": 89
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.663,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.584,
+                      "Y": 0.3824
+                    },
+                    "LeftMargin": 302.345,
+                    "RightMargin": 36.655,
+                    "TopMargin": 21.0,
+                    "BottomMargin": 21.0,
+                    "Tag": 981,
+                    "ActionTag": -1031021897,
+                    "Size": {
+                      "X": 476.0,
+                      "Y": 26.0
+                    },
+                    "Name": "bottom_tips_label",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 555703886,
+                "Size": {
+                  "X": 815.0,
+                  "Y": 68.0
+                },
+                "Name": "bottom_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 201084310,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "shop_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/close_btn.png",
+        "Default/close_btn_bright.png",
+        "font/zhunyuan.ttf",
+        "ShopUI.plist",
+        "ShopUI.png",
+        "ShopUI/bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

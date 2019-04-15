@@ -1,0 +1,223 @@
+<root>
+	<Volatile>
+		<position> 0 </position>
+		<yaw> 0 </yaw>
+		<pitch> 0 </pitch>
+		<roll> 0 </roll>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	GameObject			</Interface>
+		<Interface>	iBase				</Interface>
+		<Interface>	iRoomOperation		</Interface>
+		<Interface>	iRoomOperationDDZ		</Interface>
+		<Interface>	iRoomOperationTYKDDMJ	</Interface>
+		<Interface>	iRoomOperationTYLSMJ		</Interface>
+		<Interface>	iRoomOperationTDHMJ		</Interface>
+		<Interface>	iRoomOperationJZMJ		</Interface>
+		<Interface>	iRoomOperationDTLGFMJ	</Interface>
+		<Interface>	iRoomOperationLLKDDMJ	</Interface>
+		<Interface>	iRoomOperationLL7	</Interface>
+		<Interface>	iRoomOperationLSBMZMJ	</Interface>
+		<Interface>	iRoomOperationLSBLMJ	</Interface>
+		<Interface>	iRoomOperationFYQYMMJ	</Interface>
+		<Interface>	iRecordOperation	</Interface>
+		<Interface>	iClubOperation		</Interface>
+		<Interface>	iDAUOperation		</Interface>
+		<Interface>	iStatOperation		</Interface>
+		<Interface>	iTaskOperation		</Interface>
+		<Interface>	iLotteryOperation		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<userId>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</userId>
+
+		<uuid>
+			<Type>			UUID			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</uuid>
+
+		<accountName>
+			<Type>			UNICODE			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</accountName>
+
+		<name>
+			<Type>			UNICODE			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		Richard			</Default>
+			<Persistent>	true			</Persistent>
+		</name>
+
+		<gender>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</gender>
+
+		<login_time>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		0				</Default>
+		</login_time>
+
+		<logout_time>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		0				</Default>
+		</logout_time>
+
+		<sex>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+			<Persistent>	true			</Persistent>
+		</sex>
+		<head_icon>
+			<Type>			UNICODE			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</head_icon>
+		<location>
+			<Type>			UNICODE			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</location>
+		<lat>
+			<Type>			UNICODE			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</lat>
+		<lng>
+			<Type>			UNICODE			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</lng>
+		<game_history>
+			<Type>			PY_LIST			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		[]				</Default>
+			<Persistent>	true			</Persistent>
+		</game_history>
+		<isAgent>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</isAgent>
+		<gameCount>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</gameCount>
+		<countFlag>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</countFlag>
+		<gameRound>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</gameRound>
+		<roundFlag>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</roundFlag>
+
+		<lotteryDailyCount>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</lotteryDailyCount>
+		<reward_list>
+			<Type>			LOTTERY_REWARD_ITEM_ARRAY		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>	    []          </Default>
+		</reward_list>
+		<!-- cell need -->
+		<userInfo>
+			<Type>			PY_DICT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</userInfo>
+		<!-- cell need -->
+
+
+	</Properties>
+
+
+	<BaseMethods>
+		<logout>
+			<Exposed/>
+		</logout>
+		<updateUserInfo>
+			<Exposed/>
+			<Arg> 	USER_INFO 	</Arg>
+		</updateUserInfo>
+		<upLocationInfo>
+			<Exposed/>
+			<Arg>	UNICODE 	</Arg>
+			<Arg>	STRING 		</Arg>
+			<Arg>	STRING 		</Arg>
+		</upLocationInfo>
+		<queryUserInfo>
+			<Exposed/>
+			<Arg> 	UINT32 		</Arg>
+			<Arg> 	UINT32 		</Arg>
+		</queryUserInfo>
+		<addGameCount>
+			<Arg> 	UINT32 		</Arg>
+		</addGameCount>
+	</BaseMethods>
+
+	<CellMethods>
+		<clientReconnected>
+		</clientReconnected>
+		<updateOnlineStatus>
+			<Arg>	UINT8	</Arg>
+		</updateOnlineStatus>
+	</CellMethods>
+
+	<ClientMethods>
+		<closeClient>
+		</closeClient>
+		<beginGame>
+			<Arg>	UINT8	</Arg>
+		</beginGame>
+		<operationFail>
+			<Arg>			UINT32		</Arg>
+			<Arg>			UINT32		</Arg>
+		</operationFail>
+		<operationSuccess>
+			<Arg>			UINT32		</Arg>
+			<Arg>			UINT32		</Arg>
+		</operationSuccess>
+		<showTip>
+			<Arg>  UNICODE  </Arg>
+		</showTip>
+		<recvWorldNotice>
+			<Arg>  UNICODE  </Arg>
+			<Arg>	UINT32  </Arg>
+		</recvWorldNotice>
+		<gotUserInfo>
+			<Arg>  SIMPLE_USER_INFO  </Arg>
+			<Arg>	INT32  </Arg>
+		</gotUserInfo>
+	</ClientMethods>
+</root>
+

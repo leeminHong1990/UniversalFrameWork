@@ -1,0 +1,70 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="LL7GameRoomUI" Type="Plist" ID="aaa2f40a-60c1-40a2-ad2e-e8daf7201580" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="LL7GameRoomUI/communicate_img.png" />
+      <FilePathData Path="LL7GameRoomUI/dazhu_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/dazhu_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/dianpai_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/dianpai_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/diaozhu_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/diaozhu_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/dipai_img.png" />
+      <FilePathData Path="LL7GameRoomUI/discard_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/discard_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/fang_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/fang_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/foreman_img.png" />
+      <FilePathData Path="LL7GameRoomUI/grab_img.png" />
+      <FilePathData Path="LL7GameRoomUI/hei_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/hei_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/help_btn.png" />
+      <FilePathData Path="LL7GameRoomUI/hong_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/hong_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/jiaozhu_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/maidi_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/maidi_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/main_img.png" />
+      <FilePathData Path="LL7GameRoomUI/mei_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/mei_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/multiple2_img.png" />
+      <FilePathData Path="LL7GameRoomUI/pass_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/pass_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/previous_img.png" />
+      <FilePathData Path="LL7GameRoomUI/score_img.png" />
+      <FilePathData Path="LL7GameRoomUI/shapai_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/shapai_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/star.png" />
+      <FilePathData Path="LL7GameRoomUI/tip_img.png" />
+      <FilePathData Path="LL7GameRoomUI/voice_img.png" />
+      <FilePathData Path="LL7GameRoomUI/xianjiakoudi_img.png" />
+      <FilePathData Path="LL7GameRoomUI/rect2_bg.png" />
+      <FilePathData Path="LL7GameRoomUI/poker_mark.png" />
+      <FilePathData Path="LL7GameRoomUI/mark_big.png" />
+      <FilePathData Path="LL7GameRoomUI/previous_title.png" />
+      <FilePathData Path="LL7GameRoomUI/operation_bg.png" />
+      <FilePathData Path="LL7GameRoomUI/friend_img.png" />
+      <FilePathData Path="LL7GameRoomUI/fanzhu_img.png" />
+      <FilePathData Path="LL7GameRoomUI/point_img.png" />
+      <FilePathData Path="LL7GameRoomUI/jiaozhu_img.png" />
+      <FilePathData Path="LL7GameRoomUI/op_fanzhu.png" />
+      <FilePathData Path="LL7GameRoomUI/op_jiaozhu.png" />
+      <FilePathData Path="LL7GameRoomUI/wait_fanzhu_img.png" />
+      <FilePathData Path="LL7GameRoomUI/wait_jiaozhu_img.png" />
+      <FilePathData Path="LL7GameRoomUI/wait_maidi_img.png" />
+      <FilePathData Path="LL7GameRoomUI/blue_score_img.png" />
+      <FilePathData Path="LL7GameRoomUI/bufan_img.png" />
+      <FilePathData Path="LL7GameRoomUI/bujiao_img.png" />
+      <FilePathData Path="LL7GameRoomUI/pass2_disabled.png" />
+      <FilePathData Path="LL7GameRoomUI/pass2_normal.png" />
+      <FilePathData Path="LL7GameRoomUI/small_poker_a7.png" />
+      <FilePathData Path="LL7GameRoomUI/small_poker_b7.png" />
+      <FilePathData Path="LL7GameRoomUI/small_poker_c7.png" />
+      <FilePathData Path="LL7GameRoomUI/small_poker_d7.png" />
+      <FilePathData Path="LL7GameRoomUI/poker_di_img.png" />
+      <FilePathData Path="LL7GameRoomUI/giveup_btn.png" />
+      <FilePathData Path="LL7GameRoomUI/ungiveup_btn.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

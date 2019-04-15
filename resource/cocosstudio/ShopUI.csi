@@ -1,0 +1,41 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="ShopUI" Type="Plist" ID="9dd8aa4c-ca29-4854-a1b1-6300b2c021f4" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="ShopUI/handsel_img.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_12.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_128.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_1288.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_136.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_18.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_256.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_288.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_30.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_3000.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_328.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_36.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_588.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_6.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_60.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_656.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_68.png" />
+      <FilePathData Path="ShopUI/shop_card_0.png" />
+      <FilePathData Path="ShopUI/shop_card_1.png" />
+      <FilePathData Path="ShopUI/shop_card_2.png" />
+      <FilePathData Path="ShopUI/shop_card_3.png" />
+      <FilePathData Path="ShopUI/shop_card_4.png" />
+      <FilePathData Path="ShopUI/shop_card_5.png" />
+      <FilePathData Path="ShopUI/shop_card_bg.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_100.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_1000.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_10000.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_2000.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_300.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_5000.png" />
+      <FilePathData Path="ShopUI/shop_buy_btn_600.png" />
+      <FilePathData Path="ShopUI/proxy_title_img.png" />
+      <FilePathData Path="ShopUI/user_title_img.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

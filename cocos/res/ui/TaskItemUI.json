@@ -1,0 +1,628 @@
+{
+  "ID": "5c236026-841f-47d3-aea8-04278a39da2d",
+  "Version": "3.10.0.0",
+  "Name": "TaskItemUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1736,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -1071.0,
+            "TopMargin": -102.0,
+            "Tag": 240,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/printed.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 376,
+                "Scale9OriginY": 31,
+                "Scale9Width": 319,
+                "Scale9Height": 39,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 535.5,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.9902
+                },
+                "TopMargin": 0.5,
+                "BottomMargin": 0.5,
+                "Tag": 241,
+                "ActionTag": -1963545448,
+                "Size": {
+                  "X": 1071.0,
+                  "Y": 101.0
+                },
+                "Name": "light_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "X3",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "GameHallShareUI/lb1.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 677.943,
+                  "Y": 34.68
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.633,
+                  "Y": 0.34
+                },
+                "PreSize": {
+                  "X": 0.0317,
+                  "Y": 0.3137
+                },
+                "LeftMargin": 660.943,
+                "RightMargin": 376.057,
+                "TopMargin": 51.32,
+                "BottomMargin": 18.68,
+                "Tag": 242,
+                "ActionTag": 1606614691,
+                "Size": {
+                  "X": 34.0,
+                  "Y": 32.0
+                },
+                "Name": "reward_num",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "BackGroundData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/line1.png",
+                  "Plist": ""
+                },
+                "ProgressBarData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/line2.png",
+                  "Plist": ""
+                },
+                "PercentInfo": 64,
+                "DisplayState": false,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 315.945,
+                  "Y": 29.58
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.295,
+                  "Y": 0.29
+                },
+                "PreSize": {
+                  "X": 0.3119,
+                  "Y": 0.2941
+                },
+                "LeftMargin": 148.945,
+                "RightMargin": 588.0551,
+                "TopMargin": 57.42,
+                "BottomMargin": 14.58,
+                "Tag": 243,
+                "ActionTag": -1376557485,
+                "Size": {
+                  "X": 334.0,
+                  "Y": 30.0
+                },
+                "Name": "task_slider",
+                "ctype": "SliderObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/to_get_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 152,
+                "Scale9Height": 55,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 931.77,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.87,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1699,
+                  "Y": 0.7549
+                },
+                "LeftMargin": 840.77,
+                "RightMargin": 48.23,
+                "TopMargin": 12.5,
+                "BottomMargin": 12.5,
+                "Tag": 244,
+                "ActionTag": 122715291,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 77.0
+                },
+                "Name": "to_get_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/get_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 152,
+                "Scale9Height": 55,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 931.77,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.87,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1699,
+                  "Y": 0.7549
+                },
+                "LeftMargin": 840.77,
+                "RightMargin": 48.23,
+                "TopMargin": 12.5,
+                "BottomMargin": 12.5,
+                "Tag": 245,
+                "ActionTag": 855714512,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 77.0
+                },
+                "VisibleForFrame": false,
+                "Name": "get_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/got_btn.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 15,
+                "Scale9Width": 110,
+                "Scale9Height": 47,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 931.2345,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8695,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1382,
+                  "Y": 0.7549
+                },
+                "LeftMargin": 857.2345,
+                "RightMargin": 65.7655,
+                "TopMargin": 12.5,
+                "BottomMargin": 12.5,
+                "Tag": 246,
+                "ActionTag": -948235510,
+                "Size": {
+                  "X": 148.0,
+                  "Y": 77.0
+                },
+                "VisibleForFrame": false,
+                "Name": "got_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/share_task_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 15,
+                "Scale9Width": 44,
+                "Scale9Height": 53,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.97,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.07,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0766,
+                  "Y": 0.8137
+                },
+                "LeftMargin": 33.97,
+                "RightMargin": 955.03,
+                "TopMargin": 9.5,
+                "BottomMargin": 9.5,
+                "Tag": 247,
+                "ActionTag": -717224510,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 83.0
+                },
+                "Name": "head_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "每日分享\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 147.798,
+                  "Y": 67.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 151,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.138,
+                  "Y": 0.66
+                },
+                "PreSize": {
+                  "X": 0.2642,
+                  "Y": 0.2647
+                },
+                "LeftMargin": 147.798,
+                "RightMargin": 640.202,
+                "TopMargin": 21.18,
+                "BottomMargin": 53.82,
+                "Tag": 248,
+                "ActionTag": 49503316,
+                "Size": {
+                  "X": 283.0,
+                  "Y": 27.0
+                },
+                "Name": "name_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "999/999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 337.7934,
+                  "Y": 29.784
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3154,
+                  "Y": 0.292
+                },
+                "PreSize": {
+                  "X": 0.1214,
+                  "Y": 0.2647
+                },
+                "LeftMargin": 272.7934,
+                "RightMargin": 668.2066,
+                "TopMargin": 58.716,
+                "BottomMargin": 16.284,
+                "Tag": 249,
+                "ActionTag": -510242581,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 27.0
+                },
+                "Name": "num_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "TaskUI/card_reward_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 15,
+                "Scale9Width": 53,
+                "Scale9Height": 30,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 610.47,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.57,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.085,
+                  "Y": 0.5882
+                },
+                "LeftMargin": 564.97,
+                "RightMargin": 415.03,
+                "TopMargin": 21.0,
+                "BottomMargin": 21.0,
+                "Tag": 250,
+                "ActionTag": 27974267,
+                "Size": {
+                  "X": 91.0,
+                  "Y": 60.0
+                },
+                "Name": "reward_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1424220932,
+            "Size": {
+              "X": 1071.0,
+              "Y": 102.0
+            },
+            "Name": "item_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/zhunyuan.ttf",
+        "GameHallShareUI/lb1.fnt",
+        "GameHallShareUI/lb1_0.png",
+        "TaskUI/card_reward_img.png",
+        "TaskUI/get_btn.png",
+        "TaskUI/got_btn.png",
+        "TaskUI/line1.png",
+        "TaskUI/line2.png",
+        "TaskUI/printed.png",
+        "TaskUI/share_task_img.png",
+        "TaskUI/to_get_btn.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

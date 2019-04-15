@@ -1,0 +1,20 @@
+<root>
+	<Properties>
+        <history>
+            <Type>			PY_DICT		</Type>
+            <Flags>			BASE		</Flags>
+            <Persistent>	true		</Persistent>
+            <Default>	    {}          </Default>
+        </history>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

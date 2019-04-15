@@ -1,0 +1,462 @@
+{
+  "ID": "6c78f1b6-e061-497a-a621-7f025ce9c763",
+  "Version": "3.10.0.0",
+  "Name": "LL7PreviousUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 18,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 153,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -422,
+            "Scale9OriginY": -237,
+            "Scale9Width": 844,
+            "Scale9Height": 474,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 4227,
+            "ActionTag": 560953100,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LL7GameRoomUI/previous_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 333,
+            "Scale9OriginY": 158,
+            "Scale9Width": 346,
+            "Scale9Height": 165,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 432.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.7906,
+              "Y": 0.6681
+            },
+            "LeftMargin": 134.016,
+            "RightMargin": 134.016,
+            "TopMargin": 47.4839,
+            "BottomMargin": 191.484,
+            "Tag": 426,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/previous_title.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 43,
+                "Scale9OriginY": 17,
+                "Scale9Width": 45,
+                "Scale9Height": 18,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 508.4127,
+                  "Y": 443.271
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5024,
+                  "Y": 0.9215
+                },
+                "PreSize": {
+                  "X": 0.1295,
+                  "Y": 0.1081
+                },
+                "LeftMargin": 442.9127,
+                "RightMargin": 438.0554,
+                "TopMargin": 11.761,
+                "BottomMargin": 417.271,
+                "Tag": 427,
+                "ActionTag": -1251037153,
+                "Size": {
+                  "X": 131.0,
+                  "Y": 52.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1993007788,
+            "Size": {
+              "X": 1011.968,
+              "Y": 481.032
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 423,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LL7DeskTileNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 179.2,
+                  "Y": 326.592
+                },
+                "Scale": {
+                  "ScaleX": 0.78,
+                  "ScaleY": 0.78
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.14,
+                  "Y": 0.4536
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 179.2,
+                "RightMargin": 1100.8,
+                "TopMargin": 393.408,
+                "BottomMargin": 326.592,
+                "Tag": 5420,
+                "ActionTag": 1288181734,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_desk_panel4",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LL7DeskTileNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 179.2,
+                  "Y": 512.784
+                },
+                "Scale": {
+                  "ScaleX": 0.78,
+                  "ScaleY": 0.78
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.14,
+                  "Y": 0.7122
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 179.2,
+                "RightMargin": 1100.8,
+                "TopMargin": 207.216,
+                "BottomMargin": 512.784,
+                "Tag": 5482,
+                "ActionTag": 1827931512,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_desk_panel3",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LL7DeskTileNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 431.36,
+                  "Y": 512.784
+                },
+                "Scale": {
+                  "ScaleX": 0.78,
+                  "ScaleY": 0.78
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.337,
+                  "Y": 0.7122
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 431.36,
+                "RightMargin": 848.64,
+                "TopMargin": 207.216,
+                "BottomMargin": 512.784,
+                "Tag": 5544,
+                "ActionTag": -424723866,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_desk_panel2",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LL7DeskTileNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 431.36,
+                  "Y": 326.592
+                },
+                "Scale": {
+                  "ScaleX": 0.78,
+                  "ScaleY": 0.78
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.337,
+                  "Y": 0.4536
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 431.36,
+                "RightMargin": 848.64,
+                "TopMargin": 393.408,
+                "BottomMargin": 326.592,
+                "Tag": 5606,
+                "ActionTag": 573813206,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_desk_panel1",
+                "ctype": "ProjectNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LL7DeskTileNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 287.616,
+                  "Y": 279.0
+                },
+                "Scale": {
+                  "ScaleX": 0.78,
+                  "ScaleY": 0.78
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2247,
+                  "Y": 0.3875
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 287.616,
+                "RightMargin": 992.384,
+                "TopMargin": 441.0,
+                "BottomMargin": 279.0,
+                "Tag": 5358,
+                "ActionTag": -1330042863,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_desk_panel0",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 809396478,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "previous_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "LL7DeskTileNode.json",
+        "LL7GameRoomUI.plist",
+        "LL7GameRoomUI.png",
+        "LL7GameRoomUI/previous_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,816 @@
+{
+  "ID": "580bb830-29f2-406d-a863-4f56f09682fd",
+  "Version": "3.10.0.0",
+  "Name": "ClubInviteUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 305,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7797,
+              "Y": 0.8333
+            },
+            "LeftMargin": 141.0,
+            "RightMargin": 141.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 60.0,
+            "Tag": 14183,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/prepare.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 118,
+                "Scale9OriginY": 135,
+                "Scale9Width": 491,
+                "Scale9Height": 21,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.0,
+                  "Y": 312.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.52
+                },
+                "PreSize": {
+                  "X": 0.7275,
+                  "Y": 0.9867
+                },
+                "LeftMargin": 136.0,
+                "RightMargin": 136.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 16.0,
+                "Tag": 14184,
+                "ActionTag": 1330397682,
+                "Size": {
+                  "X": 726.0,
+                  "Y": 592.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ClubInviteUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 56,
+                "Scale9OriginY": 12,
+                "Scale9Width": 59,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.0,
+                  "Y": 579.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.965
+                },
+                "PreSize": {
+                  "X": 0.1713,
+                  "Y": 0.0617
+                },
+                "LeftMargin": 413.5,
+                "RightMargin": 413.5,
+                "TopMargin": 2.5,
+                "BottomMargin": 560.5,
+                "Tag": 14218,
+                "ActionTag": -1949362278,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 37.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ClubInviteUI/close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 17,
+                "Scale9Height": 24,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 823.35,
+                  "Y": 577.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.825,
+                  "Y": 0.962
+                },
+                "PreSize": {
+                  "X": 0.0471,
+                  "Y": 0.0767
+                },
+                "LeftMargin": 799.85,
+                "RightMargin": 151.15,
+                "TopMargin": -0.2,
+                "BottomMargin": 554.2,
+                "Tag": 162,
+                "ActionTag": 1456870626,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 46.0
+                },
+                "Name": "close_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ClubInviteUI/line.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 56,
+                "Scale9Width": 591,
+                "Scale9Height": 3,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.0,
+                  "Y": 550.98
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9183
+                },
+                "PreSize": {
+                  "X": 0.7044,
+                  "Y": 0.005
+                },
+                "LeftMargin": 147.5,
+                "RightMargin": 147.5,
+                "TopMargin": 47.52,
+                "BottomMargin": 549.48,
+                "Tag": 14219,
+                "ActionTag": -2086395060,
+                "Size": {
+                  "X": 703.0,
+                  "Y": 3.0
+                },
+                "Name": "line_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 651,
+                  "Height": 500
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.0,
+                  "Y": 281.1
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4685
+                },
+                "PreSize": {
+                  "X": 0.6523,
+                  "Y": 0.8333
+                },
+                "LeftMargin": 173.5,
+                "RightMargin": 173.5,
+                "TopMargin": 68.9,
+                "BottomMargin": 31.1,
+                "Tag": 14297,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.6
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.204
+                    },
+                    "TopMargin": 98.0,
+                    "BottomMargin": 300.0,
+                    "Tag": 14298,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "ClubInviteUI/light_img.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 214,
+                        "Scale9OriginY": 31,
+                        "Scale9Width": 223,
+                        "Scale9Height": 26,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 325.5,
+                          "Y": 51.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.8627
+                        },
+                        "TopMargin": 7.0,
+                        "BottomMargin": 7.0,
+                        "Tag": 14299,
+                        "ActionTag": -379966174,
+                        "Size": {
+                          "X": 651.0,
+                          "Y": 88.0
+                        },
+                        "Name": "light_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 26,
+                        "LabelText": "空闲",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 351.54,
+                          "Y": 51.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 240,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.54,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0829,
+                          "Y": 0.2941
+                        },
+                        "LeftMargin": 324.54,
+                        "RightMargin": 272.46,
+                        "TopMargin": 36.0,
+                        "BottomMargin": 36.0,
+                        "Tag": 14300,
+                        "ActionTag": -2054661998,
+                        "Size": {
+                          "X": 54.0,
+                          "Y": 30.0
+                        },
+                        "Name": "state_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "ClubInviteUI/wait_btn.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 122,
+                        "Scale9Height": 42,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 556.605,
+                          "Y": 51.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.855,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.2335,
+                          "Y": 0.6275
+                        },
+                        "LeftMargin": 480.605,
+                        "RightMargin": 18.395,
+                        "TopMargin": 19.0,
+                        "BottomMargin": 19.0,
+                        "Tag": 14301,
+                        "Children": [
+                          {
+                            "LabelText": "12:00",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "ClubInviteUI/shuz.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 76.0,
+                              "Y": 32.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.7237,
+                              "Y": 0.5
+                            },
+                            "LeftMargin": 21.0,
+                            "RightMargin": 21.0,
+                            "TopMargin": 16.0,
+                            "BottomMargin": 16.0,
+                            "Tag": 14305,
+                            "ActionTag": 1292737508,
+                            "Size": {
+                              "X": 110.0,
+                              "Y": 32.0
+                            },
+                            "Name": "time_label",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": 152162129,
+                        "Size": {
+                          "X": 152.0,
+                          "Y": 64.0
+                        },
+                        "Name": "wait_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "CirclePopUI/apply_btn_normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 109,
+                        "Scale9Height": 38,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 556.605,
+                          "Y": 51.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.1,
+                          "ScaleY": 1.1
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.855,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.2135,
+                          "Y": 0.5882
+                        },
+                        "LeftMargin": 487.105,
+                        "RightMargin": 24.895,
+                        "TopMargin": 21.0,
+                        "BottomMargin": 21.0,
+                        "Tag": 14306,
+                        "ActionTag": 1472833373,
+                        "Size": {
+                          "X": 139.0,
+                          "Y": 60.0
+                        },
+                        "Name": "invite_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "CirclePopUI/frame_img.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 19,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 47,
+                        "Scale9Height": 55,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 52.08,
+                          "Y": 51.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.9,
+                          "ScaleY": 0.9
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.08,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.1306,
+                          "Y": 0.8333
+                        },
+                        "LeftMargin": 9.58,
+                        "RightMargin": 556.42,
+                        "TopMargin": 8.5,
+                        "BottomMargin": 8.5,
+                        "Tag": 14302,
+                        "ActionTag": -191809441,
+                        "Size": {
+                          "X": 85.0,
+                          "Y": 85.0
+                        },
+                        "Name": "head_img_frame",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 25,
+                        "LabelText": "快乐大本营天天",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 180.978,
+                          "Y": 51.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.278,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.2627,
+                          "Y": 0.2647
+                        },
+                        "LeftMargin": 95.478,
+                        "RightMargin": 384.522,
+                        "TopMargin": 37.5,
+                        "BottomMargin": 37.5,
+                        "Tag": 14303,
+                        "ActionTag": 1624416195,
+                        "Size": {
+                          "X": 171.0,
+                          "Y": 27.0
+                        },
+                        "Name": "name_label",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 890556335,
+                    "Size": {
+                      "X": 651.0,
+                      "Y": 102.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "item_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 1710508055,
+                "Size": {
+                  "X": 651.0,
+                  "Y": 500.0
+                },
+                "Name": "invite_scroll",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": -562073804,
+            "Size": {
+              "X": 998.0,
+              "Y": 600.0
+            },
+            "Name": "gps_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "CirclePopUI/apply_btn_normal.png",
+        "CirclePopUI/frame_img.png",
+        "ClubInviteUI/close.png",
+        "ClubInviteUI/light_img.png",
+        "ClubInviteUI/line.png",
+        "ClubInviteUI/shuz.fnt",
+        "ClubInviteUI/shuz_0.png",
+        "ClubInviteUI/title.png",
+        "ClubInviteUI/wait_btn.png",
+        "font/zhunyuan.ttf",
+        "GameRoomUI/prepare.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

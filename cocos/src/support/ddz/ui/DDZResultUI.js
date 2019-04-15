@@ -1,0 +1,3 @@
+var DDZResultUI = PokerResultUI.extend({
+
+});

@@ -1,0 +1,22 @@
+<root>
+	<Parent>	Room_JZMJ	</Parent>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+

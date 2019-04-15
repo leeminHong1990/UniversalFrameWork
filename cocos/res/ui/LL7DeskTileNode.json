@@ -1,0 +1,2674 @@
+{
+  "ID": "802f8fe2-5921-48f6-a34d-c57d51d2b074",
+  "Version": "3.10.0.0",
+  "Name": "LL7DeskTileNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 773,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -153.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 40.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 40.0,
+            "RightMargin": -193.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 80.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 80.0,
+            "RightMargin": -233.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 120.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 120.0,
+            "RightMargin": -273.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 160.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 160.0,
+            "RightMargin": -313.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_4",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 200.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 200.0,
+            "RightMargin": -353.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_5",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 240.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": -393.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_6",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 280.0,
+            "RightMargin": -433.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_7",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 320.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 320.0,
+            "RightMargin": -473.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_8",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 360.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 360.0,
+            "RightMargin": -513.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_9",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 400.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 400.0,
+            "RightMargin": -553.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_10",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 440.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 440.0,
+            "RightMargin": -593.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_11",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 480.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": -633.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_12",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 520.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 520.0,
+            "RightMargin": -673.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_13",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 560.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 560.0,
+            "RightMargin": -713.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_14",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 600.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": -753.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_15",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 640.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 640.0,
+            "RightMargin": -793.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_16",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 680.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 680.0,
+            "RightMargin": -833.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_17",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 720.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 720.0,
+            "RightMargin": -873.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_18",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 760.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.63,
+              "ScaleY": 0.63
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 760.0,
+            "RightMargin": -913.0,
+            "TopMargin": -214.0,
+            "Tag": 776,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/mark_big.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 17,
+                "Scale9Width": 82,
+                "Scale9Height": 73,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 149.98,
+                  "Y": 3.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9803,
+                  "Y": 0.014
+                },
+                "PreSize": {
+                  "X": 0.7843,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.98,
+                "RightMargin": 3.02,
+                "TopMargin": 104.0,
+                "BottomMargin": 3.0,
+                "Tag": 634,
+                "ActionTag": 1580645554,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 107.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_big",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "LL7GameRoomUI/star.png",
+                  "Plist": "LL7GameRoomUI.plist"
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 18,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7525,
+                  "Y": 30.93
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1945,
+                  "Y": 0.1445
+                },
+                "PreSize": {
+                  "X": 0.2876,
+                  "Y": 0.2009
+                },
+                "LeftMargin": 7.7525,
+                "RightMargin": 101.2475,
+                "TopMargin": 161.57,
+                "BottomMargin": 9.43,
+                "Tag": 635,
+                "ActionTag": 1735939,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 43.0
+                },
+                "VisibleForFrame": false,
+                "Name": "mark_star",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2015782756,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_19",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LL7GameRoomUI.plist",
+        "LL7GameRoomUI.png",
+        "Poker.plist",
+        "Poker.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

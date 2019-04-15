@@ -1,0 +1,1837 @@
+<Solution>
+  <PropertyGroup Name="TYQP" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="ActivityUI">
+          <Image Name="activity_btn_normal.png" />
+          <Image Name="activity_btn_select.png" />
+          <Image Name="line.png" />
+          <Image Name="notice_img1.png" />
+          <Image Name="notice_img4.png" />
+          <Image Name="title.png" />
+          <Image Name="view.png" />
+        </Folder>
+        <Folder Name="AddMineUI">
+          <Image Name="ball.png" />
+          <Image Name="ball_bg.png" />
+          <Image Name="bg.png" />
+          <Image Name="copy_btn.png" />
+          <Image Name="step_0.png" />
+          <Image Name="step_1.png" />
+          <Image Name="step_2.png" />
+          <Image Name="step_3.png" />
+        </Folder>
+        <Folder Name="ApplyCloseUI">
+          <Image Name="agree.png" />
+          <Image Name="agree_btn.png" />
+          <Image Name="frame.png" />
+          <Image Name="refuse.png" />
+          <Image Name="refuse_btn.png" />
+          <Image Name="title.png" />
+          <Image Name="unselect.png" />
+        </Folder>
+        <Folder Name="AudioRecordUI">
+          <Image Name="audiorecord_bg.png" />
+          <Image Name="audiorecord_hint_img.png" />
+          <Image Name="audiorecord_icon_img.png" />
+        </Folder>
+        <Folder Name="AuthentucateUI">
+          <Image Name="anti_addiction_btn.png" />
+          <Image Name="bg.png" />
+          <Image Name="binding_cellphone.png" />
+          <Image Name="binding_identification.png" />
+          <Image Name="cellphone_bg.png" />
+          <Image Name="cellphone_btn.png" />
+          <Image Name="check_label.png" />
+          <Image Name="get_check_identi.png" />
+          <Image Name="get_check_phone.png" />
+          <Image Name="id_tips.png" />
+          <Image Name="identification_btn.png" />
+          <Image Name="init_title.png" />
+          <Image Name="phone_label.png" />
+          <Image Name="submit_btn.png" />
+          <Image Name="tips.png" />
+          <Image Name="title.png" />
+          <Image Name="verificate_bg.png" />
+          <Image Name="verificate_btn.png" />
+        </Folder>
+        <Folder Name="BackGround">
+          <Image Name="Background.png" />
+          <Image Name="bg.png" />
+          <Image Name="bg_corner.png" />
+          <Image Name="bg_flower.png" />
+          <Image Name="bg_leaf.png" />
+          <Image Name="bg_line.png" />
+          <Image Name="bg_top.png" />
+          <Image Name="big_win.png" />
+          <Image Name="club_bg.png" />
+          <Image Name="club_relevant_bg.png" />
+          <Image Name="joinroom_bg.png" />
+          <Image Name="player_win.png" />
+          <Image Name="printed.png" />
+          <Image Name="printed3.png" />
+          <Image Name="record_bg.png" />
+          <Image Name="red_flag.png" />
+          <Image Name="share_bg.png" />
+          <Image Name="small_win.png" />
+          <Image Name="superinfo_bg.png" />
+          <Image Name="task_bg.png" />
+          <Image Name="title.png" />
+          <Image Name="write_bg.png" />
+        </Folder>
+        <Folder Name="biaoqing">
+          <Image Name="emotion_1_0.png" />
+          <Image Name="emotion_1_1.png" />
+          <Image Name="emotion_10_0.png" />
+          <Image Name="emotion_10_1.png" />
+          <Image Name="emotion_11_0.png" />
+          <Image Name="emotion_11_1.png" />
+          <Image Name="emotion_11_2.png" />
+          <Image Name="emotion_11_3.png" />
+          <Image Name="emotion_11_4.png" />
+          <Image Name="emotion_11_5.png" />
+          <Image Name="emotion_12_0.png" />
+          <Image Name="emotion_12_1.png" />
+          <Image Name="emotion_12_2.png" />
+          <Image Name="emotion_2_0.png" />
+          <Image Name="emotion_2_1.png" />
+          <Image Name="emotion_2_2.png" />
+          <Image Name="emotion_2_3.png" />
+          <Image Name="emotion_3_0.png" />
+          <Image Name="emotion_3_1.png" />
+          <Image Name="emotion_3_2.png" />
+          <Image Name="emotion_3_3.png" />
+          <Image Name="emotion_3_4.png" />
+          <Image Name="emotion_3_5.png" />
+          <Image Name="emotion_3_6.png" />
+          <Image Name="emotion_4_0.png" />
+          <Image Name="emotion_4_1.png" />
+          <Image Name="emotion_4_2.png" />
+          <Image Name="emotion_4_3.png" />
+          <Image Name="emotion_4_4.png" />
+          <Image Name="emotion_5_0.png" />
+          <Image Name="emotion_5_1.png" />
+          <Image Name="emotion_6_0.png" />
+          <Image Name="emotion_6_1.png" />
+          <Image Name="emotion_6_2.png" />
+          <Image Name="emotion_6_3.png" />
+          <Image Name="emotion_7_0.png" />
+          <Image Name="emotion_7_1.png" />
+          <Image Name="emotion_8_0.png" />
+          <Image Name="emotion_8_1.png" />
+          <Image Name="emotion_9_0.png" />
+          <Image Name="emotion_9_1.png" />
+          <Image Name="emotion_9_2.png" />
+          <Image Name="emotion_9_3.png" />
+          <Image Name="emotion_9_4.png" />
+          <Image Name="emotion_9_5.png" />
+          <Image Name="emotion_9_6.png" />
+        </Folder>
+        <Folder Name="CirclePopUI">
+          <Image Name="air_img.png" />
+          <Image Name="apply_btn_normal.png" />
+          <Image Name="apply_img.png" />
+          <Image Name="base_img.png" />
+          <Image Name="base_img1.png" />
+          <Image Name="base_img2.png" />
+          <Image Name="billboard_btn.png" />
+          <Image Name="billboard_printed.png" />
+          <Image Name="btn_close.png" />
+          <Image Name="btn_open.png" />
+          <Image Name="cancel_btn_normal.png" />
+          <Image Name="circle_bg.png" />
+          <Image Name="circle_record_all_normal.png" />
+          <Image Name="circle_record_all_select.png" />
+          <Image Name="circle_record_mine_normal.png" />
+          <Image Name="circle_record_mine_select.png" />
+          <Image Name="circle_record_yesterday_normal.png" />
+          <Image Name="circle_record_yesterday_select.png" />
+          <Image Name="club_mem_mark_agree_normal.png" />
+          <Image Name="club_mem_mark_delete_normal.png" />
+          <Image Name="club_mem_refuse_normal.png" />
+          <Image Name="create_btn_normal.png" />
+          <Image Name="createclub_printed.png" />
+          <Image Name="createclub_title.png" />
+          <Image Name="design.png" />
+          <Image Name="detail_title_img.png" />
+          <Image Name="details_btn_normal.png" />
+          <Image Name="dismiss_room_set_btn.png" />
+          <Image Name="frame_img.png" />
+          <Image Name="frame_printed.png" />
+          <Image Name="join_close_btn.png" />
+          <Image Name="join_club_tips.png" />
+          <Image Name="join_create_btn_normal.png" />
+          <Image Name="join_join_btn_normal.png" />
+          <Image Name="l_switch_btn.png" />
+          <Image Name="light_img.png" />
+          <Image Name="line.png" />
+          <Image Name="meber_img.png" />
+          <Image Name="off_img.png" />
+          <Image Name="open_img.png" />
+          <Image Name="page_left_enabled.png" />
+          <Image Name="page_left_normal.png" />
+          <Image Name="page_limit_img.png" />
+          <Image Name="page_normal_img.png" />
+          <Image Name="page_right_enabled.png" />
+          <Image Name="page_right_normal.png" />
+          <Image Name="pop_cancel_btn_normal.png" />
+          <Image Name="pop_sure_btn_normal.png" />
+          <Image Name="prompt_title.png" />
+          <Image Name="quit_btn_normal.png" />
+          <Image Name="rank_num.png" />
+          <Image Name="rank_scroll_bg1.png" />
+          <Image Name="rank_scroll_bg2.png" />
+          <Image Name="rank_title.png" />
+          <Image Name="rank1.png" />
+          <Image Name="rank2.png" />
+          <Image Name="rank3.png" />
+          <Image Name="record_details_printed.png" />
+          <Image Name="record_details_title.png" />
+          <Image Name="record_printed.png" />
+          <Image Name="record_title.png" />
+          <Image Name="recorddetail_img.png" />
+          <Image Name="replay_btn_normal.png" />
+          <Image Name="scroll_bg.png" />
+          <Image Name="search_bg.png" />
+          <Image Name="search_img.png" />
+          <Image Name="set_mgr_printd.png" />
+          <Image Name="set_name_btn_normal.png" />
+          <Image Name="set_title.png" />
+          <Image Name="sort_btn_img.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="ClubInviteUI">
+          <Image Name="close.png" />
+          <Image Name="light_img.png" />
+          <Image Name="line.png" />
+          <Fnt Name="shuz.fnt" />
+          <Image Name="title.png" />
+          <Image Name="wait_btn.png" />
+        </Folder>
+        <Folder Name="ClubMemberUI">
+          <Image Name="add_black_btn.png" />
+          <Image Name="admin_img.png" />
+          <Image Name="admin_long_img.png" />
+          <Image Name="cancel_btn.png" />
+          <Image Name="club_mem_all.png" />
+          <Image Name="club_mem_apply.png" />
+          <Image Name="club_mem_bg.png" />
+          <Image Name="club_mem_cell.png" />
+          <Image Name="club_mem_clear_btn.png" />
+          <Image Name="club_mem_dark_bg.png" />
+          <Image Name="club_mem_delete_btn.png" />
+          <Image Name="club_mem_invite.png" />
+          <Image Name="club_mem_invite_btn.png" />
+          <Image Name="club_mem_mark_agree.png" />
+          <Image Name="club_mem_mark_btn.png" />
+          <Image Name="club_mem_mark_delete.png" />
+          <Image Name="club_mem_mgr.png" />
+          <Image Name="club_mem_refuse.png" />
+          <Image Name="club_mem_search_bg.png" />
+          <Image Name="club_mem_search_btn.png" />
+          <Image Name="club_mem_search_info_bg.png" />
+          <Image Name="club_room_detail_head_icon.png" />
+          <Image Name="last_page_btn.png" />
+          <Image Name="next_page_btn.png" />
+          <Image Name="owner_img.png" />
+          <Image Name="printed.png" />
+          <Image Name="set_admin_btn.png" />
+        </Folder>
+        <Folder Name="ClubUI">
+          <Image Name="club_back.png" />
+          <Image Name="club_back_dark.png" />
+          <Image Name="club_bg.png" />
+          <Image Name="club_bind_code_img.png" />
+          <Image Name="club_bind_id_img.png" />
+          <Image Name="club_bottom_bind_btn.png" />
+          <Image Name="club_bottom_board.png" />
+          <Image Name="club_bottom_both_btn.png" />
+          <Image Name="club_bottom_fast_join.png" />
+          <Image Name="club_bottom_instruction.png" />
+          <Image Name="club_bottom_mem.png" />
+          <Image Name="club_bottom_mgr.png" />
+          <Image Name="club_bottom_mgr_common.png" />
+          <Image Name="club_bottom_rank_list.png" />
+          <Image Name="club_bottom_record.png" />
+          <Image Name="club_bottom_setting.png" />
+          <Image Name="club_bottom_setting_btn.png" />
+          <Image Name="club_bottom_setting_dark.png" />
+          <Image Name="club_bottom_setting_img.png" />
+          <Image Name="club_buy_btn.png" />
+          <Image Name="club_buy_btn_dark.png" />
+          <Image Name="club_card.png" />
+          <Image Name="club_card_explain_bg.png" />
+          <Image Name="club_card_num_bg.png" />
+          <Image Name="club_desk.png" />
+          <Image Name="club_dismiss_bg.png" />
+          <Image Name="club_dismiss_bg_dark.png" />
+          <Image Name="club_dismiss_label_img.png" />
+          <Image Name="club_full_btn.png" />
+          <Image Name="club_help_bg.png" />
+          <Image Name="club_help_btn.png" />
+          <Image Name="club_join_btn.png" />
+          <Image Name="club_modified_bg.png" />
+          <Image Name="club_modify_bg.png" />
+          <Image Name="club_modify_bg_dark.png" />
+          <Image Name="club_modify_label_img.png" />
+          <Image Name="club_name_bg.png" />
+          <Image Name="club_statistics_bg.png" />
+          <Image Name="club_statistics_img.png" />
+          <Image Name="club_stool.png" />
+          <Image Name="club_title_center_bg.png" />
+          <Image Name="club_title_center_bg_dark.png" />
+          <Image Name="club_title_left_bg.png" />
+          <Image Name="club_title_left_bg_dark.png" />
+          <Image Name="club_title_right_bg.png" />
+          <Image Name="club_title_right_bg_dark.png" />
+          <Image Name="desk_label_printed.png" />
+        </Folder>
+        <Folder Name="CommunicateUI">
+          <Image Name="chatrecord_btn1.png" />
+          <Image Name="chatrecord_btn2.png" />
+          <Image Name="communicate_bg.png" />
+          <Image Name="communicate_frame.png" />
+          <Image Name="emot_btn1.png" />
+          <Image Name="emot_btn2.png" />
+          <Image Name="fiscal_btn.png" />
+          <Image Name="fiscal_btn1.png" />
+          <Image Name="fiscal_btn2.png" />
+          <Image Name="head_btn.png" />
+          <Image Name="mask_bg.png" />
+          <Image Name="send_btn.png" />
+          <Image Name="voice_bg.png" />
+          <Image Name="voice_btn1.png" />
+          <Image Name="voice_btn2.png" />
+        </Folder>
+        <Folder Name="ConfigUI">
+          <Image Name="2D.png" />
+          <Image Name="3D.png" />
+          <Image Name="applyclose_btn.png" />
+          <Image Name="bar.png" />
+          <Image Name="bar_bg.png" />
+          <Image Name="bar_btn.png" />
+          <Image Name="bar_out_btn.png" />
+          <Image Name="bar_out_btn_effect.png" />
+          <Image Name="chx.png" />
+          <Image Name="chx_bg.png" />
+          <Image Name="close_btn.png" />
+          <Image Name="color_blue.png" />
+          <Image Name="color_classic.png" />
+          <Image Name="color_frame.png" />
+          <Image Name="color_green.png" />
+          <Image Name="config_pbar.png" />
+          <Image Name="config_pbar_bg.png" />
+          <Image Name="desktop_customization.png" />
+          <Image Name="effect_title.png" />
+          <Image Name="effect_title_out.png" />
+          <Image Name="frame_title.png" />
+          <Image Name="func_title.png" />
+          <Image Name="gameconfig_bg.png" />
+          <Image Name="local_language.png" />
+          <Image Name="local_language_out.png" />
+          <Image Name="logout_btn.png" />
+          <Image Name="long_bar.png" />
+          <Image Name="long_bar_bg.png" />
+          <Image Name="mahjong_blue.png" />
+          <Image Name="mahjong_frame.png" />
+          <Image Name="mahjong_green.png" />
+          <Image Name="mahjong_yellow.png" />
+          <Image Name="mode_frame.png" />
+          <Image Name="music_chx.png" />
+          <Image Name="music_chx_bg.png" />
+          <Image Name="music_title.png" />
+          <Image Name="music_title_out.png" />
+          <Image Name="music1.png" />
+          <Image Name="music2.png" />
+          <Image Name="out_btn.png" />
+          <Image Name="parent_plan.png" />
+          <Image Name="privacy_panel.png" />
+          <Image Name="pt_language.png" />
+          <Image Name="pt_language_out.png" />
+          <Image Name="return_btn.png" />
+          <Image Name="title.png" />
+          <Image Name="title_2d3d.png" />
+          <Image Name="title_bg.png" />
+          <Image Name="title_language.png" />
+          <Image Name="title_mahjong_color.png" />
+          <Image Name="title_music.png" />
+          <Image Name="user_plan.png" />
+          <Image Name="yellow_bg.png" />
+        </Folder>
+        <Folder Name="CreateRoomUI">
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="CSUI">
+          <Image Name="cs_copy.png" />
+          <Image Name="cs_public_num.png" />
+          <Image Name="cs_title.png" />
+          <Image Name="cs_wx_bg.png" />
+          <Image Name="cs_wx_num.png" />
+          <Image Name="msg_bg.png" />
+          <Image Name="phone_bg.png" />
+          <Image Name="phone_number.png" />
+        </Folder>
+        <Folder Name="DDZAction">
+          <Folder Name="Airplane">
+            <Image Name="feiji01.png" />
+            <Image Name="feiji02.png" />
+            <Image Name="feiji03.png" />
+          </Folder>
+          <Folder Name="Bomb">
+            <Image Name="1.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+          </Folder>
+          <Folder Name="Rocket">
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="DDZGameRoomUI">
+          <Image Name="3with1_img.png" />
+          <Image Name="3with2_img.png" />
+          <Image Name="4with2_img.png" />
+          <Image Name="add_mul_img.png" />
+          <Image Name="bottom_bg.png" />
+          <Image Name="coin.png" />
+          <Image Name="dealer_btn.png" />
+          <Image Name="dealer_img.png" />
+          <Image Name="discard_btn.png" />
+          <Image Name="fail_bg.png" />
+          <Image Name="grab_dealer_btn.png" />
+          <Image Name="head_img.png" />
+          <Image Name="head_mul_img.png" />
+          <Image Name="help_btn.png" />
+          <Image Name="mul_btn.png" />
+          <Image Name="mul_img.png" />
+          <Image Name="no_mul_btn.png" />
+          <Image Name="no_mul_img.png" />
+          <Image Name="op_bet_1_img.png" />
+          <Image Name="op_bet_2_img.png" />
+          <Image Name="op_bet_3_img.png" />
+          <Image Name="op_mul_1_btn.png" />
+          <Image Name="op_mul_2_btn.png" />
+          <Image Name="op_mul_3_btn.png" />
+          <Image Name="op_no_btn.png" />
+          <Image Name="op_pass_btn.png" />
+          <Image Name="op_pass_discard_img.png" />
+          <Image Name="op_pass_jiao_img.png" />
+          <Image Name="op_pass_qiang_img.png" />
+          <Image Name="pass_dealer_btn.png" />
+          <Image Name="pass_jiao_btn.png" />
+          <Image Name="player_dealer_img.png" />
+          <Image Name="qiang_dealer_img.png" />
+          <Image Name="spring_img.png" />
+          <Image Name="win_bg.png" />
+        </Folder>
+        <Folder Name="Default">
+          <Image Name="ad_bar.png" />
+          <Image Name="back_btn.png" />
+          <Image Name="back_hall_btn.png" />
+          <Image Name="bottom_bg.png" />
+          <Image Name="broadcast_bg.png" />
+          <Image Name="btn_line.png" />
+          <Image Name="bugle.png" />
+          <Image Name="Button_Disable.png" />
+          <Image Name="Button_Normal.png" />
+          <Image Name="Button_Press.png" />
+          <Image Name="cancel_btn.png" />
+          <Image Name="CheckBox_Disable.png" />
+          <Image Name="CheckBox_Normal.png" />
+          <Image Name="CheckBox_Press.png" />
+          <Image Name="CheckBoxNode_Disable.png" />
+          <Image Name="CheckBoxNode_Normal.png" />
+          <Image Name="chx_bg.png" />
+          <Image Name="chx_circle_bg.png" />
+          <Image Name="chx_circle_img.png" />
+          <Image Name="chx_select.png" />
+          <Image Name="chx_unselect.png" />
+          <Image Name="close.png" />
+          <Image Name="close_btn.png" />
+          <Image Name="close_btn_bright.png" />
+          <Image Name="common_blank.png" />
+          <Image Name="common_dealer_img.png" />
+          <Image Name="common_mai_img.png" />
+          <Image Name="common_panel_bg.png" />
+          <Image Name="common_portrait_frame3.png" />
+          <Image Name="common_portrait_frame4.png" />
+          <Image Name="common_portrait_mask.png" />
+          <Image Name="common_ready_img.png" />
+          <Image Name="common_ready_img_yellow.png" />
+          <Image Name="common_roomowner_img.png" />
+          <Image Name="common_wxinvite_btn.png" />
+          <Image Name="continue_btn.png" />
+          <Image Name="continue_game_btn.png" />
+          <Image Name="ddz_btn_normal.png" />
+          <Image Name="ddz_btn_select.png" />
+          <Image Name="gsjmj_btn_normal.png" />
+          <Image Name="gsjmj_btn_select.png" />
+          <Image Name="gxmj.png" />
+          <Image Name="gxmj_select.png" />
+          <Image Name="ImageFile.png" />
+          <Image Name="kddmj_btn_normal.png" />
+          <Image Name="kddmj_btn_select.png" />
+          <Image Name="label_bg.png" />
+          <Image Name="leave_btn.png" />
+          <Image Name="line.png" />
+          <Image Name="lsmj_btn_normal.png" />
+          <Image Name="lsmj_btn_select.png" />
+          <Image Name="name_bg.png" />
+          <Image Name="ok_btn.png" />
+          <Image Name="prepare_btn.png" />
+          <Image Name="public_num.png" />
+          <Image Name="result_owner_img.png" />
+          <Image Name="return_btn.png" />
+          <Image Name="room_mode.png" />
+          <Image Name="room_mode_select.png" />
+          <Image Name="round_chx.png" />
+          <Image Name="round_chx_select.png" />
+          <Image Name="ruler_btn_normal.png" />
+          <Image Name="ruler_btn_select.png" />
+          <Image Name="score_bg.png" />
+          <Image Name="score_bg2.png" />
+          <Image Name="score_bg3.png" />
+          <Image Name="share_btn.png" />
+          <Image Name="share_btn_green.png" />
+          <Image Name="start_btn.png" />
+          <Image Name="sure_btn.png" />
+          <Image Name="tdhmj_btn_normal.png" />
+          <Image Name="tdhmj_btn_select.png" />
+          <Image Name="wechat_share_btn.png" />
+          <Image Name="xianliao_share_btn.png" />
+        </Folder>
+        <Folder Name="DisclaimerUI">
+          <Image Name="intro_img.png" />
+          <Image Name="receive_btn_normal.png" />
+          <Image Name="receive_btn_select.png" />
+          <Image Name="refuse_btn_normal.png" />
+          <Image Name="refuse_btn_select.png" />
+          <Image Name="scroll_bg.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="EditorUI">
+          <Image Name="editor_close_btn.png" />
+          <Image Name="editor_img.png" />
+          <Image Name="editor_label_bg.png" />
+        </Folder>
+        <Folder Name="Effect">
+          <Image Name="e.png" />
+          <Image Name="e1.png" />
+          <Image Name="guang.png" />
+          <Image Name="guang1.png" />
+          <Image Name="hongb.png" />
+          <Image Name="li.png" />
+          <Image Name="paomo.png" />
+          <Image Name="paomo1.png" />
+          <Image Name="ren.png" />
+          <Image Name="shou.png" />
+          <Image Name="shou1.png" />
+          <Image Name="shuid.png" />
+          <Image Name="xiangl.png" />
+          <Image Name="youshou.png" />
+          <Image Name="zuoshou.png" />
+        </Folder>
+        <Folder Name="Expression">
+          <Image Name="cheers_1.png" />
+          <Image Name="cheers_10.png" />
+          <Image Name="cheers_11.png" />
+          <Image Name="cheers_12.png" />
+          <Image Name="cheers_13.png" />
+          <Image Name="cheers_14.png" />
+          <Image Name="cheers_15.png" />
+          <Image Name="cheers_2.png" />
+          <Image Name="cheers_3.png" />
+          <Image Name="cheers_4.png" />
+          <Image Name="cheers_5.png" />
+          <Image Name="cheers_6.png" />
+          <Image Name="cheers_7.png" />
+          <Image Name="cheers_8.png" />
+          <Image Name="cheers_9.png" />
+          <Image Name="flower_1.png" />
+          <Image Name="flower_10.png" />
+          <Image Name="flower_11.png" />
+          <Image Name="flower_12.png" />
+          <Image Name="flower_13.png" />
+          <Image Name="flower_14.png" />
+          <Image Name="flower_15.png" />
+          <Image Name="flower_16.png" />
+          <Image Name="flower_17.png" />
+          <Image Name="flower_18.png" />
+          <Image Name="flower_19.png" />
+          <Image Name="flower_2.png" />
+          <Image Name="flower_20.png" />
+          <Image Name="flower_21.png" />
+          <Image Name="flower_22.png" />
+          <Image Name="flower_23.png" />
+          <Image Name="flower_24.png" />
+          <Image Name="flower_25.png" />
+          <Image Name="flower_26.png" />
+          <Image Name="flower_27.png" />
+          <Image Name="flower_28.png" />
+          <Image Name="flower_29.png" />
+          <Image Name="flower_3.png" />
+          <Image Name="flower_30.png" />
+          <Image Name="flower_31.png" />
+          <Image Name="flower_32.png" />
+          <Image Name="flower_4.png" />
+          <Image Name="flower_5.png" />
+          <Image Name="flower_6.png" />
+          <Image Name="flower_7.png" />
+          <Image Name="flower_8.png" />
+          <Image Name="flower_9.png" />
+          <Image Name="kiss_1.png" />
+          <Image Name="kiss_10.png" />
+          <Image Name="kiss_11.png" />
+          <Image Name="kiss_12.png" />
+          <Image Name="kiss_13.png" />
+          <Image Name="kiss_14.png" />
+          <Image Name="kiss_15.png" />
+          <Image Name="kiss_16.png" />
+          <Image Name="kiss_17.png" />
+          <Image Name="kiss_18.png" />
+          <Image Name="kiss_19.png" />
+          <Image Name="kiss_2.png" />
+          <Image Name="kiss_20.png" />
+          <Image Name="kiss_21.png" />
+          <Image Name="kiss_22.png" />
+          <Image Name="kiss_23.png" />
+          <Image Name="kiss_3.png" />
+          <Image Name="kiss_4.png" />
+          <Image Name="kiss_5.png" />
+          <Image Name="kiss_6.png" />
+          <Image Name="kiss_7.png" />
+          <Image Name="kiss_8.png" />
+          <Image Name="kiss_9.png" />
+        </Folder>
+        <Folder Name="flower_effect">
+          <Image Name="guang.png" />
+          <Image Name="guang1.png" />
+          <Image Name="hua1.png" />
+          <Image Name="hua2.png" />
+          <Image Name="hua3.png" />
+          <Image Name="renwu.png" />
+          <Image Name="shuizhu.png" />
+          <Image Name="tf.png" />
+          <Image Name="zhayan01.png" />
+          <Image Name="zhayan02.png" />
+        </Folder>
+        <Folder Name="font">
+          <TTF Name="zhunyuan.ttf" />
+        </Folder>
+        <Folder Name="GameHallAction">
+          <Image Name="chouchonglb.png" />
+          <Image Name="choujiang.png" />
+          <Image Name="choujiang1.png" />
+          <Image Name="guang.png" />
+          <Image Name="guang1.png" />
+          <Image Name="guang2.png" />
+          <Image Name="huodong.png" />
+          <Image Name="lbfangk.png" />
+          <Image Name="libao.png" />
+          <Image Name="panguang1.png" />
+          <Image Name="panguang12.png" />
+          <Image Name="panguang13.png" />
+          <Image Name="renwu.png" />
+          <Image Name="shangc.png" />
+          <Image Name="shangch.png" />
+          <Image Name="tf.png" />
+          <Image Name="zhayan01.png" />
+          <Image Name="zhayan02.png" />
+        </Folder>
+        <Folder Name="GameHallShareUI">
+          <Image Name="bind_btn.png" />
+          <Image Name="bind_img.png" />
+          <Image Name="bind_title.png" />
+          <Image Name="gift_img.png" />
+          <Image Name="gift_title.png" />
+          <Fnt Name="lb1.fnt" />
+          <Image Name="lb1_0.png" />
+          <Image Name="line.png" />
+          <Image Name="share_btn.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="GameHallUI">
+          <Image Name="add_btn.png" />
+          <Image Name="authenticate_btn.png" />
+          <Image Name="bg.jpg" />
+          <Image Name="boat.png" />
+          <Image Name="btn_create_bright.png" />
+          <Image Name="btn_create_dark.png" />
+          <Image Name="btn_group_bright.png" />
+          <Image Name="btn_group_dark.png" />
+          <Image Name="btn_join_bright.png" />
+          <Image Name="btn_join_dark.png" />
+          <Image Name="btn_notice.png" />
+          <Image Name="btn_play.png" />
+          <Image Name="btn_public.png" />
+          <Image Name="btn_record.png" />
+          <Image Name="btn_record_select.png" />
+          <Image Name="btn_service.png" />
+          <Image Name="btn_setting.png" />
+          <Image Name="card.png" />
+          <Image Name="code_btn.png" />
+          <Image Name="convertShop_btn.png" />
+          <Image Name="diamond_bg.png" />
+          <Image Name="fram_printed.png" />
+          <Image Name="frame.png" />
+          <Image Name="gift_btn.png" />
+          <Image Name="GPScene_btn.png" />
+          <Image Name="head_frame.png" />
+          <Image Name="head_printed.png" />
+          <Image Name="info_bg.png" />
+          <Image Name="line.png" />
+          <Image Name="lottery_btn.png" />
+          <Image Name="lotus_flower.png" />
+          <Image Name="mask.png" />
+          <Image Name="plum_flower.png" />
+          <Image Name="portrait_sprite.png" />
+          <Image Name="role_img.png" />
+          <Image Name="rule.png" />
+          <Image Name="setting.png" />
+          <Image Name="share_btn.png" />
+          <Image Name="task_btn.png" />
+          <Image Name="top_flower1.png" />
+          <Image Name="top_flower2.png" />
+        </Folder>
+        <Folder Name="GameRoom2DUI">
+          <Fnt Name="beishu.fnt" />
+          <Image Name="bot_img.png" />
+          <Image Name="clock_img.png" />
+          <Image Name="curplayer_bg.png" />
+          <Image Name="dealer.png" />
+          <Image Name="east.png" />
+          <Fnt Name="fenshu.fnt" />
+          <Image Name="host_card_bg.png" />
+          <Image Name="mahjong_small_img.png" />
+          <Image Name="mul_bg.png" />
+          <Image Name="mul_img.png" />
+          <Image Name="multiple.png" />
+          <Fnt Name="naozhongshuzi.fnt" />
+          <Image Name="north.png" />
+          <Fnt Name="number4.fnt" />
+          <Image Name="rect0_bg.png" />
+          <Image Name="roominfo.png" />
+          <Image Name="small_cover_tile.png" />
+          <Image Name="south.png" />
+          <Fnt Name="sypshuzi.fnt" />
+          <Image Name="west.png" />
+          <Image Name="xiaopaishuzi.png" />
+        </Folder>
+        <Folder Name="GameRoomInfo2DUI">
+          <Image Name="battery_frame.png" />
+          <Image Name="battery_grid.png" />
+          <Fnt Name="fanghaoshuzi.fnt" />
+          <Image Name="gmsi_dark_2.png" />
+          <Image Name="gmsi_dark_3.png" />
+          <Image Name="gmsi_light_1.png" />
+          <Image Name="gmsi_light_2.png" />
+          <Image Name="gmsi_light_3.png" />
+          <Image Name="room_img.png" />
+          <Image Name="round_img.png" />
+          <Image Name="wifi_dark_2.png" />
+          <Image Name="wifi_dark_3.png" />
+          <Image Name="wifi_light_1.png" />
+          <Image Name="wifi_light_2.png" />
+          <Image Name="wifi_light_3.png" />
+        </Folder>
+        <Folder Name="GameRoomInfoUI">
+          <Image Name="arrange_btn.png" />
+          <Image Name="battery_frame.png" />
+          <Image Name="battery_grid.png" />
+          <Image Name="clubinvite_btn.png" />
+          <Image Name="communicate_btn.png" />
+          <Fnt Name="FJHSZ.fnt" />
+          <Image Name="interval_img.png" />
+          <Image Name="interval_line.png" />
+          <Image Name="record_btn.png" />
+          <Image Name="roomid.png" />
+          <Image Name="roominfo_bg.png" />
+          <Image Name="round.png" />
+        </Folder>
+        <Folder Name="GameRoomUI">
+          <Image Name="3with1.png" />
+          <Image Name="3with2.png" />
+          <Image Name="4with2.png" />
+          <Image Name="all_full_bg.png" />
+          <Image Name="arrow.png" />
+          <Image Name="bright_tiles.png" />
+          <Image Name="bright_tiles_1.png" />
+          <Image Name="bright_tiles_2.png" />
+          <Image Name="bright_tiles_3.png" />
+          <Image Name="bright_tiles_4.png" />
+          <Image Name="btn_op_discard.png" />
+          <Image Name="btn_op_help.png" />
+          <Image Name="btn_op_no.png" />
+          <Image Name="btn_op_pass.png" />
+          <Image Name="canwin_anytile.png" />
+          <Image Name="canwin_tile.png" />
+          <Image Name="canwin_tile_frame.png" />
+          <Image Name="canwin_tiles_small_frame.png" />
+          <Image Name="chow_bg.png" />
+          <Image Name="coin.png" />
+          <Image Name="curplayer_east_bg.png" />
+          <Fnt Name="daojishi.fnt" />
+          <Image Name="dealer.png" />
+          <Image Name="dealer_gold_crown.png" />
+          <Image Name="dealer_light_img.png" />
+          <Image Name="dealer_pass.png" />
+          <Image Name="down_east.png" />
+          <Image Name="extra_img_1.png" />
+          <Image Name="extra_mai_btn.png" />
+          <Image Name="extra_xia_btn.png" />
+          <Fnt Name="fenshuban.fnt" />
+          <Fnt Name="fensuzi.fnt" />
+          <Image Name="gameroom_tile_hint.png" />
+          <Image Name="grab_dealer.png" />
+          <Image Name="head_frame.png" />
+          <Fnt Name="jiafen.fnt" />
+          <Image Name="king_flag_img.png" />
+          <Image Name="king_tile_bg.png" />
+          <Image Name="king_tile_double_bg.png" />
+          <Image Name="king_tile_title.png" />
+          <Image Name="king_tile_white.png" />
+          <Image Name="left_north.png" />
+          <Image Name="lefttile_label_bg.png" />
+          <Image Name="lefttiles_bg.png" />
+          <Image Name="lefttime_bg.png" />
+          <Image Name="liangpai_0.png" />
+          <Image Name="liangpai_1.png" />
+          <Image Name="liangpai_2.png" />
+          <Image Name="lose_bg.png" />
+          <Image Name="lose_icon.png" />
+          <Fnt Name="maizizm.fnt" />
+          <Image Name="name_bg.png" />
+          <Image Name="need_discard.png" />
+          <Image Name="need_discard_bg.png" />
+          <Image Name="op_bet_bg.png" />
+          <Image Name="op_fanzhu.png" />
+          <Image Name="op_img_bet_1.png" />
+          <Image Name="op_img_bet_2.png" />
+          <Image Name="op_img_bet_3.png" />
+          <Image Name="op_img_jiaodizhu.png" />
+          <Image Name="op_img_pass_discard.png" />
+          <Image Name="op_img_pass_jiao.png" />
+          <Image Name="op_img_pass_qiang.png" />
+          <Image Name="op_img_qiangdizhu.png" />
+          <Image Name="op_jiaozhu.png" />
+          <Image Name="op_mul_1.png" />
+          <Image Name="op_mul_2.png" />
+          <Image Name="op_mul_3.png" />
+          <Image Name="op_mul_pass.png" />
+          <Image Name="op_sel_close_btn.png" />
+          <Image Name="op_select_bg.png" />
+          <Image Name="operation_bg.png" />
+          <PlistParticleFile Name="particle_texture.plist" />
+          <Image Name="pass_bright_tiles_btn.png" />
+          <Image Name="prepare.png" />
+          <Image Name="red_mark.png" />
+          <Image Name="red_point.png" />
+          <Image Name="right_south.png" />
+          <Image Name="roomid.png" />
+          <Image Name="score_lose_bg.png" />
+          <Image Name="score_mul_0.png" />
+          <Image Name="score_mul_1.png" />
+          <Image Name="score_mul_2.png" />
+          <Image Name="score_mul_3.png" />
+          <Image Name="score_mul_4.png" />
+          <Image Name="score_win_bg.png" />
+          <Fnt Name="shufenshuzi.fnt" />
+          <Image Name="state_offline.png" />
+          <Image Name="state_online.png" />
+          <Image Name="top_west.png" />
+          <Image Name="wintips_btn.png" />
+          <Image Name="wreath_bg.png" />
+          <Image Name="xia_normal_img.png" />
+          <Fnt Name="yingfenshuzi.fnt" />
+          <Fnt Name="yxcsz.fnt" />
+          <Fnt Name="ZBSZ.fnt" />
+        </Folder>
+        <Folder Name="GPSceneUI">
+          <Image Name="alert.png" />
+          <Image Name="bg.png" />
+          <Image Name="bottom.png" />
+          <Image Name="horizon_line.png" />
+          <Image Name="line.png" />
+          <Image Name="top.png" />
+          <Image Name="vertical_line.png" />
+          <Image Name="word_img.png" />
+        </Folder>
+        <Folder Name="GPSUI">
+          <Image Name="bg.png" />
+          <Image Name="flash_point.png" />
+          <Image Name="radar.png" />
+          <Image Name="scanning.png" />
+        </Folder>
+        <Folder Name="HelpUI">
+          <Image Name="intro_img.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="InviteUI">
+          <Image Name="circle_id_img.png" />
+          <Image Name="mode_img.png" />
+          <Image Name="name_img.png" />
+          <Image Name="refuse.png" />
+          <Image Name="yes.png" />
+        </Folder>
+        <Folder Name="JoinRoomUI">
+          <Image Name="0.png" />
+          <Image Name="00.png" />
+          <Image Name="1.png" />
+          <Image Name="2.png" />
+          <Image Name="3.png" />
+          <Image Name="4.png" />
+          <Image Name="5.png" />
+          <Image Name="6.png" />
+          <Image Name="7.png" />
+          <Image Name="8.png" />
+          <Image Name="9.png" />
+          <Image Name="bind_code.png" />
+          <Image Name="cin_frame.png" />
+          <Image Name="cin_frame_num7.png" />
+          <Image Name="clear.png" />
+          <Image Name="del.png" />
+          <Image Name="join_club_title.png" />
+          <Image Name="num_bg.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="LL7GameRoomUI">
+          <Image Name="blue_score_img.png" />
+          <Image Name="bottom_bar_bg.png" />
+          <Image Name="bufan_img.png" />
+          <Image Name="bujiao_img.png" />
+          <Image Name="communicate_img.png" />
+          <Image Name="dazhu_disabled.png" />
+          <Image Name="dazhu_normal.png" />
+          <Image Name="dianpai_disabled.png" />
+          <Image Name="dianpai_normal.png" />
+          <Image Name="diaozhu_disabled.png" />
+          <Image Name="diaozhu_normal.png" />
+          <Image Name="dipai_img.png" />
+          <Image Name="discard_disabled.png" />
+          <Image Name="discard_normal.png" />
+          <Image Name="fang_disabled.png" />
+          <Image Name="fang_normal.png" />
+          <Image Name="fanzhu_img.png" />
+          <Image Name="foreman_img.png" />
+          <Image Name="friend_img.png" />
+          <Image Name="giveup_btn.png" />
+          <Image Name="grab_img.png" />
+          <Image Name="hei_disabled.png" />
+          <Image Name="hei_normal.png" />
+          <Image Name="help_btn.png" />
+          <Image Name="hong_disabled.png" />
+          <Image Name="hong_normal.png" />
+          <Image Name="jiaozhu_img.png" />
+          <Image Name="jiaozhu_normal.png" />
+          <Image Name="maidi_disabled.png" />
+          <Image Name="maidi_normal.png" />
+          <Image Name="main_img.png" />
+          <Image Name="mark_big.png" />
+          <Image Name="mei_disabled.png" />
+          <Image Name="mei_normal.png" />
+          <Image Name="multiple2_img.png" />
+          <Fnt Name="number0.fnt" />
+          <Fnt Name="number1.fnt" />
+          <Fnt Name="number2.fnt" />
+          <Fnt Name="number3.fnt" />
+          <Fnt Name="number5.fnt" />
+          <Image Name="op_fanzhu.png" />
+          <Image Name="op_jiaozhu.png" />
+          <Image Name="operation_bg.png" />
+          <Image Name="pass_disabled.png" />
+          <Image Name="pass_normal.png" />
+          <Image Name="pass2_disabled.png" />
+          <Image Name="pass2_normal.png" />
+          <Image Name="point_img.png" />
+          <Image Name="poker_di_img.png" />
+          <Image Name="poker_mark.png" />
+          <Image Name="previous_bg.png" />
+          <Image Name="previous_img.png" />
+          <Image Name="previous_title.png" />
+          <Image Name="rect1_bg.png" />
+          <Image Name="rect2_bg.png" />
+          <Image Name="score_img.png" />
+          <Image Name="shapai_disabled.png" />
+          <Image Name="shapai_normal.png" />
+          <Image Name="small_poker_a7.png" />
+          <Image Name="small_poker_b7.png" />
+          <Image Name="small_poker_c7.png" />
+          <Image Name="small_poker_d7.png" />
+          <Image Name="star.png" />
+          <Image Name="tip_img.png" />
+          <Image Name="ungiveup_btn.png" />
+          <Image Name="voice_img.png" />
+          <Image Name="wait_fanzhu_img.png" />
+          <Image Name="wait_jiaozhu_img.png" />
+          <Image Name="wait_maidi_img.png" />
+          <Image Name="xianjiakoudi_img.png" />
+        </Folder>
+        <Folder Name="LL7SettlementUI">
+          <Image Name="back_hall_btn.png" />
+          <Image Name="continue_btn.png" />
+          <Image Name="fail_title.png" />
+          <Image Name="koudi_img.png" />
+          <Image Name="koudi_title.png" />
+          <Image Name="mul_img.png" />
+          <Image Name="replay_btn.png" />
+          <Image Name="result_btn.png" />
+          <Image Name="share_btn.png" />
+          <Image Name="shou7_img.png" />
+          <Fnt Name="shuz2.fnt" />
+          <Fnt Name="shuz3.fnt" />
+          <Fnt Name="shuz6.fnt" />
+          <Image Name="surrender_img.png" />
+          <Image Name="win_title.png" />
+        </Folder>
+        <Folder Name="LoginUI">
+          <Image Name="account_login_btn.png" />
+          <Image Name="account_panel.png" />
+          <Image Name="bar.png" />
+          <Image Name="bar_bg.png" />
+          <Image Name="chx.png" />
+          <Image Name="chx_bg.png" />
+          <Image Name="gxmj_logo.png" />
+          <Image Name="login_btn.png" />
+          <Image Name="protocol.png" />
+          <Image Name="register_btn.png" />
+          <Image Name="register_entry.png" />
+          <Image Name="register_panel.png" />
+          <Image Name="user_protocol.png" />
+          <Image Name="wechat_login.png" />
+        </Folder>
+        <Folder Name="LotteryAction">
+          <Image Name="guang3.png" />
+          <Image Name="sg.png" />
+          <Image Name="you.png" />
+          <Image Name="zhong.png" />
+          <Image Name="zuo.png" />
+        </Folder>
+        <Folder Name="LotteryUI">
+          <Image Name="bg.png" />
+          <Image Name="bg_img_0.png" />
+          <Image Name="bg_img_1.png" />
+          <Image Name="circle.png" />
+          <Image Name="circle_list.png" />
+          <Fnt Name="lb.fnt" />
+          <Image Name="lottery_btn.png" />
+          <Image Name="printed1.png" />
+          <Image Name="printed2.png" />
+          <Image Name="printed3.png" />
+          <Image Name="printed4.png" />
+          <Image Name="return_btn.png" />
+          <Image Name="ruler_btn.png" />
+          <Image Name="ruler_img.png" />
+          <Image Name="sure_btn.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="Mahjong">
+          <Image Name="desk_mahjong_tile_left_down.png" />
+          <Image Name="desk_mahjong_tile_player_down0.png" />
+          <Image Name="desk_mahjong_tile_player_down1.png" />
+          <Image Name="desk_mahjong_tile_player_down2.png" />
+          <Image Name="desk_mahjong_tile_player_down3.png" />
+          <Image Name="desk_mahjong_tile_player_down4.png" />
+          <Image Name="mahjong_big_1.png" />
+          <Image Name="mahjong_big_2.png" />
+          <Image Name="mahjong_big_3.png" />
+          <Image Name="mahjong_big_31.png" />
+          <Image Name="mahjong_big_32.png" />
+          <Image Name="mahjong_big_33.png" />
+          <Image Name="mahjong_big_34.png" />
+          <Image Name="mahjong_big_35.png" />
+          <Image Name="mahjong_big_36.png" />
+          <Image Name="mahjong_big_37.png" />
+          <Image Name="mahjong_big_38.png" />
+          <Image Name="mahjong_big_39.png" />
+          <Image Name="mahjong_big_4.png" />
+          <Image Name="mahjong_big_5.png" />
+          <Image Name="mahjong_big_51.png" />
+          <Image Name="mahjong_big_52.png" />
+          <Image Name="mahjong_big_53.png" />
+          <Image Name="mahjong_big_54.png" />
+          <Image Name="mahjong_big_55.png" />
+          <Image Name="mahjong_big_56.png" />
+          <Image Name="mahjong_big_57.png" />
+          <Image Name="mahjong_big_58.png" />
+          <Image Name="mahjong_big_59.png" />
+          <Image Name="mahjong_big_6.png" />
+          <Image Name="mahjong_big_7.png" />
+          <Image Name="mahjong_big_71.png" />
+          <Image Name="mahjong_big_72.png" />
+          <Image Name="mahjong_big_73.png" />
+          <Image Name="mahjong_big_74.png" />
+          <Image Name="mahjong_big_75.png" />
+          <Image Name="mahjong_big_76.png" />
+          <Image Name="mahjong_big_77.png" />
+          <Image Name="mahjong_big_8.png" />
+          <Image Name="mahjong_big_9.png" />
+          <Image Name="mahjong_big_91.png" />
+          <Image Name="mahjong_big_92.png" />
+          <Image Name="mahjong_big_93.png" />
+          <Image Name="mahjong_big_94.png" />
+          <Image Name="mahjong_big_95.png" />
+          <Image Name="mahjong_big_96.png" />
+          <Image Name="mahjong_big_97.png" />
+          <Image Name="mahjong_big_98.png" />
+          <Image Name="mahjong_small_1.png" />
+          <Image Name="mahjong_small_2.png" />
+          <Image Name="mahjong_small_3.png" />
+          <Image Name="mahjong_small_31.png" />
+          <Image Name="mahjong_small_32.png" />
+          <Image Name="mahjong_small_33.png" />
+          <Image Name="mahjong_small_34.png" />
+          <Image Name="mahjong_small_35.png" />
+          <Image Name="mahjong_small_36.png" />
+          <Image Name="mahjong_small_37.png" />
+          <Image Name="mahjong_small_38.png" />
+          <Image Name="mahjong_small_39.png" />
+          <Image Name="mahjong_small_4.png" />
+          <Image Name="mahjong_small_5.png" />
+          <Image Name="mahjong_small_51.png" />
+          <Image Name="mahjong_small_52.png" />
+          <Image Name="mahjong_small_53.png" />
+          <Image Name="mahjong_small_54.png" />
+          <Image Name="mahjong_small_55.png" />
+          <Image Name="mahjong_small_56.png" />
+          <Image Name="mahjong_small_57.png" />
+          <Image Name="mahjong_small_58.png" />
+          <Image Name="mahjong_small_59.png" />
+          <Image Name="mahjong_small_6.png" />
+          <Image Name="mahjong_small_7.png" />
+          <Image Name="mahjong_small_71.png" />
+          <Image Name="mahjong_small_72.png" />
+          <Image Name="mahjong_small_73.png" />
+          <Image Name="mahjong_small_74.png" />
+          <Image Name="mahjong_small_75.png" />
+          <Image Name="mahjong_small_76.png" />
+          <Image Name="mahjong_small_77.png" />
+          <Image Name="mahjong_small_8.png" />
+          <Image Name="mahjong_small_9.png" />
+          <Image Name="mahjong_small_91.png" />
+          <Image Name="mahjong_small_92.png" />
+          <Image Name="mahjong_small_93.png" />
+          <Image Name="mahjong_small_94.png" />
+          <Image Name="mahjong_small_95.png" />
+          <Image Name="mahjong_small_96.png" />
+          <Image Name="mahjong_small_97.png" />
+          <Image Name="mahjong_small_98.png" />
+          <Image Name="mahjong_tile_down.png" />
+          <Image Name="mahjong_tile_fly.png" />
+          <Image Name="mahjong_tile_left_desk.png" />
+          <Image Name="mahjong_tile_left_down.png" />
+          <Image Name="mahjong_tile_left_hand.png" />
+          <Image Name="mahjong_tile_left_up.png" />
+          <Image Name="mahjong_tile_player_desk.png" />
+          <Image Name="mahjong_tile_player_desk0.png" />
+          <Image Name="mahjong_tile_player_desk1.png" />
+          <Image Name="mahjong_tile_player_desk2.png" />
+          <Image Name="mahjong_tile_player_desk3.png" />
+          <Image Name="mahjong_tile_player_desk4.png" />
+          <Image Name="mahjong_tile_player_desk5.png" />
+          <Image Name="mahjong_tile_player_desk6.png" />
+          <Image Name="mahjong_tile_player_desk7.png" />
+          <Image Name="mahjong_tile_player_desk8.png" />
+          <Image Name="mahjong_tile_player_desk9.png" />
+          <Image Name="mahjong_tile_player_down.png" />
+          <Image Name="mahjong_tile_player_down0.png" />
+          <Image Name="mahjong_tile_player_down1.png" />
+          <Image Name="mahjong_tile_player_down10.png" />
+          <Image Name="mahjong_tile_player_down11.png" />
+          <Image Name="mahjong_tile_player_down2.png" />
+          <Image Name="mahjong_tile_player_down3.png" />
+          <Image Name="mahjong_tile_player_down4.png" />
+          <Image Name="mahjong_tile_player_down5.png" />
+          <Image Name="mahjong_tile_player_down6.png" />
+          <Image Name="mahjong_tile_player_down7.png" />
+          <Image Name="mahjong_tile_player_down8.png" />
+          <Image Name="mahjong_tile_player_down9.png" />
+          <Image Name="mahjong_tile_player_hand.png" />
+          <Image Name="mahjong_tile_player_up.png" />
+          <Image Name="mahjong_tile_player_up0.png" />
+          <Image Name="mahjong_tile_player_up1.png" />
+          <Image Name="mahjong_tile_player_up10.png" />
+          <Image Name="mahjong_tile_player_up11.png" />
+          <Image Name="mahjong_tile_player_up2.png" />
+          <Image Name="mahjong_tile_player_up3.png" />
+          <Image Name="mahjong_tile_player_up4.png" />
+          <Image Name="mahjong_tile_player_up5.png" />
+          <Image Name="mahjong_tile_player_up6.png" />
+          <Image Name="mahjong_tile_player_up7.png" />
+          <Image Name="mahjong_tile_player_up8.png" />
+          <Image Name="mahjong_tile_player_up9.png" />
+          <Image Name="mahjong_tile_right_desk.png" />
+          <Image Name="mahjong_tile_right_down.png" />
+          <Image Name="mahjong_tile_right_hand.png" />
+          <Image Name="mahjong_tile_right_up.png" />
+          <Image Name="mahjong_tile_top_desk.png" />
+          <Image Name="mahjong_tile_top_down.png" />
+          <Image Name="mahjong_tile_top_down0.png" />
+          <Image Name="mahjong_tile_top_down1.png" />
+          <Image Name="mahjong_tile_top_down10.png" />
+          <Image Name="mahjong_tile_top_down11.png" />
+          <Image Name="mahjong_tile_top_down2.png" />
+          <Image Name="mahjong_tile_top_down3.png" />
+          <Image Name="mahjong_tile_top_down4.png" />
+          <Image Name="mahjong_tile_top_down5.png" />
+          <Image Name="mahjong_tile_top_down6.png" />
+          <Image Name="mahjong_tile_top_down7.png" />
+          <Image Name="mahjong_tile_top_down8.png" />
+          <Image Name="mahjong_tile_top_down9.png" />
+          <Image Name="mahjong_tile_top_hand.png" />
+          <Image Name="mahjong_tile_top_up.png" />
+        </Folder>
+        <Folder Name="Mahjong2D">
+          <Image Name="mahjong_tile_down.png" />
+          <Image Name="mahjong_tile_player_desk.png" />
+          <Image Name="mahjong_tile_player_hand.png" />
+          <Image Name="mahjong_tile_player_up.png" />
+          <Image Name="mahjong_tile_side_desk.png" />
+          <Image Name="mahjong_tile_side_down.png" />
+          <Image Name="mahjong_tile_side_hand.png" />
+          <Image Name="mahjong_tile_top_hand.png" />
+        </Folder>
+        <Folder Name="MahjongBlue">
+          <Image Name="blue_desk_mahjong_tile_left_down.png" />
+          <Image Name="blue_desk_mahjong_tile_player_down0.png" />
+          <Image Name="blue_desk_mahjong_tile_player_down1.png" />
+          <Image Name="blue_desk_mahjong_tile_player_down2.png" />
+          <Image Name="blue_desk_mahjong_tile_player_down3.png" />
+          <Image Name="blue_desk_mahjong_tile_player_down4.png" />
+          <Image Name="blue_mahjong_tile_down.png" />
+          <Image Name="blue_mahjong_tile_fly.png" />
+          <Image Name="blue_mahjong_tile_left_desk.png" />
+          <Image Name="blue_mahjong_tile_left_down.png" />
+          <Image Name="blue_mahjong_tile_left_hand.png" />
+          <Image Name="blue_mahjong_tile_left_up.png" />
+          <Image Name="blue_mahjong_tile_player_desk0.png" />
+          <Image Name="blue_mahjong_tile_player_desk1.png" />
+          <Image Name="blue_mahjong_tile_player_desk2.png" />
+          <Image Name="blue_mahjong_tile_player_desk3.png" />
+          <Image Name="blue_mahjong_tile_player_desk4.png" />
+          <Image Name="blue_mahjong_tile_player_down0.png" />
+          <Image Name="blue_mahjong_tile_player_down1.png" />
+          <Image Name="blue_mahjong_tile_player_down10.png" />
+          <Image Name="blue_mahjong_tile_player_down11.png" />
+          <Image Name="blue_mahjong_tile_player_down2.png" />
+          <Image Name="blue_mahjong_tile_player_down3.png" />
+          <Image Name="blue_mahjong_tile_player_down4.png" />
+          <Image Name="blue_mahjong_tile_player_down5.png" />
+          <Image Name="blue_mahjong_tile_player_down6.png" />
+          <Image Name="blue_mahjong_tile_player_down7.png" />
+          <Image Name="blue_mahjong_tile_player_down8.png" />
+          <Image Name="blue_mahjong_tile_player_down9.png" />
+          <Image Name="blue_mahjong_tile_player_hand.png" />
+          <Image Name="blue_mahjong_tile_player_up0.png" />
+          <Image Name="blue_mahjong_tile_player_up1.png" />
+          <Image Name="blue_mahjong_tile_player_up10.png" />
+          <Image Name="blue_mahjong_tile_player_up11.png" />
+          <Image Name="blue_mahjong_tile_player_up2.png" />
+          <Image Name="blue_mahjong_tile_player_up3.png" />
+          <Image Name="blue_mahjong_tile_player_up4.png" />
+          <Image Name="blue_mahjong_tile_player_up5.png" />
+          <Image Name="blue_mahjong_tile_player_up6.png" />
+          <Image Name="blue_mahjong_tile_player_up7.png" />
+          <Image Name="blue_mahjong_tile_player_up8.png" />
+          <Image Name="blue_mahjong_tile_player_up9.png" />
+          <Image Name="blue_mahjong_tile_top_down10.png" />
+          <Image Name="blue_mahjong_tile_top_down11.png" />
+          <Image Name="blue_mahjong_tile_top_hand.png" />
+        </Folder>
+        <Folder Name="MahjongBlue2D">
+          <Image Name="blue_mahjong_tile_down.png" />
+          <Image Name="blue_mahjong_tile_player_desk.png" />
+          <Image Name="blue_mahjong_tile_player_hand.png" />
+          <Image Name="blue_mahjong_tile_player_up.png" />
+          <Image Name="blue_mahjong_tile_side_desk.png" />
+          <Image Name="blue_mahjong_tile_side_down.png" />
+          <Image Name="blue_mahjong_tile_side_hand.png" />
+          <Image Name="blue_mahjong_tile_top_hand.png" />
+        </Folder>
+        <Folder Name="MahjongYellow">
+          <Image Name="yellow_desk_mahjong_tile_left_down.png" />
+          <Image Name="yellow_desk_mahjong_tile_player_down0.png" />
+          <Image Name="yellow_desk_mahjong_tile_player_down1.png" />
+          <Image Name="yellow_desk_mahjong_tile_player_down2.png" />
+          <Image Name="yellow_desk_mahjong_tile_player_down3.png" />
+          <Image Name="yellow_desk_mahjong_tile_player_down4.png" />
+          <Image Name="yellow_mahjong_tile_down.png" />
+          <Image Name="yellow_mahjong_tile_fly.png" />
+          <Image Name="yellow_mahjong_tile_left_desk.png" />
+          <Image Name="yellow_mahjong_tile_left_down.png" />
+          <Image Name="yellow_mahjong_tile_left_hand.png" />
+          <Image Name="yellow_mahjong_tile_left_up.png" />
+          <Image Name="yellow_mahjong_tile_player_desk0.png" />
+          <Image Name="yellow_mahjong_tile_player_desk1.png" />
+          <Image Name="yellow_mahjong_tile_player_desk2.png" />
+          <Image Name="yellow_mahjong_tile_player_desk3.png" />
+          <Image Name="yellow_mahjong_tile_player_desk4.png" />
+          <Image Name="yellow_mahjong_tile_player_down0.png" />
+          <Image Name="yellow_mahjong_tile_player_down1.png" />
+          <Image Name="yellow_mahjong_tile_player_down10.png" />
+          <Image Name="yellow_mahjong_tile_player_down11.png" />
+          <Image Name="yellow_mahjong_tile_player_down2.png" />
+          <Image Name="yellow_mahjong_tile_player_down3.png" />
+          <Image Name="yellow_mahjong_tile_player_down4.png" />
+          <Image Name="yellow_mahjong_tile_player_down5.png" />
+          <Image Name="yellow_mahjong_tile_player_down6.png" />
+          <Image Name="yellow_mahjong_tile_player_down7.png" />
+          <Image Name="yellow_mahjong_tile_player_down8.png" />
+          <Image Name="yellow_mahjong_tile_player_down9.png" />
+          <Image Name="yellow_mahjong_tile_player_hand.png" />
+          <Image Name="yellow_mahjong_tile_player_up0.png" />
+          <Image Name="yellow_mahjong_tile_player_up1.png" />
+          <Image Name="yellow_mahjong_tile_player_up10.png" />
+          <Image Name="yellow_mahjong_tile_player_up11.png" />
+          <Image Name="yellow_mahjong_tile_player_up2.png" />
+          <Image Name="yellow_mahjong_tile_player_up3.png" />
+          <Image Name="yellow_mahjong_tile_player_up4.png" />
+          <Image Name="yellow_mahjong_tile_player_up5.png" />
+          <Image Name="yellow_mahjong_tile_player_up6.png" />
+          <Image Name="yellow_mahjong_tile_player_up7.png" />
+          <Image Name="yellow_mahjong_tile_player_up8.png" />
+          <Image Name="yellow_mahjong_tile_player_up9.png" />
+          <Image Name="yellow_mahjong_tile_top_down10.png" />
+          <Image Name="yellow_mahjong_tile_top_down11.png" />
+          <Image Name="yellow_mahjong_tile_top_hand.png" />
+        </Folder>
+        <Folder Name="MahjongYellow2D">
+          <Image Name="yellow_mahjong_tile_down.png" />
+          <Image Name="yellow_mahjong_tile_player_desk.png" />
+          <Image Name="yellow_mahjong_tile_player_hand.png" />
+          <Image Name="yellow_mahjong_tile_player_up.png" />
+          <Image Name="yellow_mahjong_tile_side_desk.png" />
+          <Image Name="yellow_mahjong_tile_side_down.png" />
+          <Image Name="yellow_mahjong_tile_side_hand.png" />
+          <Image Name="yellow_mahjong_tile_top_hand.png" />
+        </Folder>
+        <Folder Name="NoticeUI">
+          <Image Name="detail_title.png" />
+          <Image Name="msg_title.png" />
+        </Folder>
+        <Folder Name="NoviceGiftUI">
+          <Image Name="change_btn.png" />
+          <Image Name="effect.png" />
+          <Image Name="gift_btn.png" />
+          <Image Name="gift_img.png" />
+          <Image Name="num_img.png" />
+          <Image Name="sure_btn.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="PlayBack2DUI">
+          <Image Name="chow_l_n.png" />
+          <Image Name="chow_l_s.png" />
+          <Image Name="chow_n.png" />
+          <Image Name="chow_r_n.png" />
+          <Image Name="chow_r_s.png" />
+          <Image Name="chow_s.png" />
+          <Image Name="finger.png" />
+          <Image Name="kong_l_n.png" />
+          <Image Name="kong_l_s.png" />
+          <Image Name="kong_n.png" />
+          <Image Name="kong_r_n.png" />
+          <Image Name="kong_r_s.png" />
+          <Image Name="kong_s.png" />
+          <Image Name="pass_l_n.png" />
+          <Image Name="pass_l_s.png" />
+          <Image Name="pass_n.png" />
+          <Image Name="pass_r_n.png" />
+          <Image Name="pass_r_s.png" />
+          <Image Name="pass_s.png" />
+          <Image Name="pass2_l_n.png" />
+          <Image Name="pass2_l_s.png" />
+          <Image Name="pass2_n.png" />
+          <Image Name="pass2_r_n.png" />
+          <Image Name="pass2_r_s.png" />
+          <Image Name="pass2_s.png" />
+          <Image Name="pong_l_n.png" />
+          <Image Name="pong_l_s.png" />
+          <Image Name="pong_n.png" />
+          <Image Name="pong_r_n.png" />
+          <Image Name="pong_r_s.png" />
+          <Image Name="pong_s.png" />
+          <Image Name="win_l_n.png" />
+          <Image Name="win_l_s.png" />
+          <Image Name="win_n.png" />
+          <Image Name="win_r_n.png" />
+          <Image Name="win_r_s.png" />
+          <Image Name="win_s.png" />
+        </Folder>
+        <Folder Name="PlayBack3DUI">
+          <Image Name="chow_l_n.png" />
+          <Image Name="chow_l_s.png" />
+          <Image Name="chow_n.png" />
+          <Image Name="chow_r_n.png" />
+          <Image Name="chow_r_s.png" />
+          <Image Name="chow_s.png" />
+          <Image Name="kong_l_n.png" />
+          <Image Name="kong_l_s.png" />
+          <Image Name="kong_n.png" />
+          <Image Name="kong_r_n.png" />
+          <Image Name="kong_r_s.png" />
+          <Image Name="kong_s.png" />
+          <Image Name="pass_l_n.png" />
+          <Image Name="pass_l_s.png" />
+          <Image Name="pass_n.png" />
+          <Image Name="pass_r_n.png" />
+          <Image Name="pass_r_s.png" />
+          <Image Name="pass_s.png" />
+          <Image Name="pass2_l_n.png" />
+          <Image Name="pass2_l_s.png" />
+          <Image Name="pass2_n.png" />
+          <Image Name="pass2_r_n.png" />
+          <Image Name="pass2_r_s.png" />
+          <Image Name="pass2_s.png" />
+          <Image Name="pong_l_n.png" />
+          <Image Name="pong_l_s.png" />
+          <Image Name="pong_n.png" />
+          <Image Name="pong_r_n.png" />
+          <Image Name="pong_r_s.png" />
+          <Image Name="pong_s.png" />
+          <Image Name="win_l_n.png" />
+          <Image Name="win_l_s.png" />
+          <Image Name="win_n.png" />
+          <Image Name="win_r_n.png" />
+          <Image Name="win_r_s.png" />
+          <Image Name="win_s.png" />
+        </Folder>
+        <Folder Name="PlayBackControlUI">
+          <Image Name="bg.png" />
+          <Image Name="close_n.png" />
+          <Image Name="close_p.png" />
+          <Image Name="pause_n.png" />
+          <Image Name="pause_p.png" />
+          <Image Name="play_n.png" />
+          <Image Name="play_p.png" />
+          <Image Name="replay_n.png" />
+          <Image Name="replay_p.png" />
+          <Image Name="speed_n.png" />
+          <Image Name="speed_p.png" />
+        </Folder>
+        <Folder Name="PlayerInfoUI">
+          <Image Name="bg.png" />
+          <Image Name="expression_cheers.png" />
+          <Image Name="expression_egg.png" />
+          <Image Name="expression_flower.png" />
+          <Image Name="expression_frame.png" />
+          <Image Name="expression_kiss.png" />
+          <Image Name="expression_money.png" />
+          <Image Name="GPS.png" />
+          <Image Name="head_frame.png" />
+          <Image Name="line.png" />
+          <Image Name="playerinfo_bg.png" />
+          <Image Name="send_friend_btn.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="Poker">
+          <Image Name="pic_poker_21.png" />
+          <Image Name="pic_poker_22.png" />
+          <Image Name="pic_poker_23.png" />
+          <Image Name="pic_poker_a1.png" />
+          <Image Name="pic_poker_a10.png" />
+          <Image Name="pic_poker_a11.png" />
+          <Image Name="pic_poker_a12.png" />
+          <Image Name="pic_poker_a13.png" />
+          <Image Name="pic_poker_a2.png" />
+          <Image Name="pic_poker_a3.png" />
+          <Image Name="pic_poker_a4.png" />
+          <Image Name="pic_poker_a5.png" />
+          <Image Name="pic_poker_a6.png" />
+          <Image Name="pic_poker_a7.png" />
+          <Image Name="pic_poker_a8.png" />
+          <Image Name="pic_poker_a9.png" />
+          <Image Name="pic_poker_b1.png" />
+          <Image Name="pic_poker_b10.png" />
+          <Image Name="pic_poker_b11.png" />
+          <Image Name="pic_poker_b12.png" />
+          <Image Name="pic_poker_b13.png" />
+          <Image Name="pic_poker_b2.png" />
+          <Image Name="pic_poker_b3.png" />
+          <Image Name="pic_poker_b4.png" />
+          <Image Name="pic_poker_b5.png" />
+          <Image Name="pic_poker_b6.png" />
+          <Image Name="pic_poker_b7.png" />
+          <Image Name="pic_poker_b8.png" />
+          <Image Name="pic_poker_b9.png" />
+          <Image Name="pic_poker_backend.png" />
+          <Image Name="pic_poker_c1.png" />
+          <Image Name="pic_poker_c10.png" />
+          <Image Name="pic_poker_c11.png" />
+          <Image Name="pic_poker_c12.png" />
+          <Image Name="pic_poker_c13.png" />
+          <Image Name="pic_poker_c2.png" />
+          <Image Name="pic_poker_c3.png" />
+          <Image Name="pic_poker_c4.png" />
+          <Image Name="pic_poker_c5.png" />
+          <Image Name="pic_poker_c6.png" />
+          <Image Name="pic_poker_c7.png" />
+          <Image Name="pic_poker_c8.png" />
+          <Image Name="pic_poker_c9.png" />
+          <Image Name="pic_poker_d1.png" />
+          <Image Name="pic_poker_d10.png" />
+          <Image Name="pic_poker_d11.png" />
+          <Image Name="pic_poker_d12.png" />
+          <Image Name="pic_poker_d13.png" />
+          <Image Name="pic_poker_d2.png" />
+          <Image Name="pic_poker_d3.png" />
+          <Image Name="pic_poker_d4.png" />
+          <Image Name="pic_poker_d5.png" />
+          <Image Name="pic_poker_d6.png" />
+          <Image Name="pic_poker_d7.png" />
+          <Image Name="pic_poker_d8.png" />
+          <Image Name="pic_poker_d9.png" />
+          <Image Name="pic_poker_small_21.png" />
+          <Image Name="pic_poker_small_22.png" />
+          <Image Name="pic_poker_small_23.png" />
+          <Image Name="pic_poker_small_a1.png" />
+          <Image Name="pic_poker_small_a10.png" />
+          <Image Name="pic_poker_small_a11.png" />
+          <Image Name="pic_poker_small_a12.png" />
+          <Image Name="pic_poker_small_a13.png" />
+          <Image Name="pic_poker_small_a2.png" />
+          <Image Name="pic_poker_small_a3.png" />
+          <Image Name="pic_poker_small_a4.png" />
+          <Image Name="pic_poker_small_a5.png" />
+          <Image Name="pic_poker_small_a6.png" />
+          <Image Name="pic_poker_small_a7.png" />
+          <Image Name="pic_poker_small_a8.png" />
+          <Image Name="pic_poker_small_a9.png" />
+          <Image Name="pic_poker_small_b1.png" />
+          <Image Name="pic_poker_small_b10.png" />
+          <Image Name="pic_poker_small_b11.png" />
+          <Image Name="pic_poker_small_b12.png" />
+          <Image Name="pic_poker_small_b13.png" />
+          <Image Name="pic_poker_small_b2.png" />
+          <Image Name="pic_poker_small_b3.png" />
+          <Image Name="pic_poker_small_b4.png" />
+          <Image Name="pic_poker_small_b5.png" />
+          <Image Name="pic_poker_small_b6.png" />
+          <Image Name="pic_poker_small_b7.png" />
+          <Image Name="pic_poker_small_b8.png" />
+          <Image Name="pic_poker_small_b9.png" />
+          <Image Name="pic_poker_small_c1.png" />
+          <Image Name="pic_poker_small_c10.png" />
+          <Image Name="pic_poker_small_c11.png" />
+          <Image Name="pic_poker_small_c12.png" />
+          <Image Name="pic_poker_small_c13.png" />
+          <Image Name="pic_poker_small_c2.png" />
+          <Image Name="pic_poker_small_c3.png" />
+          <Image Name="pic_poker_small_c4.png" />
+          <Image Name="pic_poker_small_c5.png" />
+          <Image Name="pic_poker_small_c6.png" />
+          <Image Name="pic_poker_small_c7.png" />
+          <Image Name="pic_poker_small_c8.png" />
+          <Image Name="pic_poker_small_c9.png" />
+          <Image Name="pic_poker_small_d1.png" />
+          <Image Name="pic_poker_small_d10.png" />
+          <Image Name="pic_poker_small_d11.png" />
+          <Image Name="pic_poker_small_d12.png" />
+          <Image Name="pic_poker_small_d13.png" />
+          <Image Name="pic_poker_small_d2.png" />
+          <Image Name="pic_poker_small_d3.png" />
+          <Image Name="pic_poker_small_d4.png" />
+          <Image Name="pic_poker_small_d5.png" />
+          <Image Name="pic_poker_small_d6.png" />
+          <Image Name="pic_poker_small_d7.png" />
+          <Image Name="pic_poker_small_d8.png" />
+          <Image Name="pic_poker_small_d9.png" />
+        </Folder>
+        <Folder Name="RecordUI">
+          <Image Name="backnum_bg.png" />
+          <Image Name="bg.png" />
+          <Image Name="blue_bg.png" />
+          <Image Name="check_details.png" />
+          <Image Name="ddz.png" />
+          <Image Name="long_bg.png" />
+          <Image Name="other_playback.png" />
+          <Image Name="other_playback_bg.png" />
+          <Image Name="owner.png" />
+          <Image Name="playback_btn.png" />
+          <Image Name="printed.png" />
+          <Image Name="record_bg.png" />
+          <Image Name="recorddetails_bg.png" />
+          <Image Name="recorddetails_title.png" />
+          <Image Name="share_btn.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="ResultUI">
+          <Image Name="concealed_kong.png" />
+          <Image Name="confirm_btn.png" />
+          <Image Name="exposed_kong.png" />
+          <Fnt Name="FJJS.fnt" />
+          <Image Name="frame.png" />
+          <Image Name="head.png" />
+          <Image Name="head_frame.png" />
+          <Image Name="info_bg.png" />
+          <Fnt Name="js.fnt" />
+          <Fnt Name="js1.fnt" />
+          <Image Name="kong_num.png" />
+          <Image Name="player_bg.png" />
+          <Image Name="poker_frame.png" />
+          <Image Name="pong_num.png" />
+          <Image Name="result_bg.png" />
+          <Image Name="result_total_score.png" />
+          <Image Name="result_unit_bg.png" />
+          <Image Name="return_btn.png" />
+          <Image Name="save_screen_btn.png" />
+          <Image Name="share_btn.png" />
+          <Image Name="title.png" />
+          <Image Name="win_num.png" />
+          <Image Name="win_title.png" />
+        </Folder>
+        <Folder Name="SettlementUI">
+          <Image Name="back_hall_btn.png" />
+          <Image Name="confirm_btn.png" />
+          <Image Name="give_win.png" />
+          <Image Name="head_frame.png" />
+          <Image Name="line.png" />
+          <Image Name="mobao.png" />
+          <Image Name="mul.png" />
+          <Image Name="player.png" />
+          <Image Name="replay_btn.png" />
+          <Image Name="result_btn.png" />
+          <Image Name="score.png" />
+          <Image Name="settlement_win.png" />
+          <Image Name="share_btn.png" />
+          <Image Name="total.png" />
+          <Image Name="win_bg.png" />
+          <Image Name="win_title.png" />
+          <Image Name="winner.png" />
+        </Folder>
+        <Folder Name="ShareCircleUI">
+          <Image Name="share_circle_bg.png" />
+        </Folder>
+        <Folder Name="ShopUI">
+          <Image Name="bg.png" />
+          <Image Name="bg_frame.png" />
+          <Image Name="cs_name_bg.png" />
+          <Image Name="handsel_img.png" />
+          <Image Name="proxy_title_img.png" />
+          <Image Name="shop_bottom_frame.png" />
+          <Image Name="shop_buy_btn_100.png" />
+          <Image Name="shop_buy_btn_1000.png" />
+          <Image Name="shop_buy_btn_10000.png" />
+          <Image Name="shop_buy_btn_12.png" />
+          <Image Name="shop_buy_btn_128.png" />
+          <Image Name="shop_buy_btn_1288.png" />
+          <Image Name="shop_buy_btn_136.png" />
+          <Image Name="shop_buy_btn_18.png" />
+          <Image Name="shop_buy_btn_2000.png" />
+          <Image Name="shop_buy_btn_256.png" />
+          <Image Name="shop_buy_btn_288.png" />
+          <Image Name="shop_buy_btn_30.png" />
+          <Image Name="shop_buy_btn_300.png" />
+          <Image Name="shop_buy_btn_3000.png" />
+          <Image Name="shop_buy_btn_328.png" />
+          <Image Name="shop_buy_btn_36.png" />
+          <Image Name="shop_buy_btn_5000.png" />
+          <Image Name="shop_buy_btn_588.png" />
+          <Image Name="shop_buy_btn_6.png" />
+          <Image Name="shop_buy_btn_60.png" />
+          <Image Name="shop_buy_btn_600.png" />
+          <Image Name="shop_buy_btn_656.png" />
+          <Image Name="shop_buy_btn_68.png" />
+          <Image Name="shop_card_0.png" />
+          <Image Name="shop_card_1.png" />
+          <Image Name="shop_card_2.png" />
+          <Image Name="shop_card_3.png" />
+          <Image Name="shop_card_4.png" />
+          <Image Name="shop_card_5.png" />
+          <Image Name="shop_card_bg.png" />
+          <Image Name="shop_cross_bar.png" />
+          <Image Name="user_title_img.png" />
+        </Folder>
+        <Folder Name="TaskUI">
+          <Image Name="card_reward_img.png" />
+          <Image Name="card_task_img.png" />
+          <Image Name="get_btn.png" />
+          <Image Name="got_btn.png" />
+          <Image Name="line1.png" />
+          <Image Name="line2.png" />
+          <Image Name="printed.png" />
+          <Image Name="share_task_img.png" />
+          <Image Name="shuzi.png" />
+          <Image Name="title.png" />
+          <Image Name="to_get_btn.png" />
+        </Folder>
+        <Folder Name="WebViewUI">
+          <Image Name="return_btn.png" />
+          <Image Name="top_bar.png" />
+        </Folder>
+        <Project Name="ActivityUI.csd" Type="Layer" />
+        <Project Name="AddMineUI.csd" Type="Layer" />
+        <Project Name="ApplyCloseUI.csd" Type="Layer" />
+        <Project Name="AudioRecordUI.csd" Type="Layer" />
+        <Project Name="AuthentucateUI.csd" Type="Layer" />
+        <PlistInfo Name="biaoqing.csi" Type="Plist" />
+        <Project Name="BindCodeUI.csd" Type="Layer" />
+        <Project Name="ClubBindUI.csd" Type="Layer" />
+        <Project Name="ClubDeskInfoNode.csd" Type="Node" />
+        <Project Name="ClubInviteUI.csd" Type="Layer" />
+        <Project Name="ClubMemberUI.csd" Type="Layer" />
+        <Project Name="ClubMgrUI.csd" Type="Layer" />
+        <Project Name="ClubRankDetailUI.csd" Type="Layer" />
+        <Project Name="ClubRankUI.csd" Type="Layer" />
+        <Project Name="ClubRecordDetailUI.csd" Type="Layer" />
+        <Project Name="ClubRecordUI.csd" Type="Layer" />
+        <Project Name="ClubStatisticsUI.csd" Type="Layer" />
+        <Project Name="ClubUI.csd" Type="Layer" />
+        <PlistInfo Name="ClubUI.csi" Type="Plist" />
+        <Project Name="CommunicateUI.csd" Type="Layer" />
+        <Project Name="ConfigUI.csd" Type="Layer" />
+        <Project Name="ConfirmUI.csd" Type="Layer" />
+        <Project Name="CreateClubUI.csd" Type="Layer" />
+        <Project Name="CreateRoomUI.csd" Type="Layer" />
+        <Project Name="CSUI.csd" Type="Layer" />
+        <Project Name="DDZAirplaneAction.csd" Type="Node" />
+        <Project Name="DDZBombAction.csd" Type="Node" />
+        <Project Name="DDZCreateRoomUI.csd" Type="Layer" />
+        <Project Name="DDZGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="DDZGameRoomPrepareUI.csd" Type="Layer" />
+        <PlistInfo Name="DDZGameRoomUI.csi" Type="Plist" />
+        <Project Name="DDZHelpUI.csd" Type="Layer" />
+        <Project Name="DDZMyPlayerInfoNode.csd" Type="Node" />
+        <Project Name="DDZPlayBackUI.csd" Type="Layer" />
+        <Project Name="DDZPlayerInfoNode.csd" Type="Node" />
+        <Project Name="DDZPlayerMyHandTileNode.csd" Type="Node" />
+        <Project Name="DDZPlayerSideHandTileNode.csd" Type="Node" />
+        <Project Name="DDZPlayerTileNode.csd" Type="Node" />
+        <Project Name="DDZResultUI.csd" Type="Layer" />
+        <Project Name="DDZRocketAction.csd" Type="Scene" />
+        <Project Name="DDZSettlementUI.csd" Type="Layer" />
+        <Project Name="DisclaimerUI.csd" Type="Layer" />
+        <Project Name="DismissRoomPlanUI.csd" Type="Layer" />
+        <Project Name="DTLGFMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="DTLGFMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="DTLGFMJGameRoomPrepareUI.csd" Type="Layer" />
+        <Project Name="DTLGFMJResultUI.csd" Type="Layer" />
+        <Project Name="DTLGFMJSettlementUI.csd" Type="Layer" />
+        <Project Name="EditorUI.csd" Type="Layer" />
+        <PlistInfo Name="Effect.csi" Type="Plist" />
+        <Project Name="EffectFiscalAction.csd" Type="Node" />
+        <Project Name="EffectWashAction.csd" Type="Node" />
+        <PlistInfo Name="expression.csi" Type="Plist" />
+        <Project Name="FYQYMMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="FYQYMMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="GameConfigUI.csd" Type="Layer" />
+        <Project Name="GameHallActivityBtn.csd" Type="Node" />
+        <Project Name="GameHallLotteryBtn.csd" Type="Node" />
+        <Project Name="GameHallNoviceBtn.csd" Type="Node" />
+        <Project Name="GameHallNPC.csd" Type="Scene" />
+        <Project Name="GameHallShareUI.csd" Type="Layer" />
+        <Project Name="GameHallShopBtn.csd" Type="Node" />
+        <Project Name="GameHallUI.csd" Type="Layer" />
+        <Project Name="GameRoomInfo2DUI.csd" Type="Layer" />
+        <Project Name="GameRoomInfoUI.csd" Type="Layer" />
+        <PlistInfo Name="GameRoomUI.csi" Type="Plist" />
+        <Project Name="GPSceneUI.csd" Type="Layer" />
+        <Project Name="GPSUI.csd" Type="Layer" />
+        <Project Name="GSJMJCreateRoomUI.csd" Type="Layer" />
+        <Project Name="GSJMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="GSJMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="GSJMJGameRoomPrepareUI.csd" Type="Layer" />
+        <Project Name="GSJMJHelpUI.csd" Type="Layer" />
+        <Project Name="GSJMJResultUI.csd" Type="Layer" />
+        <Project Name="GSJMJSettlementUI.csd" Type="Layer" />
+        <Project Name="GXMJCreateRoomUI.csd" Type="Node" />
+        <Project Name="HelpUI.csd" Type="Layer" />
+        <Project Name="InfoUI.csd" Type="Layer" />
+        <Project Name="InviteUI.csd" Type="Layer" />
+        <Project Name="JoinRoomUI.csd" Type="Layer" />
+        <Project Name="JZMJCreateRoomUI.csd" Type="Layer" />
+        <Project Name="JZMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="JZMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="JZMJGameRoomInfo2DUI.csd" Type="Layer" />
+        <Project Name="JZMJGameRoomInfoUI.csd" Type="Layer" />
+        <Project Name="JZMJHelpUI.csd" Type="Layer" />
+        <Project Name="JZMJResultUI.csd" Type="Layer" />
+        <Project Name="JZMJSettlementUI.csd" Type="Layer" />
+        <Project Name="liangpai.csd" Type="Node" />
+        <Project Name="LL7DeskTileNode.csd" Type="Node" />
+        <Project Name="LL7GameRoom2DUI.csd" Type="Layer" />
+        <Project Name="LL7GameRoomPrepareUI.csd" Type="Layer" />
+        <PlistInfo Name="LL7GameRoomUI.csi" Type="Plist" />
+        <Project Name="LL7MaiDiUI.csd" Type="Layer" />
+        <Project Name="LL7PlayerInfoNode.csd" Type="Node" />
+        <Project Name="LL7PreviousUI.csd" Type="Layer" />
+        <Project Name="LL7SettlementUI.csd" Type="Layer" />
+        <Project Name="LLKDDMJCreateRoomUI.csd" Type="Layer" />
+        <Project Name="LLKDDMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="LLKDDMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="LLKDDMJGameRoomPrepareUI.csd" Type="Layer" />
+        <Project Name="LLKDDMJHelpUI.csd" Type="Layer" />
+        <Project Name="LLKDDMJResultUI.csd" Type="Layer" />
+        <Project Name="LLKDDMJSettlementUI.csd" Type="Layer" />
+        <Project Name="LockUI.csd" Type="Layer" />
+        <Project Name="LoginUI.csd" Type="Layer" />
+        <Project Name="LotteryAction.csd" Type="Node" />
+        <Project Name="LotteryUI.csd" Type="Layer" />
+        <Project Name="LSBLMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="LSBLMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="LSBLMJGameRoomPrepareUI.csd" Type="Layer" />
+        <PlistInfo Name="Mahjong3.csi" Type="Plist" />
+        <Project Name="NoticeUI.csd" Type="Layer" />
+        <Project Name="NoviceGiftUI.csd" Type="Layer" />
+        <Project Name="PlayBack2DUI.csd" Type="Layer" />
+        <Project Name="PlayBack3DUI.csd" Type="Layer" />
+        <Project Name="PlayBackControlUI.csd" Type="Layer" />
+        <PlistInfo Name="PlaybackUI.csi" Type="Plist" />
+        <Project Name="PlayerInfoUI.csd" Type="Layer" />
+        <PlistInfo Name="Poker.csi" Type="Plist" />
+        <Project Name="PokerResultUI.csd" Type="Layer" />
+        <Project Name="PublicNumUI.csd" Type="Layer" />
+        <Project Name="RecordBigItem3UI.csd" Type="Node" />
+        <Project Name="RecordBigItem4UI.csd" Type="Node" />
+        <Project Name="RecordBigItem5UI.csd" Type="Node" />
+        <Project Name="RecordSlenderItem3UI.csd" Type="Node" />
+        <Project Name="RecordSlenderItem4UI.csd" Type="Node" />
+        <Project Name="RecordSlenderItem5UI.csd" Type="Node" />
+        <Project Name="RecordUI.csd" Type="Layer" />
+        <Project Name="ResultUI.csd" Type="Layer" />
+        <Project Name="RulerUI.csd" Type="Layer" />
+        <Project Name="SettlementUI.csd" Type="Layer" />
+        <Project Name="ShareCircleUI.csd" Type="Layer" />
+        <Project Name="ShareSelectUI.csd" Type="Layer" />
+        <Project Name="ShopUI.csd" Type="Layer" />
+        <PlistInfo Name="ShopUI.csi" Type="Plist" />
+        <Project Name="ShowClubUI.csd" Type="Layer" />
+        <Project Name="SuperInfoUI.csd" Type="Layer" />
+        <Project Name="TaskItemUI.csd" Type="Node" />
+        <Project Name="TaskUI.csd" Type="Layer" />
+        <Project Name="TDHMJCreateRoomUI.csd" Type="Layer" />
+        <Project Name="TDHMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="TDHMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="TDHMJHelpUI.csd" Type="Layer" />
+        <Project Name="TDHMJResultUI.csd" Type="Layer" />
+        <Project Name="TDHMJSettlementUI.csd" Type="Layer" />
+        <Project Name="TYKDDMJCreateRoomUI.csd" Type="Layer" />
+        <Project Name="TYKDDMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="TYKDDMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="TYKDDMJGameRoomPrepareUI.csd" Type="Layer" />
+        <Project Name="TYKDDMJHelpUI.csd" Type="Layer" />
+        <Project Name="TYKDDMJResultUI.csd" Type="Layer" />
+        <Project Name="TYKDDMJSettlementUI.csd" Type="Layer" />
+        <Project Name="TYLSMJCreateRoomUI.csd" Type="Layer" />
+        <Project Name="TYLSMJGameRoom2DUI.csd" Type="Layer" />
+        <Project Name="TYLSMJGameRoom3DUI.csd" Type="Layer" />
+        <Project Name="TYLSMJGameRoomInfo2DUI.csd" Type="Layer" />
+        <Project Name="TYLSMJGameRoomInfoUI.csd" Type="Layer" />
+        <Project Name="TYLSMJHelpUI.csd" Type="Layer" />
+        <Project Name="TYLSMJResultUI.csd" Type="Layer" />
+        <Project Name="TYLSMJSettlementUI.csd" Type="Layer" />
+        <Project Name="UserAgreeUI.csd" Type="Layer" />
+        <Project Name="WebViewUI.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

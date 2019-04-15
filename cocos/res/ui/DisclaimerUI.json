@@ -1,0 +1,490 @@
+{
+  "ID": "92fc6a6a-08a5-4dcc-a61d-6ab5070d9972",
+  "Version": "3.10.0.0",
+  "Name": "DisclaimerUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 439,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BackGround/small_win.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 80,
+            "Scale9Width": 824,
+            "Scale9Height": 470,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7688,
+              "Y": 0.875
+            },
+            "LeftMargin": 148.0,
+            "RightMargin": 148.0,
+            "TopMargin": 45.0,
+            "BottomMargin": 45.0,
+            "Tag": 496,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "DisclaimerUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 64,
+                "Scale9OriginY": 13,
+                "Scale9Width": 108,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.0,
+                  "Y": 592.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.94
+                },
+                "PreSize": {
+                  "X": 0.2398,
+                  "Y": 0.073
+                },
+                "LeftMargin": 374.0,
+                "RightMargin": 374.0,
+                "TopMargin": 14.8,
+                "BottomMargin": 569.2,
+                "Tag": 1667,
+                "ActionTag": 876694308,
+                "Size": {
+                  "X": 236.0,
+                  "Y": 46.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/agree_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 295.2,
+                  "Y": 88.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3,
+                  "Y": 0.14
+                },
+                "PreSize": {
+                  "X": 0.2561,
+                  "Y": 0.181
+                },
+                "LeftMargin": 169.2,
+                "RightMargin": 562.8,
+                "TopMargin": 484.8,
+                "BottomMargin": 31.2,
+                "Tag": 503,
+                "ActionTag": -792967914,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.0
+                },
+                "Name": "yes_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "ApplyCloseUI/refuse_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 222,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 678.96,
+                  "Y": 88.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.69,
+                  "Y": 0.14
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2561,
+                  "Y": 0.181
+                },
+                "LeftMargin": 552.96,
+                "RightMargin": 179.04,
+                "TopMargin": 484.785,
+                "BottomMargin": 31.185,
+                "Tag": 504,
+                "ActionTag": -1362966716,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 114.03
+                },
+                "Name": "no_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 116.112,
+                  "Y": 138.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.118,
+                  "Y": 0.22
+                },
+                "PreSize": {
+                  "X": 0.7744,
+                  "Y": 0.6127
+                },
+                "LeftMargin": 116.112,
+                "RightMargin": 105.888,
+                "TopMargin": 105.4,
+                "BottomMargin": 138.6,
+                "Tag": 278,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "DisclaimerUI/scroll_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 64,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 634,
+                    "Scale9Height": 360,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 381.0,
+                      "Y": 193.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 281,
+                    "ActionTag": -563685082,
+                    "Size": {
+                      "X": 762.0,
+                      "Y": 386.0
+                    },
+                    "Name": "bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsBounceEnabled": true,
+                    "InnerNodeSize": {
+                      "Width": 762,
+                      "Height": 1733
+                    },
+                    "ScrollDirectionType": "Vertical",
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "FirstColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9OriginX": -233,
+                    "Scale9OriginY": -135,
+                    "Scale9Width": 466,
+                    "Scale9Height": 270,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 381.0,
+                      "Y": 193.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 279,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "DisclaimerUI/intro_img.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 732,
+                        "Scale9Height": 1703,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 381.0,
+                          "Y": 1733.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 1.0
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.9875
+                        },
+                        "BottomMargin": 22.0,
+                        "Tag": 280,
+                        "ActionTag": 1560564394,
+                        "Size": {
+                          "X": 762.0,
+                          "Y": 1733.0
+                        },
+                        "Name": "intro_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 617076006,
+                    "Size": {
+                      "X": 762.0,
+                      "Y": 386.0
+                    },
+                    "Name": "intro_scroll",
+                    "ctype": "ScrollViewObjectData"
+                  }
+                ],
+                "ActionTag": -1140697499,
+                "Size": {
+                  "X": 762.0,
+                  "Y": 386.0
+                },
+                "Name": "disclaimer_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1498057888,
+            "Size": {
+              "X": 984.0,
+              "Y": 630.0
+            },
+            "Name": "disclaimer_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "ApplyCloseUI/agree_btn.png",
+        "ApplyCloseUI/refuse_btn.png",
+        "BackGround/small_win.png",
+        "DisclaimerUI/intro_img.png",
+        "DisclaimerUI/scroll_bg.png",
+        "DisclaimerUI/title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

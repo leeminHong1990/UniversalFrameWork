@@ -1,0 +1,4384 @@
+{
+  "ID": "4b087e8c-b5c2-496f-a4fd-37379c3f1d68",
+  "Version": "3.10.0.0",
+  "Name": "GPSceneUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1386,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -329,
+            "Scale9OriginY": -198,
+            "Scale9Width": 658,
+            "Scale9Height": 396,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1387,
+            "ActionTag": -1973967238,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "VisibleForFrame": false,
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7797,
+              "Y": 0.8333
+            },
+            "LeftMargin": 141.0,
+            "RightMargin": 141.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 60.0,
+            "Tag": 1388,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSceneUI/bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 118,
+                "Scale9OriginY": 135,
+                "Scale9Width": 762,
+                "Scale9Height": 330,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 1389,
+                "ActionTag": -598920029,
+                "Size": {
+                  "X": 998.0,
+                  "Y": 600.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 1657,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 499.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.501,
+                      "Y": 0.8333
+                    },
+                    "LeftMargin": 249.0,
+                    "RightMargin": 249.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 765,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 60.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.12,
+                          "Y": 0.28
+                        },
+                        "PreSize": {
+                          "X": 0.532,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": -73.0,
+                        "RightMargin": 307.0,
+                        "TopMargin": 283.5,
+                        "BottomMargin": 63.5,
+                        "Tag": 766,
+                        "ActionTag": -1899939028,
+                        "Size": {
+                          "X": 266.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 440.0,
+                          "Y": 142.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 120.5,
+                        "RotationSkewY": 120.5,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.88,
+                          "Y": 0.285
+                        },
+                        "PreSize": {
+                          "X": 0.532,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": 307.0,
+                        "RightMargin": -73.0,
+                        "TopMargin": 281.0,
+                        "BottomMargin": 66.0,
+                        "Tag": 778,
+                        "ActionTag": 1095631725,
+                        "Size": {
+                          "X": 266.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 440.0,
+                          "Y": 345.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.88,
+                          "Y": 0.69
+                        },
+                        "PreSize": {
+                          "X": 0.532,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": 307.0,
+                        "RightMargin": -73.0,
+                        "TopMargin": 78.5,
+                        "BottomMargin": 268.5,
+                        "Tag": 779,
+                        "ActionTag": 981332052,
+                        "Size": {
+                          "X": 266.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 60.0,
+                          "Y": 346.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 120.0,
+                        "RotationSkewY": 120.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.12,
+                          "Y": 0.692
+                        },
+                        "PreSize": {
+                          "X": 0.532,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": -73.0,
+                        "RightMargin": 307.0,
+                        "TopMargin": 77.5,
+                        "BottomMargin": 269.5,
+                        "Tag": 780,
+                        "ActionTag": 696472286,
+                        "Size": {
+                          "X": 266.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_3",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/horizon_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9Width": 581,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 245.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.49
+                        },
+                        "PreSize": {
+                          "X": 1.29,
+                          "Y": 0.002
+                        },
+                        "LeftMargin": -72.5,
+                        "RightMargin": -72.5,
+                        "TopMargin": 254.5,
+                        "BottomMargin": 244.5,
+                        "Tag": 792,
+                        "ActionTag": -1079617218,
+                        "Size": {
+                          "X": 645.0,
+                          "Y": 1.0
+                        },
+                        "Name": "horizon_line_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/vertical_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 1,
+                        "Scale9Height": 243,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 245.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.49
+                        },
+                        "PreSize": {
+                          "X": 0.002,
+                          "Y": 0.522
+                        },
+                        "LeftMargin": 249.5,
+                        "RightMargin": 249.5,
+                        "TopMargin": 124.5,
+                        "BottomMargin": 114.5,
+                        "Tag": 793,
+                        "ActionTag": -1752520161,
+                        "Size": {
+                          "X": 1.0,
+                          "Y": 261.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "vertical_line_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 245.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.84,
+                          "ScaleY": 0.84
+                        },
+                        "RotationSkewX": 60.0,
+                        "RotationSkewY": 60.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.49
+                        },
+                        "PreSize": {
+                          "X": 0.532,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": 117.0,
+                        "RightMargin": 117.0,
+                        "TopMargin": 178.5,
+                        "BottomMargin": 168.5,
+                        "Tag": 204,
+                        "ActionTag": 1767797449,
+                        "Size": {
+                          "X": 266.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_4",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1521526612,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 500.0
+                    },
+                    "Name": "line_panel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 499.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.501,
+                      "Y": 0.8333
+                    },
+                    "LeftMargin": 249.0,
+                    "RightMargin": 249.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 755,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 445.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -32.0,
+                        "RotationSkewY": -32.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.89,
+                          "Y": 0.3
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 396.0,
+                        "RightMargin": 6.0,
+                        "TopMargin": 335.0,
+                        "BottomMargin": 135.0,
+                        "Tag": 1762,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1763,
+                            "ActionTag": 1246470821,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1215902586,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_0",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.3
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 201.0,
+                        "RightMargin": 201.0,
+                        "TopMargin": 335.0,
+                        "BottomMargin": 135.0,
+                        "Tag": 1761,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 756,
+                            "ActionTag": -1599278424,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -101016315,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_1",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.0,
+                          "Y": 150.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 31.0,
+                        "RotationSkewY": 31.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.09,
+                          "Y": 0.3
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": -4.0,
+                        "RightMargin": 406.0,
+                        "TopMargin": 335.0,
+                        "BottomMargin": 135.0,
+                        "Tag": 1764,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1765,
+                            "ActionTag": -1305200016,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -789249818,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_2",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.0,
+                          "Y": 242.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.09,
+                          "Y": 0.485
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": -4.0,
+                        "RightMargin": 406.0,
+                        "TopMargin": 242.5,
+                        "BottomMargin": 227.5,
+                        "Tag": 1766,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1767,
+                            "ActionTag": -1606938843,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -402922796,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_3",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 45.0,
+                          "Y": 337.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -30.0,
+                        "RotationSkewY": -30.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.09,
+                          "Y": 0.675
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": -4.0,
+                        "RightMargin": 406.0,
+                        "TopMargin": 147.5,
+                        "BottomMargin": 322.5,
+                        "Tag": 1768,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1769,
+                            "ActionTag": 134913677,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1072846326,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_4",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 445.0,
+                          "Y": 342.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 30.0,
+                        "RotationSkewY": 30.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.89,
+                          "Y": 0.685
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 396.0,
+                        "RightMargin": 6.0,
+                        "TopMargin": 142.5,
+                        "BottomMargin": 327.5,
+                        "Tag": 1770,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1771,
+                            "ActionTag": -616618667,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -642731230,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_5",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -2117007617,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 500.0
+                    },
+                    "Name": "word_panel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 499.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.501,
+                      "Y": 0.8333
+                    },
+                    "LeftMargin": 249.0,
+                    "RightMargin": 249.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 781,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -130.0,
+                          "Y": 245.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": -0.26,
+                          "Y": 0.49
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": -198.0,
+                        "RightMargin": 562.0,
+                        "TopMargin": 188.0,
+                        "BottomMargin": 178.0,
+                        "Tag": 782,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 791,
+                            "ActionTag": 1573858022,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1049493334,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 435.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.87
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": 182.0,
+                        "RightMargin": 182.0,
+                        "TopMargin": -2.0,
+                        "BottomMargin": 368.0,
+                        "Tag": 787,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 795,
+                            "ActionTag": 444394036,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1247525547,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 630.0,
+                          "Y": 245.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.26,
+                          "Y": 0.49
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": 562.0,
+                        "RightMargin": -198.0,
+                        "TopMargin": 188.0,
+                        "BottomMargin": 178.0,
+                        "Tag": 788,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 796,
+                            "ActionTag": -917549498,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1640015637,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 55.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.11
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": 182.0,
+                        "RightMargin": 182.0,
+                        "TopMargin": 378.0,
+                        "BottomMargin": -12.0,
+                        "Tag": 786,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 794,
+                            "ActionTag": -1555918747,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1771303422,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_3",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1094204341,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 500.0
+                    },
+                    "Name": "Avatar_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 1051357677,
+                "Size": {
+                  "X": 998.0,
+                  "Y": 600.0
+                },
+                "Name": "three_four_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 1721,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 499.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.501,
+                      "Y": 0.8333
+                    },
+                    "LeftMargin": 249.0,
+                    "RightMargin": 249.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 1722,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -30.0,
+                          "Y": 200.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 49.0,
+                        "RotationSkewY": 49.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": -0.06,
+                          "Y": 0.4
+                        },
+                        "PreSize": {
+                          "X": 0.464,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": -146.0,
+                        "RightMargin": 414.0,
+                        "TopMargin": 223.5,
+                        "BottomMargin": 123.5,
+                        "Tag": 1723,
+                        "ActionTag": -1475624287,
+                        "Size": {
+                          "X": 232.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 534.9999,
+                          "Y": 205.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -115.0,
+                        "RotationSkewY": -115.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.07,
+                          "Y": 0.41
+                        },
+                        "PreSize": {
+                          "X": 0.464,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": 418.9999,
+                        "RightMargin": -150.9999,
+                        "TopMargin": 218.5,
+                        "BottomMargin": 128.5,
+                        "Tag": 1758,
+                        "ActionTag": -816113353,
+                        "Size": {
+                          "X": 232.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 425.0,
+                          "Y": 390.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -9.0,
+                        "RotationSkewY": -9.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.85,
+                          "Y": 0.78
+                        },
+                        "PreSize": {
+                          "X": 0.532,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": 292.0,
+                        "RightMargin": -58.0,
+                        "TopMargin": 33.5,
+                        "BottomMargin": 313.5,
+                        "Tag": 1725,
+                        "ActionTag": 1499239380,
+                        "Size": {
+                          "X": 266.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/horizon_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9Width": 581,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 140.0,
+                          "Y": 280.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -55.0,
+                        "RotationSkewY": -55.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.28,
+                          "Y": 0.56
+                        },
+                        "PreSize": {
+                          "X": 0.97,
+                          "Y": 0.002
+                        },
+                        "LeftMargin": -102.5,
+                        "RightMargin": 117.5,
+                        "TopMargin": 219.5,
+                        "BottomMargin": 279.5,
+                        "Tag": 1756,
+                        "ActionTag": -396475314,
+                        "Size": {
+                          "X": 485.0,
+                          "Y": 1.0
+                        },
+                        "Name": "line_img_3",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/horizon_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9Width": 581,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 365.0,
+                          "Y": 275.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 55.0,
+                        "RotationSkewY": 55.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.73,
+                          "Y": 0.55
+                        },
+                        "PreSize": {
+                          "X": 0.97,
+                          "Y": 0.002
+                        },
+                        "LeftMargin": 122.5,
+                        "RightMargin": -107.5,
+                        "TopMargin": 224.5,
+                        "BottomMargin": 274.5,
+                        "Tag": 1757,
+                        "ActionTag": 1963126247,
+                        "Size": {
+                          "X": 485.0,
+                          "Y": 1.0
+                        },
+                        "Name": "line_img_4",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/horizon_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9Width": 581,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 335.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.67
+                        },
+                        "PreSize": {
+                          "X": 1.29,
+                          "Y": 0.002
+                        },
+                        "LeftMargin": -72.5,
+                        "RightMargin": -72.5,
+                        "TopMargin": 164.5,
+                        "BottomMargin": 334.5,
+                        "Tag": 1727,
+                        "ActionTag": 300246545,
+                        "Size": {
+                          "X": 645.0,
+                          "Y": 1.0
+                        },
+                        "Name": "line_img_5",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/horizon_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9Width": 581,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 260.0,
+                          "Y": 200.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -25.0,
+                        "RotationSkewY": -25.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.52,
+                          "Y": 0.4
+                        },
+                        "PreSize": {
+                          "X": 1.29,
+                          "Y": 0.002
+                        },
+                        "LeftMargin": -62.5,
+                        "RightMargin": -82.5,
+                        "TopMargin": 299.5,
+                        "BottomMargin": 199.5,
+                        "Tag": 1754,
+                        "ActionTag": -1340321021,
+                        "Size": {
+                          "X": 645.0,
+                          "Y": 1.0
+                        },
+                        "Name": "line_img_6",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/horizon_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9Width": 581,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 235.0,
+                          "Y": 200.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 25.0,
+                        "RotationSkewY": 25.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.47,
+                          "Y": 0.4
+                        },
+                        "PreSize": {
+                          "X": 1.29,
+                          "Y": 0.002
+                        },
+                        "LeftMargin": -87.5,
+                        "RightMargin": -57.5,
+                        "TopMargin": 299.5,
+                        "BottomMargin": 199.5,
+                        "Tag": 1755,
+                        "ActionTag": 1029257028,
+                        "Size": {
+                          "X": 645.0,
+                          "Y": 1.0
+                        },
+                        "Name": "line_img_7",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/horizon_line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9Width": 581,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 260.0,
+                          "Y": 72.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.52,
+                          "Y": 0.145
+                        },
+                        "PreSize": {
+                          "X": 1.174,
+                          "Y": 0.002
+                        },
+                        "LeftMargin": -33.5,
+                        "RightMargin": -53.5,
+                        "TopMargin": 427.0,
+                        "BottomMargin": 72.0,
+                        "Tag": 1759,
+                        "ActionTag": 1952903131,
+                        "Size": {
+                          "X": 587.0,
+                          "Y": 1.0
+                        },
+                        "Name": "line_img_8",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 202,
+                        "Scale9Height": 135,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 90.0,
+                          "Y": 395.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -53.0,
+                        "RotationSkewY": -53.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.18,
+                          "Y": 0.79
+                        },
+                        "PreSize": {
+                          "X": 0.532,
+                          "Y": 0.306
+                        },
+                        "LeftMargin": -43.0,
+                        "RightMargin": 277.0,
+                        "TopMargin": 28.5,
+                        "BottomMargin": 318.5,
+                        "Tag": 1760,
+                        "ActionTag": -1552903366,
+                        "Size": {
+                          "X": 266.0,
+                          "Y": 153.0
+                        },
+                        "Name": "line_img_9",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1492506878,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 500.0
+                    },
+                    "Name": "line_panel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 499.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.501,
+                      "Y": 0.8333
+                    },
+                    "LeftMargin": 249.0,
+                    "RightMargin": 249.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 1730,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 82.5,
+                          "Y": 395.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -22.0,
+                        "RotationSkewY": -22.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.165,
+                          "Y": 0.79
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 33.5,
+                        "RightMargin": 368.5,
+                        "TopMargin": 90.0,
+                        "BottomMargin": 380.0,
+                        "Tag": 1772,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1773,
+                            "ActionTag": -482157426,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 2072248029,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_0_1",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 335.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.67
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 201.0,
+                        "RightMargin": 201.0,
+                        "TopMargin": 150.0,
+                        "BottomMargin": 320.0,
+                        "Tag": 1776,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1777,
+                            "ActionTag": -493112445,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -771411848,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_0_2",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 175.0,
+                          "Y": 226.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 25.0,
+                        "RotationSkewY": 25.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.35,
+                          "Y": 0.453
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 126.0,
+                        "RightMargin": 276.0,
+                        "TopMargin": 258.5,
+                        "BottomMargin": 211.5,
+                        "Tag": 1778,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1779,
+                            "ActionTag": -2092158275,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -740353052,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_0_3",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -32.5,
+                          "Y": 210.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": -0.065,
+                          "Y": 0.42
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": -81.5,
+                        "RightMargin": 483.5,
+                        "TopMargin": 275.0,
+                        "BottomMargin": 195.0,
+                        "Tag": 1780,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1781,
+                            "ActionTag": -1207948368,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 1514597698,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_0_4",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 407.5,
+                          "Y": 397.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 20.0,
+                        "RotationSkewY": 20.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.815,
+                          "Y": 0.795
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 358.5,
+                        "RightMargin": 43.5,
+                        "TopMargin": 87.5,
+                        "BottomMargin": 382.5,
+                        "Tag": 1774,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1775,
+                            "ActionTag": -1442794783,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 298452146,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_1_2",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 387.5,
+                          "Y": 242.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 53.0,
+                        "RotationSkewY": 53.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.775,
+                          "Y": 0.485
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 338.5,
+                        "RightMargin": 63.5,
+                        "TopMargin": 242.5,
+                        "BottomMargin": 227.5,
+                        "Tag": 1784,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1785,
+                            "ActionTag": 1615857529,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 1404573765,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_1_3",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 67.5,
+                          "Y": 177.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -54.0,
+                        "RotationSkewY": -54.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.135,
+                          "Y": 0.355
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 18.5,
+                        "RightMargin": 383.5,
+                        "TopMargin": 307.5,
+                        "BottomMargin": 162.5,
+                        "Tag": 1786,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1787,
+                            "ActionTag": 64436965,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1580744134,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_1_4",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 537.4999,
+                          "Y": 210.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.075,
+                          "Y": 0.42
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 488.4999,
+                        "RightMargin": -86.4999,
+                        "TopMargin": 275.0,
+                        "BottomMargin": 195.0,
+                        "Tag": 1788,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1789,
+                            "ActionTag": -123894382,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 112722365,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_2_3",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 312.5,
+                          "Y": 225.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -26.0,
+                        "RotationSkewY": -26.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.625,
+                          "Y": 0.45
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 263.5,
+                        "RightMargin": 138.5,
+                        "TopMargin": 260.0,
+                        "BottomMargin": 210.0,
+                        "Tag": 1790,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1791,
+                            "ActionTag": 724534398,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 482048765,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_2_4",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GPSceneUI/word_img.png",
+                          "Plist": ""
+                        },
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 34,
+                        "Scale9Height": 12,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 245.0,
+                          "Y": 72.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.49,
+                          "Y": 0.145
+                        },
+                        "PreSize": {
+                          "X": 0.196,
+                          "Y": 0.06
+                        },
+                        "LeftMargin": 196.0,
+                        "RightMargin": 206.0,
+                        "TopMargin": 412.5,
+                        "BottomMargin": 57.5,
+                        "Tag": 1782,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "9999.99km",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 49.0,
+                              "Y": 15.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0102,
+                              "Y": 0.7667
+                            },
+                            "LeftMargin": -0.5,
+                            "RightMargin": -0.5,
+                            "TopMargin": 3.5,
+                            "BottomMargin": 3.5,
+                            "Tag": 1783,
+                            "ActionTag": 634650936,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 23.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 471180010,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 30.0
+                        },
+                        "Name": "word_panel_3_4",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": 1390792236,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 500.0
+                    },
+                    "Name": "word_panel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 499.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.501,
+                      "Y": 0.8333
+                    },
+                    "LeftMargin": 249.0,
+                    "RightMargin": 249.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 1743,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -100.0,
+                          "Y": 335.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": -0.2,
+                          "Y": 0.67
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": -168.0,
+                        "RightMargin": 532.0,
+                        "TopMargin": 98.0,
+                        "BottomMargin": 268.0,
+                        "Tag": 1744,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 1745,
+                            "ActionTag": -840450860,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1535370175,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 250.0,
+                          "Y": 460.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.92
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": 182.0,
+                        "RightMargin": 182.0,
+                        "TopMargin": -27.0,
+                        "BottomMargin": 393.0,
+                        "Tag": 1746,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 1747,
+                            "ActionTag": 1288450824,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1118878915,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 599.9999,
+                          "Y": 335.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.2,
+                          "Y": 0.67
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": 531.9999,
+                        "RightMargin": -167.9999,
+                        "TopMargin": 98.0,
+                        "BottomMargin": 268.0,
+                        "Tag": 1748,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 1749,
+                            "ActionTag": -587870651,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1040638804,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 545.0,
+                          "Y": 75.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.09,
+                          "Y": 0.15
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": 477.0,
+                        "RightMargin": -113.0,
+                        "TopMargin": 358.0,
+                        "BottomMargin": 8.0,
+                        "Tag": 1752,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 1753,
+                            "ActionTag": -1741923558,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1947658150,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_3",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GameRoomUI/head_frame.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 32,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 72,
+                        "Scale9Height": 116,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -45.0,
+                          "Y": 75.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": -0.09,
+                          "Y": 0.15
+                        },
+                        "PreSize": {
+                          "X": 0.272,
+                          "Y": 0.268
+                        },
+                        "LeftMargin": -113.0,
+                        "RightMargin": 477.0,
+                        "TopMargin": 358.0,
+                        "BottomMargin": 8.0,
+                        "Tag": 1750,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "GPSceneUI/alert.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 9,
+                            "Scale9Width": 27,
+                            "Scale9Height": 70,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 68.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5515,
+                              "Y": 0.6567
+                            },
+                            "LeftMargin": 30.5,
+                            "RightMargin": 30.5,
+                            "TopMargin": 23.0,
+                            "BottomMargin": 23.0,
+                            "Tag": 1751,
+                            "ActionTag": 1162563877,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 88.0
+                            },
+                            "Name": "alert_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1740867361,
+                        "Size": {
+                          "X": 136.0,
+                          "Y": 134.0
+                        },
+                        "Name": "head_frame_img_4",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 108452986,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 500.0
+                    },
+                    "Name": "Avatar_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -573235312,
+                "Size": {
+                  "X": 998.0,
+                  "Y": 600.0
+                },
+                "VisibleForFrame": false,
+                "Name": "five_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSceneUI/bottom.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 70,
+                "Scale9OriginY": 9,
+                "Scale9Width": 134,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 833.33,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.835,
+                  "Y": 0.05
+                },
+                "PreSize": {
+                  "X": 0.2745,
+                  "Y": 0.05
+                },
+                "LeftMargin": 696.33,
+                "RightMargin": 27.67,
+                "TopMargin": 555.0,
+                "BottomMargin": 15.0,
+                "Tag": 789,
+                "ActionTag": 1260753456,
+                "Size": {
+                  "X": 274.0,
+                  "Y": 30.0
+                },
+                "Name": "bottom_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GPSceneUI/top.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 70,
+                "Scale9OriginY": 9,
+                "Scale9Width": 73,
+                "Scale9Height": 11,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 132.734,
+                  "Y": 571.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.133,
+                  "Y": 0.953
+                },
+                "PreSize": {
+                  "X": 0.2134,
+                  "Y": 0.0483
+                },
+                "LeftMargin": 26.234,
+                "RightMargin": 758.766,
+                "TopMargin": 13.7,
+                "BottomMargin": 557.3,
+                "Tag": 790,
+                "ActionTag": 1969662237,
+                "Size": {
+                  "X": 213.0,
+                  "Y": 29.0
+                },
+                "Name": "top_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1594672557,
+            "Size": {
+              "X": 998.0,
+              "Y": 600.0
+            },
+            "Name": "gps_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/zhunyuan.ttf",
+        "GameRoomUI/head_frame.png",
+        "GPSceneUI/alert.png",
+        "GPSceneUI/bg.png",
+        "GPSceneUI/bottom.png",
+        "GPSceneUI/horizon_line.png",
+        "GPSceneUI/line.png",
+        "GPSceneUI/top.png",
+        "GPSceneUI/vertical_line.png",
+        "GPSceneUI/word_img.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

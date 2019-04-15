@@ -1,0 +1,27 @@
+<root>
+	<Parent>	Room	</Parent>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<paySuccessCbk>
+		</paySuccessCbk>
+		<give_up_record_game>
+		</give_up_record_game>
+		<dropRoom>
+		</dropRoom>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

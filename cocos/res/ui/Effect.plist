@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Effect/e.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{270,928},{83,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{83,46}</string>
+			</dict>
+			<key>Effect/e1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{316,928},{83,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{83,46}</string>
+			</dict>
+			<key>Effect/guang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{324,324}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,324}</string>
+			</dict>
+			<key>Effect/guang1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{305,510},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>Effect/hongb.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{362,928},{56,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{56,54}</string>
+			</dict>
+			<key>Effect/li.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{212,928},{58,90}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,90}</string>
+			</dict>
+			<key>Effect/paomo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{528,0},{200,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Effect/paomo1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{324,0},{220,204}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{220,204}</string>
+			</dict>
+			<key>Effect/ren.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{305,324},{186,335}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{186,335}</string>
+			</dict>
+			<key>Effect/shou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,658},{270,372}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{270,372}</string>
+			</dict>
+			<key>Effect/shou1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,324},{334,305}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{334,305}</string>
+			</dict>
+			<key>Effect/shuid.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,1005},{19,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{19,21}</string>
+			</dict>
+			<key>Effect/xiangl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,510},{185,216}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{185,216}</string>
+			</dict>
+			<key>Effect/youshou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,928},{127,77}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,77}</string>
+			</dict>
+			<key>Effect/zuoshou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{127,928},{94,85}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{94,85}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Effect.png</string>
+			<key>realTextureFileName</key>
+			<string>Effect.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

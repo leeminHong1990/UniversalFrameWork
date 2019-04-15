@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Effect" Type="Plist" ID="e20f69ac-f00b-406a-a592-2e3b9f0da530" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Effect/e.png" />
+      <FilePathData Path="Effect/e1.png" />
+      <FilePathData Path="Effect/guang.png" />
+      <FilePathData Path="Effect/guang1.png" />
+      <FilePathData Path="Effect/hongb.png" />
+      <FilePathData Path="Effect/li.png" />
+      <FilePathData Path="Effect/paomo.png" />
+      <FilePathData Path="Effect/paomo1.png" />
+      <FilePathData Path="Effect/ren.png" />
+      <FilePathData Path="Effect/shou.png" />
+      <FilePathData Path="Effect/shou1.png" />
+      <FilePathData Path="Effect/shuid.png" />
+      <FilePathData Path="Effect/xiangl.png" />
+      <FilePathData Path="Effect/youshou.png" />
+      <FilePathData Path="Effect/zuoshou.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>
