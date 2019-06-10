@@ -1,4 +1,4 @@
-<h1 align="center">ImageFrameWork</h1>
+<h1 align="center">UniversalFrameWork</h1>
 
 <div align="center">
 An framework contain more than one chess and card game.
