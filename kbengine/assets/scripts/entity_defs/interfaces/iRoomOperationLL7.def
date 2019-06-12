@@ -1,0 +1,34 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	    <secondDeal>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</secondDeal>
+		<ll7PostOperation>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT32				</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		INT8				</Arg>
+		</ll7PostOperation>
+		<ll7WaitForOperation>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT32		</Arg>
+		</ll7WaitForOperation>
+	</ClientMethods>
+</root>
+

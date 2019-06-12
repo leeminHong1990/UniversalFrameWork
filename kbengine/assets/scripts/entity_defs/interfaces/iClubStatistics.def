@@ -1,0 +1,22 @@
+<root>
+	<Properties>
+	    <dailyTime>
+			<Type>			UINT32	    </Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true	    </Persistent>
+			<Default>	    0	        </Default>
+		</dailyTime>
+		<statistics>
+			<Type>			CLUB_STATISTICS_DICT	    </Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true	    </Persistent>
+		</statistics>
+		<active_members>
+		    <Type>			UINT32_ARRAY	    </Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true	    </Persistent>
+			<Default>	    []	        </Default>
+		</active_members>
+	</Properties>
+</root>
+

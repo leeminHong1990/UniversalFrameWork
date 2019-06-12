@@ -1,0 +1,30 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<postOperationLSBMZMJ>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT32				</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		UINT32				</Arg>
+		</postOperationLSBMZMJ>
+		<setPassWinStateLSBMZMJ>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT32				</Arg>
+		</setPassWinStateLSBMZMJ>
+	</ClientMethods>
+</root>

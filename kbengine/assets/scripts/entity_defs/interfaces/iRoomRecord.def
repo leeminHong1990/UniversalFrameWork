@@ -1,0 +1,35 @@
+<root>
+    <Properties>
+        <recordIndex>
+            <Type>			UINT32			</Type>
+            <Flags>			BASE		</Flags>
+            <Persistent>	true	</Persistent>
+            <Default>	100000	</Default>
+        </recordIndex>
+
+    </Properties>
+
+    <BaseMethods>
+    	<begin_record_room>
+		<Arg>		ENTITYCALL		</Arg>
+		<Arg>		UINT32 			</Arg>
+		<Arg>		PY_DICT 		</Arg>
+		</begin_record_room>
+		<update_record_room>
+		<Arg>		ENTITYCALL		</Arg>
+		<Arg>		UINT32 			</Arg>
+		<Arg>		PY_DICT 		</Arg>
+		</update_record_room>
+		<end_record_room>
+			<Arg>		UINT32 		</Arg>
+			<Arg>		UINT32 		</Arg>
+			<Arg>		UINT32 		</Arg>
+            <Arg>		PY_DICT 	</Arg>
+		</end_record_room>
+		<give_up_record_room>
+			<Arg>		UINT32 		</Arg>
+		</give_up_record_room>
+	</BaseMethods>
+
+</root>
+

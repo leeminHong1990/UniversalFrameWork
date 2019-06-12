@@ -1,0 +1,18 @@
+{
+  "10001": {
+    "id": 10001,
+    "task_type": 0,
+    "condition": {
+      "id": 22001,
+      "type": "ShareTaskCondition"
+    },
+    "action": {
+      "id": 32001,
+      "count": 1,
+      "type": "LotteryDailyAction"
+    },
+    "end_time": 0,
+    "title": "\u6bcf\u65e5\u5206\u4eab",
+    "desc": ""
+  }
+}

@@ -1,0 +1,20 @@
+<root>
+	<Properties>
+		<lastResetDayTime>
+			<Type>			DOUBLE		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</lastResetDayTime>
+
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+	<ClientMethods>
+		<pushAvatarInfo>
+			<Arg>	AVATAR_INFO </Arg>
+		</pushAvatarInfo>
+	</ClientMethods>
+</root>
+

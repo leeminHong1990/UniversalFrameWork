@@ -1,0 +1,218 @@
+<root>
+	<Properties>
+        <clubList>
+			<Type>			UINT32_ARRAY		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	true	</Persistent>
+		</clubList>
+	</Properties>
+
+	<BaseMethods>
+        <createClub>
+			<Exposed/>
+		</createClub>
+        <deleteClub>
+            <Exposed/>
+            <Arg>		UINT32		</Arg>
+        </deleteClub>
+		<clubOperation>
+			<Exposed/>
+            <Arg>		UINT8		</Arg>
+            <Arg>		UINT32		</Arg>
+			<Arg>		UNICODE 	</Arg>
+		</clubOperation>
+		<getClubListInfo>
+			<Exposed/>
+		</getClubListInfo>
+		<getClubDetailInfo>
+			<Exposed/>
+            <Arg>		UINT32		</Arg>
+		</getClubDetailInfo>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+    <ClientMethods>
+		<gotClubListInfo>
+			<Arg>	CLUB_DETAIL_INFO_LIST		</Arg>
+		</gotClubListInfo>
+		<joinClubSucceed>
+			<Arg>	CLUB_DETAIL_INFO_LIST		</Arg>
+		</joinClubSucceed>
+		<leaveClubSucceed>
+			<Arg>	CLUB_DETAIL_INFO_LIST		</Arg>
+		</leaveClubSucceed>
+        <gotClubDetailInfo>
+			<Arg>	CLUB_DETAIL_INFO		</Arg>
+		</gotClubDetailInfo>
+		<createClubSucceed>
+			<Arg>	CLUB_DETAIL_INFO		</Arg>
+		</createClubSucceed>
+		<deleteClubSucceed>
+			<Arg>	UINT32		</Arg>
+		</deleteClubSucceed>
+		<gotTableDetailInfo>
+			<Arg> 	UINT8 				</Arg>
+			<Arg>	TABLE_DETAIL_INFO	</Arg>
+		</gotTableDetailInfo>
+		<gotClubTableList>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UINT8_ARRAY		</Arg>
+		</gotClubTableList>
+		<setClubNameSucceed>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</setClubNameSucceed>
+		<setClubNoticeSucceed>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</setClubNoticeSucceed>
+		<setMemberNotesSucceed>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</setMemberNotesSucceed>
+		<gotClubMembers>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_CLIENT_MEMBER_INFO_ARRAY		</Arg>
+		</gotClubMembers>
+		<gotPageClubMembers>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_CLIENT_MEMBER_INFO_ARRAY		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+		</gotPageClubMembers>
+		<gotPageClubBlacks>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_BLACK_INFO_ARRAY		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+		</gotPageClubBlacks>
+		<gotClubAdmins>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_CLIENT_MEMBER_INFO_ARRAY		</Arg>
+		</gotClubAdmins>
+		<gotPageClubStatistics>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_STATISTICS_ARRAY		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+		</gotPageClubStatistics>
+		<gotClubApplicants>
+			<Arg>	CLUB_APPLICANT_INFO_ARRAY		</Arg>
+		</gotClubApplicants>
+		<gotClubRecords>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_ROOM_RESULT_ARRAY		</Arg>
+		</gotClubRecords>
+		<gotPageClubRecords>
+			<Arg> 		UINT32 		</Arg>
+			<Arg>	CLUB_ROOM_RESULT_ARRAY		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UINT32 		</Arg>
+			<Arg> 		UNICODE		</Arg>
+		</gotPageClubRecords>
+		<clubOperationFailed>
+			<Arg>		INT8		</Arg>
+		</clubOperationFailed>
+
+		<!-- Club Event -->
+		<clubEvent_POSC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		POSC_EVENT_MSG		</Arg>
+		</clubEvent_POSC>
+		<clubEvent_PGSC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		PGSC_EVENT_MSG		</Arg>
+		</clubEvent_PGSC>
+		<clubEvent_RPC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		RPC_EVENT_MSG		</Arg>
+		</clubEvent_RPC>
+		<clubEvent_SIC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		SIC_EVENT_MSG		</Arg>
+		</clubEvent_SIC>
+		<clubEvent_MNC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		MNC_EVENT_MSG		</Arg>
+		</clubEvent_MNC>
+		<clubEvent_CNMC>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</clubEvent_CNMC>
+		<clubEvent_CNTC>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</clubEvent_CNTC>
+		<clubEvent_DRPC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		DRPC_EVENT_MSG		</Arg>
+		</clubEvent_DRPC>
+		<clubEvent_CRSC>
+			<Arg>		UINT32		</Arg>
+			<Arg>		BOOL		</Arg>
+		</clubEvent_CRSC>
+        <clubEvent_CMIU>
+			<Arg>		UINT32		        </Arg>
+			<Arg>		CMIU_EVENT_MSG		</Arg>
+		</clubEvent_CMIU>
+		<clubEvent_CPMSC>
+			<Arg>		UINT32		</Arg>
+			<Arg>		BOOL		</Arg>
+		</clubEvent_CPMSC>
+		<clubEvent_RSC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		RSC_EVENT_MSG		</Arg>
+		</clubEvent_RSC>
+		<clubEvent_RRC>
+			<Arg>		UINT32				</Arg>
+			<Arg>		RRC_EVENT_MSG		</Arg>
+		</clubEvent_RRC>
+		<clubEvent_CAH>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		BOOL		</Arg>
+		</clubEvent_CAH>
+		<clubEvent_CLSC>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		BOOL		</Arg>
+		</clubEvent_CLSC>
+		<clubEvent_CMC>
+		    <Arg>		UINT32				</Arg>
+		    <Arg>		CMC_EVENT_MSG		</Arg>
+		</clubEvent_CMC>
+		<clubEvent_CMR>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		UINT32		</Arg>
+		</clubEvent_CMR>
+		<clubEvent_CDRPC>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		UINT32_ARRAY		</Arg>
+		</clubEvent_CDRPC>
+		<clubEvent_CAC>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		CLUB_MEMBER_INFO		</Arg>
+		</clubEvent_CAC>
+		<clubEvent_CAR>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		CLUB_MEMBER_INFO		</Arg>
+		</clubEvent_CAR>
+		<clubEvent_CBC>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		CLUB_BLACK_INFO		</Arg>
+		</clubEvent_CBC>
+		<clubEvent_CBK>
+		    <Arg>		UINT32		</Arg>
+		    <Arg>		CLUB_BLACK_INFO		</Arg>
+		</clubEvent_CBK>
+		<!-- Club Event -->
+
+    </ClientMethods>
+</root>
+

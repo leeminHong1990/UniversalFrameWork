@@ -1,0 +1,36 @@
+<root>
+	<Volatile>
+		<position> 0 </position>
+		<yaw> 0 </yaw>
+		<pitch> 0 </pitch>
+		<roll> 0 </roll>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+        <deleteRoom>
+			<Arg>		UINT32		</Arg>
+		</deleteRoom>
+        <enterRoom>
+			<Arg>		UINT32		</Arg>
+            <Arg>		ENTITYCALL		</Arg>
+		</enterRoom>
+        <quitRoom>
+			<Arg>		UINT32		</Arg>
+			<Arg>		ENTITYCALL		</Arg>
+		</quitRoom>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+

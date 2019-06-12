@@ -1,0 +1,33 @@
+<root>
+    <Properties>
+        <stat_game_round>
+            <Type>			AVATAR_GAME_ROUND_INFO_DICT		</Type>
+            <Flags>			BASE			</Flags>
+            <Persistent>	true			</Persistent>
+        </stat_game_round>
+    </Properties>
+
+    <BaseMethods>
+        <queryGameRound>
+            <Exposed/>
+            <Arg>		UINT32		</Arg>
+            <Arg>		UINT32		</Arg>
+        </queryGameRound>
+        <addAvatarGameRound>
+            <Arg>		UINT32		</Arg>
+            <Arg>		UINT32		</Arg>
+        </addAvatarGameRound>
+    </BaseMethods>
+
+    <ClientMethods>
+        <gotGameRound>
+            <Arg> AVATAR_GAME_ROUND_INFO_ARRAY </Arg>
+            <Arg> UINT32 </Arg>
+            <Arg> UINT32 </Arg>
+        </gotGameRound>
+        <pushTodayGameRound>
+            <Arg> UINT32 </Arg>
+        </pushTodayGameRound>
+    </ClientMethods>
+</root>
+

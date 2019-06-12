@@ -1,0 +1,30 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<postOperationLLKDDMJ>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT32				</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		UINT32				</Arg>
+		</postOperationLLKDDMJ>
+		<setPassWinStateLLKDDMJ>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT32				</Arg>
+		</setPassWinStateLLKDDMJ>
+	</ClientMethods>
+</root>

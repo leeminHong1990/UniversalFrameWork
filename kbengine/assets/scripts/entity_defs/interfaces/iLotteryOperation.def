@@ -1,0 +1,41 @@
+<root>
+    <Properties>
+    </Properties>
+
+    <BaseMethods>
+        <lotteryDaily>
+            <Exposed/>
+        </lotteryDaily>
+        <getLotteryDict>
+            <Exposed/>
+        </getLotteryDict>
+        <getReward>
+            <Arg>	UINT8	</Arg>
+            <Exposed/>
+        </getReward>
+    </BaseMethods>
+
+    <ClientMethods>
+        <gotLotteryDailyInfo>
+            <Arg>	UINT32  </Arg>
+            <Arg>	UINT32  </Arg>
+        </gotLotteryDailyInfo>
+        <lotteryDailyFailed>
+            <Arg>	UINT32  </Arg>
+            <Arg>	UNICODE  </Arg>
+        </lotteryDailyFailed>
+        <pushLotteryDailyCount>
+            <Arg>	UINT32  </Arg>
+        </pushLotteryDailyCount>
+        <gotLotteryDict>
+            <Arg>	LOTTERY_REWARD_ITEM_ARRAY  </Arg>
+            <Arg>	UINT16  </Arg>
+            <Arg>	LOTTERY_ITEM_ARRAY  </Arg>
+        </gotLotteryDict>
+        <gotReward>
+            <Arg>	UINT32  </Arg>
+            <Arg>	UNICODE  </Arg>
+        </gotReward>
+    </ClientMethods>
+</root>
+

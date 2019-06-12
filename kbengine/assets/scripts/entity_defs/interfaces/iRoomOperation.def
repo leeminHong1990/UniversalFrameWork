@@ -1,0 +1,253 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+		<createRoom>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>
+			<Arg>   	UNICODE    </Arg>
+		</createRoom>
+		<enterRoom>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>
+		</enterRoom>
+
+		<saveGameResult>
+			<Arg>		UNICODE		</Arg>
+		</saveGameResult>
+		<enterRoomFailed>
+			<Arg> INT8 </Arg>
+		</enterRoomFailed>
+		<inviteClubMemberRoom>
+		    <Exposed/>
+			<Arg> 	UINT32_ARRAY 	</Arg>
+		</inviteClubMemberRoom>
+		<chargeEffect>
+		</chargeEffect>
+		<getPageGameHistory>
+		    <Exposed/>
+		    <Arg> 	UINT8 	</Arg>
+		    <Arg> 	UINT8 	</Arg>
+		    <Arg> 	UNICODE 	</Arg>
+		    <Arg> 	UNICODE_ARRAY 	</Arg>
+		</getPageGameHistory>
+	</BaseMethods>
+
+	<CellMethods>
+		<quitRoom>
+			<Exposed/>
+		</quitRoom>
+		<doOperation>
+			<Exposed/>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UINT32_ARRAY	</Arg>
+		</doOperation>
+		<confirmOperation>
+			<Exposed/>
+			<Arg>	UINT8			</Arg>
+			<Arg>	UINT32_ARRAY	</Arg>
+		</confirmOperation>
+		<prepare>
+			<Exposed/>
+		</prepare>
+		<sendEmotion>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+		</sendEmotion>
+		<sendMsg>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+			<Arg>	UNICODE </Arg>
+		</sendMsg>
+		<sendExpression>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+			<Arg>	INT8 </Arg>
+			<Arg>	INT8 </Arg>
+		</sendExpression>
+		<sendVoice>
+			<Exposed/>
+			<Arg>	STRING </Arg>
+		</sendVoice>
+		<sendAppVoice>
+			<Exposed/>
+			<Arg>	STRING </Arg>
+			<Arg>	FLOAT </Arg>
+		</sendAppVoice>
+		<sendEffect>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+		</sendEffect>
+		<applyDismissRoom>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+			<Arg>	UINT32 </Arg>
+		</applyDismissRoom>
+		<voteDismissRoom>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+		</voteDismissRoom>
+		<setDiscardState>
+			<Exposed/>
+			<Arg>	UINT8 </Arg>
+			<Arg>	UINT32 </Arg>
+		</setDiscardState>
+		<setPassWinState>
+			<Exposed/>
+			<Arg>	UINT8 </Arg>
+		</setPassWinState>
+		<setPassWinStateJZMJ>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+			<Arg>	UINT32 </Arg>
+		</setPassWinStateJZMJ>
+		<setPassWinStateLSBLMJ>
+			<Exposed/>
+			<Arg>	INT8 </Arg>
+			<Arg>	UINT32 </Arg>
+		</setPassWinStateLSBLMJ>
+	</CellMethods>
+
+	<ClientMethods>
+        <createRoomFailed>
+			<Arg>		INT8			</Arg>
+		</createRoomFailed>
+		<enterRoomSucceed>
+			<Arg>		INT8			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		UINT32			</Arg>
+		</enterRoomSucceed>
+		<enterRoomFailed>
+			<Arg>		INT8			</Arg>
+		</enterRoomFailed>
+		<othersEnterRoom>
+			<Arg>		INIT_PLAYER_INFO	</Arg>
+		</othersEnterRoom>
+		<othersQuitRoom>
+			<Arg>		INT8			</Arg>
+		</othersQuitRoom>
+		<quitRoomFailed>
+			<Arg>		INT32			</Arg>
+		</quitRoomFailed>
+		<quitRoomSucceed>
+		</quitRoomSucceed>
+
+		<startGame>
+			<Arg>		STRING				</Arg>
+		</startGame>
+		<postOperation>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT32				</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</postOperation>
+		<postPlayerDiscardState>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT8				</Arg>
+		</postPlayerDiscardState>
+		<postWinOperation>
+		    <Arg>		INT8				</Arg>
+		    <Arg>		UINT32				</Arg>
+		    <Arg>		INT8_ARRAY			</Arg>
+		</postWinOperation>
+		<postMultiOperation>
+			<Arg>		INT8_ARRAY			</Arg>
+			<Arg>		INT8_ARRAY			</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</postMultiOperation>
+		<doOperationFailed>
+			<Arg>		INT8				</Arg>
+		</doOperationFailed>
+		<waitForOperation>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+		</waitForOperation>
+
+		<roundResult>
+			<Arg>		STRING		</Arg>
+		</roundResult>
+		<finalResult>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</finalResult>
+		<subtotalResult>
+			<Arg>		STRING		</Arg>
+		</subtotalResult>
+		<readyForNextRound>
+			<Arg>	INT8	</Arg>
+		</readyForNextRound>
+		<recvEmotion>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+		</recvEmotion>
+		<recvMsg>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</recvMsg>
+		<recvExpression>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+		</recvExpression>
+		<recvVoice>
+			<Arg>	INT8	</Arg>
+			<Arg>	STRING	</Arg>
+		</recvVoice>
+		<recvAppVoice>
+			<Arg>	INT8	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	FLOAT </Arg>
+		</recvAppVoice>
+		<recvEffect>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8    </Arg>
+		</recvEffect>
+		<client_update_card_diamond>
+		</client_update_card_diamond>
+		<handleReconnect>
+			<Arg> STRING	 </Arg>
+		</handleReconnect>
+
+		<pushPageGameRecordList>
+			<Arg> STRING_ARRAY </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> UINT8 </Arg>
+		</pushPageGameRecordList>
+		<reqDismissRoom>
+			<Arg> UINT8 </Arg>
+			<Arg>	INT8 </Arg>
+			<Arg>	UINT32 </Arg>
+		</reqDismissRoom>
+		<voteDismissResult>
+			<Arg> UINT8 </Arg>
+			<Arg> INT8 </Arg>
+			<Arg>	INT8 </Arg>
+		</voteDismissResult>
+		<notifyPlayerOnlineStatus>
+			<Arg> UINT8 </Arg>
+			<Arg> INT8 </Arg>
+		</notifyPlayerOnlineStatus>
+		<showWaitOperationTime>
+		</showWaitOperationTime>
+		<invitedClubMemberRoom>
+			<Arg> 	INVITE_MSG  	</Arg>
+		</invitedClubMemberRoom>
+		<pushClubSeatInfo>
+			<Arg> 	UINT32 						</Arg>
+			<Arg> 	TABLE_DETAIL_INFO_ARRAY  	</Arg>
+			<Arg> 	UINT8  	</Arg>
+			<Arg> 	UINT8  	</Arg>
+			<Arg> 	UINT32  </Arg>
+		</pushClubSeatInfo>
+	</ClientMethods>
+</root>
+

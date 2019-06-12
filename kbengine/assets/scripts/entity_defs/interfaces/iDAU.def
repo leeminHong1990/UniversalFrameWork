@@ -1,0 +1,11 @@
+<root>
+	<Properties>
+		<dau_date_list>
+			<Type>			DATE_USER_DAU_LIST			</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true	</Persistent>
+			<Default>	[]	</Default>
+		</dau_date_list>
+	</Properties>
+</root>
+

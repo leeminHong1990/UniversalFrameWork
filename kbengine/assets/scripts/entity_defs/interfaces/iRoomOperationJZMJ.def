@@ -1,0 +1,33 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<postOperationJZMJ>
+			<Arg>		INT8		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		UINT32_ARRAY		</Arg>
+			<Arg>		UINT32		</Arg>
+			<Arg>		INT32_ARRAY_ARRAY		</Arg>
+		</postOperationJZMJ>
+		<postWinCanSelectJZMJ>
+			<Arg>		INT8				</Arg>
+			<Arg>		UINT8_ARRAY			</Arg>
+			<Arg>		INT32_ARRAY_ARRAY	</Arg>
+		</postWinCanSelectJZMJ>
+	</ClientMethods>
+</root>
+

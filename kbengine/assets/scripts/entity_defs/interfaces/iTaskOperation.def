@@ -1,0 +1,62 @@
+<root>
+    <Properties>
+        <complete_tasks>
+            <Type>			PY_LIST		</Type>
+            <Flags>			BASE			</Flags>
+            <Persistent>	true			</Persistent>
+            <Default>	[]	                </Default>
+        </complete_tasks>
+        <claim_tasks>
+            <Type>			PY_LIST		</Type>
+            <Flags>			BASE			</Flags>
+            <Persistent>	true			</Persistent>
+            <Default>	[]	                </Default>
+        </claim_tasks>
+        <settle_tasks>
+            <Type>			PY_LIST		</Type>
+            <Flags>			BASE			</Flags>
+            <Persistent>	true			</Persistent>
+            <Default>	[]	                </Default>
+        </settle_tasks>
+        <task_reset_time>
+            <Type>			UINT32		</Type>
+            <Flags>			BASE			</Flags>
+            <Persistent>	true			</Persistent>
+            <Default>	   0                </Default>
+        </task_reset_time>
+    </Properties>
+
+    <BaseMethods>
+        <taskOperation>
+            <Exposed/>
+            <Arg>		UINT32		</Arg>
+            <Arg>		UINT32		</Arg>
+            <Arg>		UNICODE		</Arg>
+        </taskOperation>
+        <queryTasks>
+            <Exposed/>
+        </queryTasks>
+        <queryAvailableTasks>
+            <Exposed/>
+        </queryAvailableTasks>
+    </BaseMethods>
+
+    <ClientMethods>
+        <taskOperationSuccess>
+            <Arg> UINT32 </Arg>
+            <Arg> UINT32 </Arg>
+        </taskOperationSuccess>
+        <taskOperationFailed>
+            <Arg> UINT32 </Arg>
+            <Arg> UINT32 </Arg>
+            <Arg> UNICODE </Arg>
+        </taskOperationFailed>
+        <gotTasks>
+            <Arg> TASK_ARRAY </Arg>
+        </gotTasks>
+        <gotAvailableTasks>
+            <Arg> TASK_ARRAY </Arg>
+        </gotAvailableTasks>
+    </ClientMethods>
+</root>
+

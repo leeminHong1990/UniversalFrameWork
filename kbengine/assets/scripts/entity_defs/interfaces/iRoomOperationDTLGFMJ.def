@@ -1,0 +1,33 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	    <hintDTLGFMJ>
+		    <Exposed/>
+		    <Arg>	INT8 </Arg>
+		</hintDTLGFMJ>
+	</CellMethods>
+
+	<ClientMethods>
+	    <postHintOperationDTLGFMJ>
+		    <Arg>	UINT8 </Arg>
+		    <Arg>	UINT8_ARRAY </Arg>
+		    <Arg>	UINT8_ARRAY </Arg>
+		</postHintOperationDTLGFMJ>
+		<postAddHintDTLGFMJ>
+		    <Arg>	UINT8 </Arg>
+		    <Arg>	UINT8_ARRAY </Arg>
+		</postAddHintDTLGFMJ>
+	</ClientMethods>
+</root>
